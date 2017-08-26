@@ -44,6 +44,7 @@ function World(cb) {
                 new Point(x, y), 
                 floorsprites, 
                 imgidx, 
+                10,
                 isFloor));
         }
     }    
@@ -69,7 +70,8 @@ function World(cb) {
             loadFloorSprites();
 //            if (cb) cb();
         };
-        img.src = "images\\floorplan.png";
+//        img.src = "images\\floorplan.png";
+        img.src = "images\\testfloor.png";
     };
     
     loadFloorPlan();

@@ -7,8 +7,9 @@ window.onload = function () {
 	ISO.height = canvas.height = window.innerHeight;
 
     ISO.world = new World(function () {
-        ISO.player = new Player(ISO.world, new Point(1, 1));
-        draw();
+        ISO.player = new Player(ISO.world, new Point(1, 1), function(){
+            draw();
+        });
     });
     
     window.onkeydown = doKeyDown;

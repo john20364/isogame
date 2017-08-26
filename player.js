@@ -1,13 +1,28 @@
-function Player(world, position) {
+function Player(world, position, cb) {
     this.world = world;
     this.position = position.copy().multiply(10);
     this.world.setPlayer(this);
+    var sprite= undefined;
     
+    (function () {
+        var img = new Image();
+        img.onload = function() {
+            sprite = new Sprite(
+            new Point(0, 0), 
+            img, 
+            1, 
+            0,
+            false);
+            if (cb) cb();
+        };
+        img.src = "images\\floorsprites.png";
+    })();
     
     this.draw = function () {
         ISO.context.save();
         ISO.context.translate(ISO.width / 2, ISO.height / 2);
-        drawIso(isoTo2D(new Point(0, 0)), 9);
+//        drawIso(isoTo2D(new Point(0, 0)), 9);
+        sprite.render();
         ISO.context.restore();
     }
     

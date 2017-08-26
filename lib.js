@@ -22,6 +22,20 @@ function Point (x, y, z) {
     }
 }
 
+/*
+**        38
+**        /\
+**   37 <    > 39
+**        \/
+**        40
+*/
+const LEFT_ARROW = 37;
+const UP_ARROW = 38;
+const RIGHT_ARROW = 39;
+const DOWN_ARROW = 40;
+const KEY_SPACE = 32;
+
+
 function Rect (x, y, width, height) {
     this.x = x;
     this.y = y;
