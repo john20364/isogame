@@ -3574,7 +3574,10 @@
        id="path12919"
        inkscape:connector-curvature="0" />
     <g
-       id="g8866">
+       id="g8866"
+       inkscape:export-filename="C:\Users\John\Documents\Js-Coding\projects\isogame\images\floorsprites.png"
+       inkscape:export-xdpi="89.93"
+       inkscape:export-ydpi="89.93">
       <path
          style="fill:#008080;stroke:none"
          d="m 442.79788,344.14002 64.01575,-31.98296 63.98425,31.98296 -63.98425,32.01455 0,0 0,0 -64.01575,-32.01455"
