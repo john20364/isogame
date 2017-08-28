@@ -19,4 +19,12 @@ function Sprite(position, img, imgidx, yoffset, isFloor) {
         ISO.context.drawImage(
             this.img, sx, sy, sw, sh, dx, dy, dw, dh);
     }
+    
+    this.setPosition = function (position) {
+        this.position = position;
+        this.twoD = isoTo2D(position);
+        dx = this.twoD.x - (ISO.isowidth >> 1);
+        dy = this.twoD.y - 
+            (img.height - ISO.isoheight - this.yoffset);
+    }
 }

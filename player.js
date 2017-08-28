@@ -1,29 +1,27 @@
-function Player(world, position, cb) {
+function Player(world, position) {
     this.world = world;
     this.position = position.copy().multiply(10);
     this.world.setPlayer(this);
-    var sprite= undefined;
-    
+    var sprite = undefined;
+
+    // Initializarion
     (function () {
-        var img = new Image();
-        img.onload = function() {
-            sprite = new Sprite(
-            new Point(0, 0), 
-            img, 
-            1, 
-            0,
-            false);
-            if (cb) cb();
-        };
-        img.src = "images\\floorsprites.png";
+        sprite = new Sprite(
+//        new Point(0, 0), 
+        position,
+        ISO.floorsprites, 
+        1, 
+        0,
+        false);
     })();
     
-    this.draw = function () {
-        ISO.context.save();
-        ISO.context.translate(ISO.width / 2, ISO.height / 2);
-//        drawIso(isoTo2D(new Point(0, 0)), 9);
+    this.render = function () {
         sprite.render();
-        ISO.context.restore();
+    }
+    
+    this.setPosition = function (position) {
+        this.position = position.copy().multiply(10);
+        sprite.setPosition(position);
     }
     
     this.walkRight = false;

@@ -1,29 +1,43 @@
 window.onload = function () {
-    ISO.isowidth = 128;
+    const ISOWIDTH = 128;
+    ISO.isowidth = ISOWIDTH;
     ISO.isoheight = ISO.isowidth >> 1;
     ISO.canvas = document.getElementById("canvas");
 	ISO.context = canvas.getContext("2d");
 	ISO.width = canvas.width = window.innerWidth;
 	ISO.height = canvas.height = window.innerHeight;
 
-    ISO.world = new World(function () {
-        ISO.player = new Player(ISO.world, new Point(1, 1), function(){
-            draw();
-        });
+    var objarr = [
+        {image:undefined,
+        filename:"images\\floorsprites.png"},
+        {image:undefined,
+//        filename:"images\\testfloor.png"}
+        filename:"images\\floorplan.png"}
+    ];
+    
+    loadImages(objarr, 0, function () {
+        ISO.floorsprites = objarr[0].image;
+        ISO.floorplan = objarr[1].image;
+        init();
     });
     
-    window.onkeydown = doKeyDown;
-    window.onkeyup = doKeyUp;
 };
 
-function draw() {
+function init() {
+    ISO.world = new World();
+    ISO.player = new Player(ISO.world, new Point(1, 1));
+    window.onkeydown = doKeyDown;
+    window.onkeyup = doKeyUp;
+    gameLoop();
+}
+
+function gameLoop() {
     ISO.context.fillStyle = "#000000";
     ISO.context.fillRect(0, 0, ISO.width, ISO.height);
 
-    ISO.world.draw();
-    ISO.player.draw();
+    ISO.world.render();
     ISO.player.update()
-    requestAnimationFrame(draw);
+    requestAnimationFrame(gameLoop);
 }
 
 function doKeyDown (e) {

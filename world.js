@@ -1,22 +1,56 @@
-function World(cb) {
+function World() {
     var sprites = [];
+    var painterLookUp = [];
     var player = undefined;
     var floorcanvas = document.createElement("canvas");
 	var floorcontext = floorcanvas.getContext("2d");
-    var floorplan = undefined;
-    var floorsprites = undefined;
+    var floordata = undefined;
     
     const XWALL = 0XFF8000;
     const YWALL  = 0xFF0000;
     const CORNERWALL = 0x00FF00;
     const FLOOR = 0x000000;
+
+    // Initialization
+    (function () {
+        floorcontext.drawImage(ISO.floorplan, 0, 0);
+        floordata = floorcontext.getImageData(0, 0,
+            ISO.floorplan.width, ISO.floorplan.height);
+        
+        createSpriteArray();
+        createPainterLookUp();
+    })();
+    
+    function createPainterLookUp () {
+        var i = 0;
+        var j = 0;
+        var x = -1;
+        var y = 1;
+
+        for (var k = 0; k < (floordata.data.length / 4); k++) {
+            y--;
+            x++;
+
+            if ((y < 0) || (x >= floordata.width)) {
+                y = ++j;
+                x = i;
+            }
+
+            if (y >= floordata.height) {
+                y = floordata.height - 1;
+                x = ++i;
+            }
+            var index = x + y * floordata.width;
+            painterLookUp[k] = index;
+        }
+    }
     
     function createSpriteArray () {
-        for (var i = 0; i < (floorplan.data.length / 4); i++) {
-            var x = i % floorplan.width | 0;
-            var y = i / floorplan.width | 0;
+        for (var i = 0; i < (floordata.data.length / 4); i++) {
+            var x = i % floordata.width | 0;
+            var y = i / floordata.width | 0;
 
-            var data = floorplan.data;
+            var data = floordata.data;
             var pixel = data[i*4] << 16;
                 pixel |= data[i*4+1] << 8;
                 pixel |= data[i*4+2];
@@ -42,57 +76,32 @@ function World(cb) {
             
             sprites.push(new Sprite(
                 new Point(x, y), 
-                floorsprites, 
+                ISO.floorsprites, 
                 imgidx, 
                 10,
                 isFloor));
         }
     }    
     
-    function loadFloorSprites() {
-        floorsprites = new Image();
-
-        floorsprites.onload = function() {
-            createSpriteArray();
-            if (cb) cb();
-        };
-        floorsprites.src = "images\\floorsprites.png";
-//        floorsprites.src = "marzfloor.png";
-    }
-    
-    function loadFloorPlan() {
-        var img = new Image();
-
-        img.onload = function() {
-            floorcontext.drawImage(img, 0, 0);
-            floorplan = floorcontext.getImageData(0, 0,
-                img.width, img.height);
-            loadFloorSprites();
-//            if (cb) cb();
-        };
-//        img.src = "images\\floorplan.png";
-        img.src = "images\\testfloor.png";
-    };
-    
-    loadFloorPlan();
-    
     this.setPlayer = function (aPlayer) {
         player = aPlayer;
     }
     
-    this.draw = function () {
+    this.render = function () {
         var tempPos = player.position.copy().divide(10);
-        var index = tempPos.x + tempPos.y * floorplan.width;
-
-// TODO.....................
-//        sprites.splice(index, 0, player);
+        var tx = (tempPos.x % 1) > 0 ? ((tempPos.x + 1) | 0) :      tempPos.x;
+        var ty = (tempPos.y % 1) > 0 ? ((tempPos.y + 1) | 0) :      tempPos.y;
+//        console.log(tx+", "+ty);
+        var playerIndex = tx + ty * floordata.width;
+//        console.log(playerIndex);
         
         var pos = isoTo2D(tempPos);
         ISO.context.save();
 
         ISO.context.translate(ISO.width / 2 - pos.x, ISO.height / 2 - pos.y);
         
-        for (var i = 0; i < sprites.length; i++) {
+        for (var idx = 0; idx < sprites.length; idx++) {
+            var i = painterLookUp[idx];
             // Only render what is inside the viewport
             var left = (pos.x - sprites[i].twoD.x) << 1;
             var right = (sprites[i].twoD.x - pos.x) << 1;
@@ -104,6 +113,15 @@ function World(cb) {
                top <= ISO.height + ISO.isoheight * 2 &&
                bottom <= ISO.height + ISO.isoheight * 4) {
                 sprites[i].render();
+                
+                if (i === playerIndex) {
+                    // Draw player
+                    player.setPosition(tempPos);
+                    player.render();
+                    sprites[painterLookUp[idx-1]].render();
+//                    console.log(i);
+//                    player.draw();
+                }
             }
         }
         ISO.context.restore();
@@ -111,7 +129,7 @@ function World(cb) {
     }
 
     this.canMove = function (x, y) {
-        var index = x + y * floorplan.width;
+        var index = x + y * floordata.width;
         return sprites[index].isFloor;
     }
 }

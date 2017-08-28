@@ -22,6 +22,26 @@ function Point (x, y, z) {
     }
 }
 
+function loadImages (arr, idx, cb) {
+	if(arr === 'undefined') return;
+
+    if (arr.length === idx) {
+        if (cb) {
+            cb();
+        } else {
+            return;
+        }
+    }
+	
+    if (arr.length > idx) {
+        arr[idx].image = new Image();
+        arr[idx].image.onload = function () {
+            loadImages(arr, idx+1, cb);
+        }
+        arr[idx].image.src = arr[idx].filename;
+    }
+}
+
 /*
 **        38
 **        /\
