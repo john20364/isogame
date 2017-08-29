@@ -1,30 +1,43 @@
-function Sprite(position, img, imgidx, yoffset, isFloor) {
-    this.position = position;
-    this.twoD = isoTo2D(position);
-    this.img = img;
-    this.imgidx = imgidx;
-    this.yoffset = yoffset;
-    this.isFloor = isFloor;
-    var sx = imgidx * ISO.isowidth;
+function Sprite(pos, img, imgidx, yoffset, floor) {
+    var position = pos;
+    var twoD = isoTo2D(pos);
+    var image = img;
+    var imageIdx = imgidx;
+    var imageYoffset = yoffset;
+    
+    var Floor = floor;
+    var sx = imageIdx * ISO.isowidth;
     var sy = 0;
     var sw = ISO.isowidth;
     var sh = img.height;
-    var dx = this.twoD.x - (ISO.isowidth >> 1);
-    var dy = this.twoD.y - 
-        (img.height - ISO.isoheight - yoffset);
+    var dx = twoD.x - (ISO.isowidth >> 1);
+    var dy = twoD.y - 
+        (image.height - ISO.isoheight - imageYoffset);
     var dw = ISO.isowidth;
-    var dh = img.height;
+    var dh = image.height;
     
     this.render = function () {
         ISO.context.drawImage(
-            this.img, sx, sy, sw, sh, dx, dy, dw, dh);
+            image, sx, sy, sw, sh, dx, dy, dw, dh);
     }
     
-    this.setPosition = function (position) {
-        this.position = position;
-        this.twoD = isoTo2D(position);
-        dx = this.twoD.x - (ISO.isowidth >> 1);
-        dy = this.twoD.y - 
-            (img.height - ISO.isoheight - this.yoffset);
+    this.setPosition = function (pos) {
+        position = pos;
+        twoD = isoTo2D(pos);
+        dx = twoD.x - (ISO.isowidth >> 1);
+        dy = twoD.y - 
+            (image.height - ISO.isoheight - imageYoffset);
+    }
+    
+    this.getPosition = function () {
+        return position;
+    }
+
+    this.getTwoD = function () {
+        return twoD;
+    }
+    
+    this.isFloor = function () {
+        return floor;
     }
 }

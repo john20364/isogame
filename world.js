@@ -1,10 +1,11 @@
 function World() {
+    var that = this;
     var sprites = [];
     var painterLookUp = [];
-    var player = undefined;
     var floorcanvas = document.createElement("canvas");
 	var floorcontext = floorcanvas.getContext("2d");
     var floordata = undefined;
+    var entities = [];
     
     const XWALL = 0XFF8000;
     const YWALL  = 0xFF0000;
@@ -19,7 +20,23 @@ function World() {
         
         createSpriteArray();
         createPainterLookUp();
+        createEntities();
     })();
+    
+    function createEntities () {
+        var factory = new EntityFactory();
+        // Create the player
+        ISO.player = factory.createEntity(that, new Point(1, 1));
+        entities.push(ISO.player);
+        
+        // Create the entities
+//        entities.push(factory.createEntity(
+//            that, new Point(2.6, 2.6)));
+        entities.push(factory.createEntity(
+            that, new Point(5, 5)));
+        entities.push(factory.createEntity(
+            that, new Point(8, 10)));
+    }
     
     function createPainterLookUp () {
         var i = 0;
@@ -63,13 +80,15 @@ function World() {
                     isFloor = true;
                     break;
                 case CORNERWALL:
-                    imgidx = 1;
+//                    imgidx = 1;
+                    imgidx = 3;
                     break;
                 case YWALL:
                     imgidx = 2;
                     break;
                 case XWALL:
-                    imgidx = 3;
+//                    imgidx = 3;
+                    imgidx = 1;
                     break;
                 default:
             }
@@ -83,30 +102,43 @@ function World() {
         }
     }    
     
-    this.setPlayer = function (aPlayer) {
-        player = aPlayer;
-    }
+//    this.setPlayer = function (aPlayer) {
+//        player = aPlayer;
+//    }
     
     this.render = function () {
-        var tempPos = player.position.copy().divide(10);
-        var tx = (tempPos.x % 1) > 0 ? ((tempPos.x + 1) | 0) :      tempPos.x;
-        var ty = (tempPos.y % 1) > 0 ? ((tempPos.y + 1) | 0) :      tempPos.y;
-//        console.log(tx+", "+ty);
-        var playerIndex = tx + ty * floordata.width;
-//        console.log(playerIndex);
-        
-        var pos = isoTo2D(tempPos);
+        var playerIndex = ISO.player.getGridIndex();
+        var twoD = ISO.player.getTwoD();
         ISO.context.save();
 
-        ISO.context.translate(ISO.width / 2 - pos.x, ISO.height / 2 - pos.y);
+        ISO.context.translate(ISO.width / 2 - twoD.x, ISO.height / 2 - twoD.y);
+        
+        //-----------------------------
+        // TODO.....
+        // first sort the entities !!!!
+        //-----------------------------
+        entities.sort(function(a, b) {
+            return a.getGridIndex() - b.getGridIndex();
+        });
+        
+        for (var i = entities.length-1; i >= 0; i--) {
+            var entity = entities[i];
+            var idx = entity.getGridIndex() + 1;
+            sprites.splice(
+                idx, 0, 
+                entity.getSprite());
+        }
         
         for (var idx = 0; idx < sprites.length; idx++) {
-            var i = painterLookUp[idx];
+//            var i = painterLookUp[idx];
+            var i = idx;
+            var spriteTwoD = sprites[i].getTwoD();
+            
             // Only render what is inside the viewport
-            var left = (pos.x - sprites[i].twoD.x) << 1;
-            var right = (sprites[i].twoD.x - pos.x) << 1;
-            var top = (pos.y - sprites[i].twoD.y) << 1;
-            var bottom = (sprites[i].twoD.y - pos.y) << 1;
+            var left = (twoD.x - spriteTwoD.x) << 1;
+            var right = (spriteTwoD.x - twoD.x) << 1;
+            var top = (twoD.y - spriteTwoD.y) << 1;
+            var bottom = (spriteTwoD.y - twoD.y) << 1;
             
             if (left <= ISO.width + ISO.isowidth && 
                 right <= ISO.width + ISO.isowidth &&
@@ -114,22 +146,54 @@ function World() {
                bottom <= ISO.height + ISO.isoheight * 4) {
                 sprites[i].render();
                 
-                if (i === playerIndex) {
-                    // Draw player
-                    player.setPosition(tempPos);
-                    player.render();
-                    sprites[painterLookUp[idx-1]].render();
-//                    console.log(i);
-//                    player.draw();
-                }
+                //-----------------------------
+                // TODO.....
+                // first sort the entities !!!!
+                //-----------------------------
+//                entities.sort(function(a, b) {
+//                    return a.getGridIndex() - b.getGridIndex();
+//                });
+//                for (var n = 0; n < entities.length; n++) {
+//                    entities[n].render();
+//                }
+                
+                
+                // Draw the entities.
+//                for (var n = 0; n < entities.length; n++) {
+//                    if (i === entities[n].getGridIndex()) {
+//                        entities[n].render();
+//                        var s = sprites[painterLookUp[idx-1]];
+//                        if (!s.isFloor()) {
+//                            s.render();
+//                        }
+//                    }
+//                }
+                
+//                if (i === playerIndex) {
+//                    // Draw player
+//                    ISO.player.render();
+//                    sprites[painterLookUp[idx-1]].render();
+//                }
             }
         }
+
+        for (var i = 0; i < entities.length; i++) {
+            var entity = entities[i];
+            var idx = entity.getGridIndex() + 1;
+            sprites.splice(idx, 1);
+        }
+        
         ISO.context.restore();
-//        sprites.splice(index + 1, 1);
     }
 
+    this.update = function () {
+        for (var i = 0; i < entities.length; i++) {
+            entities[i].update();
+        }
+    }
+    
     this.canMove = function (x, y) {
         var index = x + y * floordata.width;
-        return sprites[index].isFloor;
+        return sprites[index].isFloor();
     }
 }

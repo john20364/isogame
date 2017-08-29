@@ -1,3 +1,33 @@
+function TObj(idx, label) {
+    this.idx = idx;
+    this.label = label;
+}
+
+function test() {
+    var a = [];
+    for (var i = 0; i <= 10; i++) {
+        a.push(new TObj(i, "a"));
+    } 
+    console.log(a);
+    
+    var b = [];
+    for (var i = 0; i <= a.length; i += 2) {
+        b.push(new TObj(i, "b"));
+    }
+    console.log(b);
+    
+    for (var i = b.length-1; i >= 0; i--) {
+//        console.log(b[i]);
+        a.splice(b[i].idx+1, 0, b[i]);
+    }
+    console.log(a);
+    
+    for (var i = 0; i < b.length; i++) {
+        a.splice(b[i].idx+1, 1);
+    }
+    console.log(a);
+}
+
 window.onload = function () {
     const ISOWIDTH = 128;
     ISO.isowidth = ISOWIDTH;
@@ -10,10 +40,13 @@ window.onload = function () {
     var objarr = [
         {image:undefined,
         filename:"images\\floorsprites.png"},
+//        filename:"images\\marzfloor.png"},
         {image:undefined,
 //        filename:"images\\testfloor.png"}
         filename:"images\\floorplan.png"}
     ];
+
+//    test();
     
     loadImages(objarr, 0, function () {
         ISO.floorsprites = objarr[0].image;
@@ -25,7 +58,6 @@ window.onload = function () {
 
 function init() {
     ISO.world = new World();
-    ISO.player = new Player(ISO.world, new Point(1, 1));
     window.onkeydown = doKeyDown;
     window.onkeyup = doKeyUp;
     gameLoop();
@@ -36,7 +68,7 @@ function gameLoop() {
     ISO.context.fillRect(0, 0, ISO.width, ISO.height);
 
     ISO.world.render();
-    ISO.player.update()
+    ISO.world.update();
     requestAnimationFrame(gameLoop);
 }
 
