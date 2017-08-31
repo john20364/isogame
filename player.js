@@ -1,4 +1,4 @@
-function Player(world, pos) {
+function Player(world, pos, spritesheet, spriteindex) {
     this.world = world;
     var position = pos.copy().multiply(10);
     var sprite = undefined;
@@ -7,15 +7,11 @@ function Player(world, pos) {
     (function () {
         sprite = new Sprite(
         pos,
-        ISO.floorsprites, 
-        3, 
+        spritesheet, 
+        spriteindex, 
         0,
         false);
     })();
-    
-//    this.render = function () {
-//        sprite.render();
-//    }
     
     this.getSprite = function () {
         return sprite;
@@ -28,14 +24,6 @@ function Player(world, pos) {
     
     this.getPosition = function () {
         return sprite.getPosition();
-    }
-    
-    this.getGridIndex = function () {
-        var tempPos = sprite.getPosition();
-        var tx = (tempPos.x % 1) > 0 ? ((tempPos.x + 1) | 0) :      tempPos.x;
-        var ty = (tempPos.y % 1) > 0 ? ((tempPos.y + 1) | 0) :      tempPos.y;
-
-        return tx + ty * ISO.floorplan.width;
     }
     
     this.getTwoD = function () {

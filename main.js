@@ -3,29 +3,42 @@ function TObj(idx, label) {
     this.label = label;
 }
 
-function test() {
-    var a = [];
-    for (var i = 0; i <= 10; i++) {
-        a.push(new TObj(i, "a"));
-    } 
-    console.log(a);
-    
-    var b = [];
-    for (var i = 0; i <= a.length; i += 2) {
-        b.push(new TObj(i, "b"));
+function test() 
+{
+    function print(text) {
+        document.write(text + "<br/>");
     }
-    console.log(b);
     
-    for (var i = b.length-1; i >= 0; i--) {
-//        console.log(b[i]);
-        a.splice(b[i].idx+1, 0, b[i]);
+    function BaseEntity () {}
+
+    BaseEntity.prototype.name = "whatever";
+    BaseEntity.prototype.info = function () {
+        print("BaseEntity: " + this.name);
     }
-    console.log(a);
     
-    for (var i = 0; i < b.length; i++) {
-        a.splice(b[i].idx+1, 1);
+    function Automate () {}
+    Automate.prototype = Object.create(BaseEntity.prototype);
+    Automate.prototype.info = function () {
+        print("Automate: " + this.name);
     }
-    console.log(a);
+    
+    var entities = [];
+    var entity = new BaseEntity();
+    entity.name = "Base";
+    entities.push(entity);
+    entity = new Automate();
+    entity.name = "Automatename.....";
+    entities.push(entity);
+    
+    entities.forEach(function(shape) {
+        shape.info();
+    });
+    
+    var obj = new EntityBase();
+    obj.init(new Point(10, 5), ISO.testplayer, 0);
+    var twoD = obj.getSprite().getTwoD();
+    print(twoD.x + ", " + twoD.y);
+//    obj.update();
 }
 
 window.onload = function () {
@@ -43,14 +56,20 @@ window.onload = function () {
 //        filename:"images\\marzfloor.png"},
         {image:undefined,
 //        filename:"images\\testfloor.png"}
-        filename:"images\\floorplan.png"}
+        filename:"images\\floorplan.png"},
+        {image:undefined,
+        filename:"images\\players.png"},
+        {image:undefined,
+        filename:"images\\testplayer.png"}
     ];
 
-//    test();
     
     loadImages(objarr, 0, function () {
         ISO.floorsprites = objarr[0].image;
         ISO.floorplan = objarr[1].image;
+        ISO.players = objarr[2].image;
+        ISO.testplayer = objarr[3].image;
+//        test();
         init();
     });
     
