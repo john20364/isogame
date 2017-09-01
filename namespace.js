@@ -1,1 +1,1 @@
-var ISO = {}
+var ISO = ISO || {};

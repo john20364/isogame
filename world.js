@@ -1,6 +1,5 @@
 function World() {
     var that = this;
-    var sprites = [];
     var floorcanvas = document.createElement("canvas");
 	var floorcontext = floorcanvas.getContext("2d");
     var floordata = undefined;
@@ -25,32 +24,43 @@ function World() {
     
     function createEntities () {
         var factory = new EntityFactory();
-        // Create the player
-        ISO.player = factory.createEntity(that, new Point(1, 1), ISO.players, 0);
+        ISO.player = factory.createEntity(
+            factory.typeEnum.PLAYER,
+            that, 
+            new Point(1, 5), 
+            ISO.players, 
+            0);
+        
         entities.push(ISO.player);
         
-        var entity = undefined;
-        // Create the entities
-        entity = factory.createEntity(
-            that, new Point(5, 5), ISO.players, 1);
-        entities.push(entity);
+        var entity = factory.createEntity(
+            factory.typeEnum.AUTOMATE,
+            that,
+            new Point(10, 5), 
+            ISO.testplayer, 
+            0);
         
-        entity = new Automate();
-        entity.init(that, new Point(10, 5), ISO.testplayer, 0);
         entity.setPath([
             new Point(2, 2), 
             new Point(2, 10),
             new Point(20, 10),
             new Point(20, 2)
         ]);
+        
         entities.push(entity);
 
-        entity = new Automate();
-        entity.init(that, new Point(15, 15), ISO.testplayer, 0);
+        entity = factory.createEntity(
+            factory.typeEnum.AUTOMATE,
+            that,
+            new Point(15, 15), 
+            ISO.players, 
+            1);
+        
         entity.setPath([
             new Point(5, 25), 
             new Point(15, 15), 
         ]);
+        
         entities.push(entity);
     }
     
@@ -134,7 +144,7 @@ function World() {
 
         // Add entity.getSprite() to renderobjects 
         // within the viewport.
-        // The less we have to do the faster it will be
+        // The less we have to do thnexte faster it will be
         for (var i = 0; i < entities.length; i++) {
             if (inViewPort(twoD, entities[i].getSprite())) {
                 renderobjects.push(entities[i].getSprite());
@@ -160,6 +170,11 @@ function World() {
         for (var i = 0; i < entities.length; i++) {
             entities[i].update();
         }
+    }
+
+    this.canMove2 = function (entity, newposition) {
+//        console.log(entity);
+        return true;    
     }
     
     this.canMove = function (x, y) {

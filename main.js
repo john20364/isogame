@@ -3,44 +3,6 @@ function TObj(idx, label) {
     this.label = label;
 }
 
-function test() 
-{
-    function print(text) {
-        document.write(text + "<br/>");
-    }
-    
-    function BaseEntity () {}
-
-    BaseEntity.prototype.name = "whatever";
-    BaseEntity.prototype.info = function () {
-        print("BaseEntity: " + this.name);
-    }
-    
-    function Automate () {}
-    Automate.prototype = Object.create(BaseEntity.prototype);
-    Automate.prototype.info = function () {
-        print("Automate: " + this.name);
-    }
-    
-    var entities = [];
-    var entity = new BaseEntity();
-    entity.name = "Base";
-    entities.push(entity);
-    entity = new Automate();
-    entity.name = "Automatename.....";
-    entities.push(entity);
-    
-    entities.forEach(function(shape) {
-        shape.info();
-    });
-    
-    var obj = new EntityBase();
-    obj.init(new Point(10, 5), ISO.testplayer, 0);
-    var twoD = obj.getSprite().getTwoD();
-    print(twoD.x + ", " + twoD.y);
-//    obj.update();
-}
-
 window.onload = function () {
     const ISOWIDTH = 128;
     ISO.isowidth = ISOWIDTH;
@@ -63,13 +25,11 @@ window.onload = function () {
         filename:"images\\testplayer.png"}
     ];
 
-    
     loadImages(objarr, 0, function () {
         ISO.floorsprites = objarr[0].image;
         ISO.floorplan = objarr[1].image;
         ISO.players = objarr[2].image;
         ISO.testplayer = objarr[3].image;
-//        test();
         init();
     });
     

@@ -1,8 +1,9 @@
-function Automate () {}
-Automate.prototype = Object.create(EntityBase.prototype);
+function Automate () {
+    this.path = undefined;
+    this.pathindex = 0;
+}
 
-Automate.prototype.path = undefined;
-Automate.prototype.pathindex = 0;
+Automate.prototype = Object.create(BaseEntity.prototype);
 
 Automate.prototype.setPath = function (path) {
     this.path = path;
@@ -21,11 +22,15 @@ Automate.prototype.update = function () {
     if (dy > 0) p.y -= step;
     if (dy < 0) p.y += step;
     
-    this.setPosition(p.divide(10));
-    
-    if ((dx === 0) && (dy === 0)) {
-        this.pathindex++;
-        this.pathindex %= this.path.length;
+    p.divide(10);
+
+    if (this.world.canMove2(this, p)) {
+        this.setPosition(p);
+
+        if ((dx === 0) && (dy === 0)) {
+            this.pathindex++;
+            this.pathindex %= this.path.length;
+        }
     }
 }
 

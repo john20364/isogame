@@ -1,8 +1,9 @@
-function EntityBase () {}
-EntityBase.prototype.world = undefined;
-EntityBase.prototype.sprite = undefined;
+function BaseEntity () {
+    this.world = undefined;
+    this.sprite = undefined;
+}
 
-EntityBase.prototype.init = function (  world,
+BaseEntity.prototype.init = function (  world,
                                         position, 
                                         spritesheet,           index) {
     this.world = world;
@@ -15,23 +16,23 @@ EntityBase.prototype.init = function (  world,
                         false);
 }
 
-EntityBase.prototype.getSprite = function () {
+BaseEntity.prototype.getSprite = function () {
     return this.sprite;
 }
 
-EntityBase.prototype.setPosition = function (position) {
+BaseEntity.prototype.setPosition = function (position) {
     this.sprite.setPosition(position);
 }
 
-EntityBase.prototype.getPosition = function () {
+BaseEntity.prototype.getPosition = function () {
     return this.sprite.getPosition();
 }
     
-EntityBase.prototype.getTwoD = function () {
+BaseEntity.prototype.getTwoD = function () {
     return this.sprite.getTwoD();
 }
     
-EntityBase.prototype.update = function () {
-    alert("EntityBase.prototype.update");
+BaseEntity.prototype.update = function () {
+    alert("BaseEntity.prototype.update");
 }
 
