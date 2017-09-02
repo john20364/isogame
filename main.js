@@ -1,6 +1,20 @@
-function TObj(idx, label) {
-    this.idx = idx;
-    this.label = label;
+function test () {
+    println("Test");
+    function A () {
+        this.name = "A";
+    }
+    
+    function B () {
+        this.name = "B";
+    }
+    
+    B.prototype = Object.create(A.prototype);
+    
+    var obj1 = new A();
+    var obj2 = new B();
+//    println(obj1.constructor.name);
+//    println(obj2.constructor.name);
+    println(obj2 instanceof A);
 }
 
 window.onload = function () {
@@ -31,6 +45,7 @@ window.onload = function () {
         ISO.players = objarr[2].image;
         ISO.testplayer = objarr[3].image;
         init();
+//        test();
     });
     
 };
@@ -39,16 +54,7 @@ function init() {
     ISO.world = new World();
     window.onkeydown = doKeyDown;
     window.onkeyup = doKeyUp;
-    gameLoop();
-}
-
-function gameLoop() {
-    ISO.context.fillStyle = "#000000";
-    ISO.context.fillRect(0, 0, ISO.width, ISO.height);
-
-    ISO.world.render();
-    ISO.world.update();
-    requestAnimationFrame(gameLoop);
+    ISO.world.run();
 }
 
 function doKeyDown (e) {

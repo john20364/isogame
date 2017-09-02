@@ -1,3 +1,7 @@
+function println(text) {
+    document.write(text + "<br/>")
+}
+
 function Point (x, y, z) {
     this.x = x || 0;
     this.y = y || 0;
@@ -54,14 +58,6 @@ const UP_ARROW = 38;
 const RIGHT_ARROW = 39;
 const DOWN_ARROW = 40;
 const KEY_SPACE = 32;
-
-
-function Rect (x, y, width, height) {
-    this.x = x;
-    this.y = y;
-    this.width = width;
-    this.height = height;
-}
 
 function isoTo2D(point) {
     var result = new Point();

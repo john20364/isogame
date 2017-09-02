@@ -24,7 +24,7 @@ Automate.prototype.update = function () {
     
     p.divide(10);
 
-    if (this.world.canMove2(this, p)) {
+    if (this.world.canMove(this, p)) {
         this.setPosition(p);
 
         if ((dx === 0) && (dy === 0)) {

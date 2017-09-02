@@ -5,7 +5,8 @@ function BaseEntity () {
 
 BaseEntity.prototype.init = function (  world,
                                         position, 
-                                        spritesheet,           index) {
+                                        spritesheet,         index,
+                                        floor) {
     this.world = world;
     
     this.sprite = new Sprite(
@@ -13,7 +14,7 @@ BaseEntity.prototype.init = function (  world,
                         spritesheet, 
                         index, 
                         0,
-                        false);
+                        floor);
 }
 
 BaseEntity.prototype.getSprite = function () {
@@ -31,7 +32,15 @@ BaseEntity.prototype.getPosition = function () {
 BaseEntity.prototype.getTwoD = function () {
     return this.sprite.getTwoD();
 }
+
+BaseEntity.prototype.isFloor = function () {
+    return this.sprite.isFloor();
+}
     
+BaseEntity.prototype.render = function () {
+    return this.sprite.render();
+}
+
 BaseEntity.prototype.update = function () {
     alert("BaseEntity.prototype.update");
 }

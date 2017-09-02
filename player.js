@@ -12,78 +12,42 @@ Player.prototype.update = function () {
     var step = 2;
     
     if (this.walkRight) {
-        var dx = position.x % 10;
-        var dy = position.y % 10;
-        var x = (position.x - dx) / 10;
-        var y = (position.y - dy) / 10;
-
-        if (dy === 0) {
-            if (this.world.canMove(x + 1, y)) {
-                position.x += step;
-            }
-        } else {
-            if (this.world.canMove(x + 1, y) &&
-                this.world.canMove(x + 1, y + 1)) {
-                position.x += step;
-            }
-        }
+        position.x += step;
     }
 
     if (this.walkLeft) {
-        var dx = (position.x - step) % 10;
-        var dy = position.y % 10;
-        var x = (position.x - step - dx) / 10;
-        var y = (position.y - dy) / 10;
-
-        if (dy === 0) {
-            if (this.world.canMove(x, y)) {
-                position.x -= step;
-            }
-        } else {
-            if (this.world.canMove(x, y) &&
-                this.world.canMove(x, y + 1)) {
-                position.x -= step;
-            }
-        }
+        position.x -= step;
     }
 
     if (this.walkUp) {
-        var dx = position.x % 10;
-        var dy = (position.y - step) % 10;
-        var x = (position.x - dx) / 10;
-        var y = (position.y - step - dy) / 10;
-
-        if (dx === 0) {
-            if (this.world.canMove(x, y)) {
-                position.y -= step;
-            }
-        } else {
-            if (this.world.canMove(x, y) &&
-                this.world.canMove(x + 1, y)) {
-                position.y -= step;
-            }
-        }
+        position.y -= step;
     }
 
     if (this.walkDown) {
-        var dx = position.x % 10;
-        var dy = position.y % 10;
-        var x = (position.x - dx) / 10;
-        var y = (position.y - dy) / 10;
-
-        if (dx === 0) {
-            if (this.world.canMove(x, y + 1)) {
-                position.y += step;
-            }
-        } else {
-            if (this.world.canMove(x, y + 1) &&
-                this.world.canMove(x + 1, y + 1)) {
-                position.y += step;
-            }
-        }
+        position.y += step;
     }
     
-    this.setPosition(position.divide(10));
+    position.divide(10);
+    var that = this;
+    if (this.world.canMove2(this, position, 
+        function (dx, dy, entity) {
+//            if (entity instanceof Automate) {
+//                console.log(entity.getSpeed());
+//                that.speed = entity.getSpeed();
+//                if (dx < 0) {
+//                    position.x -= (1+dx);
+//                } else if (dx > 0) {
+//                    position.x += (1-dx);
+//                } else if (dy < 0) {
+//                    position.y -= (1+dy);
+//                } else if (dy > 0) {
+//                    position.y += (1-dy);
+//                }
+//                that.setPosition(position);
+//            }
+    })) {
+        this.setPosition(position);
+    }
 }
 
 Player.prototype.moveRight = function (walking) {
