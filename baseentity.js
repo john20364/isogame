@@ -5,15 +5,19 @@ function BaseEntity () {
 
 BaseEntity.prototype.init = function (  world,
                                         position, 
-                                        spritesheet,         index,
+                                        spritesheet, 
+                                        spritewidth,
+                                        spriteheight,
+                                        index,
                                         floor) {
     this.world = world;
     
     this.sprite = new Sprite(
                         position,
                         spritesheet, 
+                        spritewidth,
+                        spriteheight,
                         index, 
-                        0,
                         floor);
 }
 

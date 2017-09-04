@@ -1,22 +1,3 @@
-function test () {
-    println("Test");
-    function A () {
-        this.name = "A";
-    }
-    
-    function B () {
-        this.name = "B";
-    }
-    
-    B.prototype = Object.create(A.prototype);
-    
-    var obj1 = new A();
-    var obj2 = new B();
-//    println(obj1.constructor.name);
-//    println(obj2.constructor.name);
-    println(obj2 instanceof A);
-}
-
 window.onload = function () {
     const ISOWIDTH = 128;
     ISO.isowidth = ISOWIDTH;
@@ -36,7 +17,9 @@ window.onload = function () {
         {image:undefined,
         filename:"images\\players.png"},
         {image:undefined,
-        filename:"images\\testplayer.png"}
+        filename:"images\\testplayer.png"},
+        {image:undefined,
+        filename:"images\\table.png"}
     ];
 
     loadImages(objarr, 0, function () {
@@ -44,8 +27,8 @@ window.onload = function () {
         ISO.floorplan = objarr[1].image;
         ISO.players = objarr[2].image;
         ISO.testplayer = objarr[3].image;
+        ISO.table = objarr[4].image;
         init();
-//        test();
     });
     
 };

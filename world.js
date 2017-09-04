@@ -37,7 +37,7 @@ function World() {
             false);
         
         entities.push(ISO.player);
-        
+
         var entity = factory.createEntity(
             factory.typeEnum.AUTOMATE,
             that,
@@ -180,33 +180,6 @@ function World() {
         }
     }
 
-    this.canMove2 = function (entity, newposition, cb) {
-        var p2 = newposition;
-        for (var i = 0; i < objectentities.length; i++) {
-            var obj = objectentities[i];
-            if (obj !== entity) {
-                var p1 = obj.getPosition();
-                var dx = p2.x - p1.x;
-                var dy = p2.y - p1.y;
-                if (Math.abs(dx) < 1 && Math.abs(dy) < 1) {
-                    cb (dx, dy, obj);
-//                    if (dx < 0) {
-//                        newposition.x -= (1+dx);
-//                    } else {
-//                        newposition.x += (1-dx);
-//                    }
-//                    if (dy < 0) {
-//                        newposition.y -= (1+dy);
-//                    } else {
-//                        newposition.y += (1-dy);
-//                    }
-                    return false;
-                }
-            }
-        }
-        return true;    
-    }
-    
     this.canMove = function (entity, newposition) {
         var p2 = newposition;
         for (var i = 0; i < objectentities.length; i++) {
@@ -223,6 +196,7 @@ function World() {
     }
     
     this.run = function () {
+        var that = this;
         (function loop () {
             ISO.context.fillStyle = "#000000";
             ISO.context.fillRect(

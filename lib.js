@@ -2,6 +2,27 @@ function println(text) {
     document.write(text + "<br/>")
 }
 
+function createNS(ns) {
+    var array = ns.split(".");
+
+    // first create the root namespace object
+    if (!window[array[0]]) {
+        window[array[0]] = {};
+    }
+
+    var root = window[array[0]];
+    array = array.slice(1);
+
+    for (var i = 0; i < array.length; i++) {
+        if (!root[array[i]]) {
+            root[array[i]] = {};
+        }
+        root = root[array[i]];
+    }
+
+    return root;
+}
+
 function Point (x, y, z) {
     this.x = x || 0;
     this.y = y || 0;

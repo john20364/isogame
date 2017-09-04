@@ -9,11 +9,16 @@ Automate.prototype.setPath = function (path) {
     this.path = path;
 }
 
+Automate.prototype.getHeading = function () {
+    return this.heading;
+}
+
 Automate.prototype.update = function () {
     if (this.path === undefined) return;
-    var p = this.getPosition().copy().multiply(10);
-    var dx = p.x - this.path[this.pathindex].x * 10;
-    var dy = p.y - this.path[this.pathindex].y * 10;
+    var f = 10;
+    var p = this.getPosition().copy().multiply(f);
+    var dx = (p.x - this.path[this.pathindex].x * f);
+    var dy = (p.y - this.path[this.pathindex].y * f);
     
     var step = 0.5;
     
@@ -22,7 +27,7 @@ Automate.prototype.update = function () {
     if (dy > 0) p.y -= step;
     if (dy < 0) p.y += step;
     
-    p.divide(10);
+    p.divide(f);
 
     if (this.world.canMove(this, p)) {
         this.setPosition(p);

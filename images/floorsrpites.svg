@@ -4766,9 +4766,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.979899"
-     inkscape:cx="754.6139"
-     inkscape:cy="476.20017"
+     inkscape:zoom="0.98994951"
+     inkscape:cx="151.08353"
+     inkscape:cy="303.51915"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -4806,6 +4806,57 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
+    <path
+       sodipodi:nodetypes="ccccc"
+       style="fill:#00ff00;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 580.2919,773.64238 0.008,31.5608 -127.95661,64.25129 -0.0394,-31.59249 z"
+       id="path4982"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\John\Documents\Js-Coding\projects\isogame\images\table.png"
+       inkscape:export-xdpi="89.93"
+       inkscape:export-ydpi="89.93" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4986"
+       d="m 324.29993,773.68991 0.008,31.56081 128.03537,64.20375 -0.0393,-31.59249 z"
+       style="fill:#00ff00;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:export-filename="C:\Users\John\Documents\Js-Coding\projects\isogame\images\table.png"
+       inkscape:export-xdpi="89.93"
+       inkscape:export-ydpi="89.93" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4984"
+       d="m 580.2919,773.64238 0.008,31.5608 -127.95661,64.25129 -0.0394,-31.59249 z"
+       style="fill:#23ff23;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="C:\Users\John\Documents\Js-Coding\projects\isogame\images\table.png"
+       inkscape:export-xdpi="89.93"
+       inkscape:export-ydpi="89.93" />
+    <path
+       style="fill:#00d400;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 324.29993,773.68991 0.008,31.56081 128.03537,64.20375 -0.0393,-31.59249 z"
+       id="path4988"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\John\Documents\Js-Coding\projects\isogame\images\table.png"
+       inkscape:export-xdpi="89.93"
+       inkscape:export-ydpi="89.93" />
+    <path
+       style="fill:#ff6600;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 324.29993,773.68991 0.008,31.56081 128.03537,64.20375 -0.0393,-31.59249 z"
+       id="path4960"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\John\Documents\Js-Coding\projects\isogame\images\table.png"
+       inkscape:export-xdpi="89.93"
+       inkscape:export-ydpi="89.93" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4962"
+       d="m 580.2919,773.64238 0.008,31.5608 -127.95661,64.25129 -0.0394,-31.59249 z"
+       style="fill:#ff9147;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="C:\Users\John\Documents\Js-Coding\projects\isogame\images\table.png"
+       inkscape:export-xdpi="89.93"
+       inkscape:export-ydpi="89.93" />
     <path
        style="fill:#0000ff;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        d="m 415.11011,50.279441 0,63.999999 64.01575,32.0158 0,-63.999996 z"
@@ -4848,11 +4899,6 @@
        style="fill:#009d00;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        d="M 68.572521,-31.562623 132.55677,0.42157721 68.572521,32.437377 4.5567715,0.42157721"
        id="path4378"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:#000080;stroke:none"
-       d="m -448.77355,527.27841 64.01575,-31.9842 63.98425,31.9842 -63.98425,32.0158 0,0 0,0 -64.01575,-32.0158"
-       id="path3818"
        inkscape:connector-curvature="0" />
     <g
        id="g12228">
@@ -9404,5 +9450,97 @@
         </g>
       </g>
     </g>
+    <g
+       id="g4964"
+       transform="translate(-125.25891,-19.192898)">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4911"
+         d="m -39.646447,911.83403 64.01575,-31.9842 63.98425,31.9842 -63.98425,32.0158 0,0 0,0 -64.01575,-32.0158"
+         style="opacity:0.52212387;fill:#ff9955;stroke:none" />
+      <path
+         style="opacity:0.52212387;fill:#ff9955;stroke:none"
+         d="m 24.337803,879.81823 64.01575,-31.9842 63.984247,31.9842 -63.984247,32.0158 0,0 0,0 -64.01575,-32.0158"
+         id="path4913"
+         inkscape:connector-curvature="0" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4903"
+         d="m -103.64645,879.83403 64.015753,-31.9842 63.98425,31.9842 -63.98425,32.0158 0,0 0,0 -64.015753,-32.0158"
+         style="opacity:0.52212387;fill:#ff9955;stroke:none" />
+      <path
+         style="opacity:0.52212387;fill:#ff9955;stroke:none"
+         d="m -39.662197,847.81823 64.01575,-31.9842 63.98425,31.9842 -63.98425,32.0158 0,0 0,0 -64.01575,-32.0158"
+         id="path4905"
+         inkscape:connector-curvature="0" />
+      <path
+         style="opacity:0.52212387;fill:#ff9955;stroke:none"
+         d="m -231.6307,815.84983 64.01575,-31.9842 63.98425,31.9842 -63.98425,32.0158 0,0 0,0 -64.01575,-32.0158"
+         id="path4119"
+         inkscape:connector-curvature="0" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4889"
+         d="m -167.64645,783.83403 64.01575,-31.9842 63.984253,31.9842 -63.984253,32.0158 0,0 0,0 -64.01575,-32.0158"
+         style="opacity:0.52212387;fill:#ff9955;stroke:none" />
+      <path
+         style="opacity:0.52212387;fill:#ff9955;stroke:none"
+         d="m -103.64645,751.83403 64.015753,-31.9842 63.98425,31.9842 -63.98425,32.0158 0,0 0,0 -64.015753,-32.0158"
+         id="path4891"
+         inkscape:connector-curvature="0" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4893"
+         d="m -39.662197,719.81823 64.01575,-31.9842 63.98425,31.9842 -63.98425,32.0158 0,0 0,0 -64.01575,-32.0158"
+         style="opacity:0.52212387;fill:#ff9955;stroke:none" />
+      <path
+         style="opacity:0.52212387;fill:#ff9955;stroke:none"
+         d="m -167.6307,847.84983 64.01575,-31.9842 63.984253,31.9842 -63.984253,32.0158 0,0 0,0 -64.01575,-32.0158"
+         id="path4895"
+         inkscape:connector-curvature="0" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4897"
+         d="m -103.64645,815.83403 64.015753,-31.9842 63.98425,31.9842 -63.98425,32.0158 0,0 0,0 -64.015753,-32.0158"
+         style="opacity:0.52212387;fill:#ff9955;stroke:none" />
+      <path
+         style="opacity:0.52212387;fill:#ff9955;stroke:none"
+         d="m -39.662197,783.81823 64.01575,-31.9842 63.98425,31.9842 -63.98425,32.0158 0,0 0,0 -64.01575,-32.0158"
+         id="path4899"
+         inkscape:connector-curvature="0" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4901"
+         d="m 24.322053,751.80243 64.01575,-31.9842 63.984247,31.9842 -63.984247,32.0158 0,0 0,0 -64.01575,-32.0158"
+         style="opacity:0.52212387;fill:#ff9955;stroke:none" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4907"
+         d="m 24.337803,815.81823 64.01575,-31.9842 63.984247,31.9842 -63.984247,32.0158 0,0 0,0 -64.01575,-32.0158"
+         style="opacity:0.52212387;fill:#ff9955;stroke:none" />
+      <path
+         style="opacity:0.52212387;fill:#ff9955;stroke:none"
+         d="m 88.322053,783.80243 64.015747,-31.9842 63.98425,31.9842 -63.98425,32.0158 0,0 0,0 -64.015747,-32.0158"
+         id="path4909"
+         inkscape:connector-curvature="0" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4915"
+         d="m 88.322053,847.80243 64.015747,-31.9842 63.98425,31.9842 -63.98425,32.0158 0,0 0,0 -64.015747,-32.0158"
+         style="opacity:0.52212387;fill:#ff9955;stroke:none" />
+      <path
+         style="opacity:0.52212387;fill:#ff9955;stroke:none"
+         d="m 152.3063,815.78663 64.01575,-31.9842 63.98425,31.9842 -63.98425,32.0158 0,0 0,0 -64.01575,-32.0158"
+         id="path4917"
+         inkscape:connector-curvature="0" />
+    </g>
+    <path
+       style="fill:#c8beb7;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 324.3001,773.68991 127.97236,-64.23544 128.01961,64.1879 -127.9881,64.21961 z"
+       id="path4956"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\John\Documents\Js-Coding\projects\isogame\images\table.png"
+       inkscape:export-xdpi="89.93"
+       inkscape:export-ydpi="89.93" />
   </g>
 </svg>
