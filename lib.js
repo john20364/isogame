@@ -47,6 +47,21 @@ function Point (x, y, z) {
     }
 }
 
+function ajaxGetJSON (jsonfile, cb) {
+    var hr = new XMLHttpRequest();
+    hr.open("GET", jsonfile, true);
+    hr.setRequestHeader("Content-type", "application/json", true);
+    hr.onreadystatechange = function () {
+        console.log(hr.readyState + " - " + hr.status);
+        if (hr.readyState === 4 && hr.status === 200) {
+        // hr.responsText    
+//            println(hr.responsText);
+            console.log(hr.responseText);
+        }
+    }
+    hr.send(null);
+}
+
 function loadImages (arr, idx, cb) {
 	if(arr === 'undefined') return;
 

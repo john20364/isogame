@@ -1,3 +1,7 @@
+function test() {
+    ajaxGetJSON("level01.json");
+}
+
 window.onload = function () {
     const ISOWIDTH = 128;
     ISO.isowidth = ISOWIDTH;
@@ -17,9 +21,7 @@ window.onload = function () {
         {image:undefined,
         filename:"images\\players.png"},
         {image:undefined,
-        filename:"images\\testplayer.png"},
-        {image:undefined,
-        filename:"images\\table.png"}
+        filename:"images\\testplayer.png"}
     ];
 
     loadImages(objarr, 0, function () {
@@ -27,8 +29,8 @@ window.onload = function () {
         ISO.floorplan = objarr[1].image;
         ISO.players = objarr[2].image;
         ISO.testplayer = objarr[3].image;
-        ISO.table = objarr[4].image;
-        init();
+//        init();
+        test();
     });
     
 };

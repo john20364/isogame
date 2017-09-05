@@ -1,0 +1,11 @@
+{
+    "player":{
+        "position":{
+            "x":1, "y":5
+        },
+        "spritesheet":{
+            "file":"images\\players.png",
+            "index":0
+        }
+    }
+}
