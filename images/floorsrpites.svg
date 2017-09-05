@@ -4766,9 +4766,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.98994951"
-     inkscape:cx="151.08353"
-     inkscape:cy="303.51915"
+     inkscape:zoom="1.979899"
+     inkscape:cx="109.30455"
+     inkscape:cy="955.17272"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -4798,7 +4798,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -4806,100 +4806,60 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
-    <path
-       sodipodi:nodetypes="ccccc"
-       style="fill:#00ff00;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       d="m 580.2919,773.64238 0.008,31.5608 -127.95661,64.25129 -0.0394,-31.59249 z"
-       id="path4982"
-       inkscape:connector-curvature="0"
-       inkscape:export-filename="C:\Users\John\Documents\Js-Coding\projects\isogame\images\table.png"
-       inkscape:export-xdpi="89.93"
-       inkscape:export-ydpi="89.93" />
-    <path
-       inkscape:connector-curvature="0"
-       id="path4986"
-       d="m 324.29993,773.68991 0.008,31.56081 128.03537,64.20375 -0.0393,-31.59249 z"
-       style="fill:#00ff00;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       inkscape:export-filename="C:\Users\John\Documents\Js-Coding\projects\isogame\images\table.png"
-       inkscape:export-xdpi="89.93"
-       inkscape:export-ydpi="89.93" />
-    <path
-       inkscape:connector-curvature="0"
-       id="path4984"
-       d="m 580.2919,773.64238 0.008,31.5608 -127.95661,64.25129 -0.0394,-31.59249 z"
-       style="fill:#23ff23;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       sodipodi:nodetypes="ccccc"
-       inkscape:export-filename="C:\Users\John\Documents\Js-Coding\projects\isogame\images\table.png"
-       inkscape:export-xdpi="89.93"
-       inkscape:export-ydpi="89.93" />
-    <path
-       style="fill:#00d400;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       d="m 324.29993,773.68991 0.008,31.56081 128.03537,64.20375 -0.0393,-31.59249 z"
-       id="path4988"
-       inkscape:connector-curvature="0"
-       inkscape:export-filename="C:\Users\John\Documents\Js-Coding\projects\isogame\images\table.png"
-       inkscape:export-xdpi="89.93"
-       inkscape:export-ydpi="89.93" />
-    <path
-       style="fill:#ff6600;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       d="m 324.29993,773.68991 0.008,31.56081 128.03537,64.20375 -0.0393,-31.59249 z"
-       id="path4960"
-       inkscape:connector-curvature="0"
-       inkscape:export-filename="C:\Users\John\Documents\Js-Coding\projects\isogame\images\table.png"
-       inkscape:export-xdpi="89.93"
-       inkscape:export-ydpi="89.93" />
-    <path
-       inkscape:connector-curvature="0"
-       id="path4962"
-       d="m 580.2919,773.64238 0.008,31.5608 -127.95661,64.25129 -0.0394,-31.59249 z"
-       style="fill:#ff9147;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       sodipodi:nodetypes="ccccc"
-       inkscape:export-filename="C:\Users\John\Documents\Js-Coding\projects\isogame\images\table.png"
-       inkscape:export-xdpi="89.93"
-       inkscape:export-ydpi="89.93" />
-    <path
-       style="fill:#0000ff;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       d="m 415.11011,50.279441 0,63.999999 64.01575,32.0158 0,-63.999996 z"
-       id="path4414"
-       inkscape:connector-curvature="0"
-       inkscape:export-filename="C:\Users\John\Documents\Js-Coding\projects\isogame\images\testplayer.png"
-       inkscape:export-xdpi="89.93"
-       inkscape:export-ydpi="89.93" />
-    <path
-       inkscape:connector-curvature="0"
-       id="path4416"
-       d="m 543.11011,50.279441 0,63.999999 -63.98425,32.0158 0,-63.999996 z"
-       style="fill:#6262ff;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       sodipodi:nodetypes="ccccc"
-       inkscape:export-filename="C:\Users\John\Documents\Js-Coding\projects\isogame\images\testplayer.png"
-       inkscape:export-xdpi="89.93"
-       inkscape:export-ydpi="89.93" />
-    <path
-       sodipodi:nodetypes="ccccc"
-       style="fill:#0000c3;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       d="m 543.11011,50.279441 -63.98425,-31.9842 -64.01575,31.9842 64.01575,32.015803 z"
-       id="path4418"
-       inkscape:connector-curvature="0"
-       inkscape:export-filename="C:\Users\John\Documents\Js-Coding\projects\isogame\images\testplayer.png"
-       inkscape:export-xdpi="89.93"
-       inkscape:export-ydpi="89.93" />
-    <path
-       style="fill:#00ff00;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       d="m 4.5567715,128.42158 0,-128.00000279 64.0157495,32.01579979 0,128.000003"
-       id="path4374"
-       inkscape:connector-curvature="0" />
-    <path
-       inkscape:connector-curvature="0"
-       id="path4376"
-       d="m 132.55677,128.42158 0,-128.00000279 -63.984249,32.01579979 0,128.000003"
-       style="fill:#6dff6d;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       sodipodi:nodetypes="cccc" />
-    <path
-       sodipodi:nodetypes="cccc"
-       style="fill:#009d00;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       d="M 68.572521,-31.562623 132.55677,0.42157721 68.572521,32.437377 4.5567715,0.42157721"
-       id="path4378"
-       inkscape:connector-curvature="0" />
+    <g
+       id="g4923"
+       transform="translate(-295.97469,30.304579)">
+      <path
+         inkscape:export-ydpi="89.93"
+         inkscape:export-xdpi="89.93"
+         inkscape:export-filename="C:\Users\John\Documents\Js-Coding\projects\isogame\images\testplayer.png"
+         inkscape:connector-curvature="0"
+         id="path4414"
+         d="m 415.11011,50.279441 0,63.999999 64.01575,32.0158 0,-63.999996 z"
+         style="fill:#0000ff;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         inkscape:export-ydpi="89.93"
+         inkscape:export-xdpi="89.93"
+         inkscape:export-filename="C:\Users\John\Documents\Js-Coding\projects\isogame\images\testplayer.png"
+         sodipodi:nodetypes="ccccc"
+         style="fill:#6262ff;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         d="m 543.11011,50.279441 0,63.999999 -63.98425,32.0158 0,-63.999996 z"
+         id="path4416"
+         inkscape:connector-curvature="0" />
+      <path
+         inkscape:export-ydpi="89.93"
+         inkscape:export-xdpi="89.93"
+         inkscape:export-filename="C:\Users\John\Documents\Js-Coding\projects\isogame\images\testplayer.png"
+         inkscape:connector-curvature="0"
+         id="path4418"
+         d="m 543.11011,50.279441 -63.98425,-31.9842 -64.01575,31.9842 64.01575,32.015803 z"
+         style="fill:#0000c3;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:nodetypes="ccccc" />
+    </g>
+    <g
+       id="g4917"
+       transform="translate(-141.42135,16.16244)">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4374"
+         d="m 4.5567715,128.42158 0,-128.00000279 64.0157495,32.01579979 0,128.000003"
+         style="fill:#00ff00;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         sodipodi:nodetypes="cccc"
+         style="fill:#6dff6d;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         d="m 132.55677,128.42158 0,-128.00000279 -63.984249,32.01579979 0,128.000003"
+         id="path4376"
+         inkscape:connector-curvature="0" />
+      <g
+         id="g4914">
+        <path
+           sodipodi:nodetypes="cccc"
+           style="fill:#009d00;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           d="M 68.572521,-31.562623 132.55677,0.42157721 68.572521,32.437377 4.5567715,0.42157721"
+           id="path4378"
+           inkscape:connector-curvature="0" />
+      </g>
+    </g>
     <g
        id="g12228">
       <path
@@ -5683,23 +5643,27 @@
        d="m 8.47555,524.60545 0,9.99997 64.01575,32.0158 0,-9.99996"
        id="path12919"
        inkscape:connector-curvature="0" />
-    <path
-       style="fill:#de5924;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       d="m 132.55677,128.42158 0,-128.00000279 64.01575,32.01579979 0,128.000003"
-       id="path4374-7"
-       inkscape:connector-curvature="0" />
-    <path
-       inkscape:connector-curvature="0"
-       id="path4376-4"
-       d="m 260.55677,128.42158 0,-128.00000279 -63.98425,32.01579979 0,128.000003"
-       style="fill:#e6805a;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       sodipodi:nodetypes="cccc" />
-    <path
-       sodipodi:nodetypes="cccc"
-       style="fill:#ab421b;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       d="M 196.57252,-31.562623 260.55677,0.42157721 196.57252,32.437377 132.55677,0.42157721"
-       id="path4378-0"
-       inkscape:connector-curvature="0" />
+    <g
+       id="g4909"
+       transform="translate(-190.91882,15.152289)">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4374-7"
+         d="m 182.05424,129.43173 0,-128.0000003 64.01575,32.0158003 0,128"
+         style="fill:#de5924;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         sodipodi:nodetypes="cccc"
+         style="fill:#e6805a;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         d="m 310.05424,129.43173 0,-128.0000003 -63.98425,32.0158003 0,128"
+         id="path4376-4"
+         inkscape:connector-curvature="0" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4378-0"
+         d="M 246.06999,-30.55247 310.05424,1.4317297 246.06999,33.44753 182.05424,1.4317297"
+         style="fill:#ab421b;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:nodetypes="cccc" />
+    </g>
     <g
        id="g4807"
        inkscape:export-filename="C:\Users\John\Documents\Js-Coding\projects\isogame\images\floorsprites.png"
@@ -9534,13 +9498,5 @@
          id="path4917"
          inkscape:connector-curvature="0" />
     </g>
-    <path
-       style="fill:#c8beb7;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       d="m 324.3001,773.68991 127.97236,-64.23544 128.01961,64.1879 -127.9881,64.21961 z"
-       id="path4956"
-       inkscape:connector-curvature="0"
-       inkscape:export-filename="C:\Users\John\Documents\Js-Coding\projects\isogame\images\table.png"
-       inkscape:export-xdpi="89.93"
-       inkscape:export-ydpi="89.93" />
   </g>
 </svg>

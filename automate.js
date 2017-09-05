@@ -20,16 +20,33 @@ Automate.prototype.update = function () {
     var dx = (p.x - this.path[this.pathindex].x * f);
     var dy = (p.y - this.path[this.pathindex].y * f);
     
+    var dir = this.getDirection();
+    dir.x = 0;
+    dir.y = 0;
+    
     var step = 0.5;
     
-    if (dx > 0) p.x -= step;
-    if (dx < 0) p.x += step;
-    if (dy > 0) p.y -= step;
-    if (dy < 0) p.y += step;
+    if (dx > 0) {
+        dir.x = -1;
+        p.x -= step;
+    }
+    if (dx < 0) {
+        dir.x = 1;
+        p.x += step;
+    }
+    if (dy > 0) {
+        dir.y = -1;
+        p.y -= step;
+    }
+    if (dy < 0) {
+        dir.y = 1;
+        p.y += step;
+    }
     
     p.divide(f);
 
     if (this.world.canMove(this, p)) {
+        this.setDirection(dir);
         this.setPosition(p);
 
         if ((dx === 0) && (dy === 0)) {

@@ -17,61 +17,100 @@ function World() {
     const FLOOR = 0x000000;
 
     // Initialization
-    (function () {
-        floorcontext.drawImage(ISO.floorplan, 0, 0);
-        floordata = floorcontext.getImageData(0, 0,
-            ISO.floorplan.width, ISO.floorplan.height);
+    this.init = function (cb) {
+        const ISOWIDTH = 128;
+        ISO.isowidth = ISOWIDTH;
+        ISO.isoheight = ISO.isowidth >> 1;
+        ISO.canvas = document.getElementById("canvas");
+        ISO.context = canvas.getContext("2d");
+        ISO.width = canvas.width = window.innerWidth;
+        ISO.height = canvas.height = window.innerHeight;
         
-        createSpriteArray();
-        createEntities();
-    })();
+        var objarr = [
+            {image:undefined,
+            filename:"images\\floorsprites.png"},
+    //        filename:"images\\marzfloor.png"},
+            {image:undefined,
+    //        filename:"images\\testfloor.png"}
+            filename:"images\\floorplan.png"},
+            {image:undefined,
+            filename:"images\\players.png"},
+            {image:undefined,
+            filename:"images\\testplayer.png"}
+        ];
+
+        loadImages(objarr, 0, function () {
+            ISO.floorsprites = objarr[0].image;
+            ISO.floorplan = objarr[1].image;
+            ISO.players = objarr[2].image;
+            ISO.testplayer = objarr[3].image;
+            ajaxGetJSON("level01.json", function (data) {
+                ISO.data = data;
+                
+                floorcontext.drawImage(ISO.floorplan, 0, 0);
+                floordata = floorcontext.getImageData(0, 0,
+                    ISO.floorplan.width, ISO.floorplan.height);
+
+                createEntities();
+                
+                if (cb) cb();
+            });
+        });
+     }
     
     function createEntities () {
+        entities = [];
+        var data = ISO.data;
         var factory = new EntityFactory();
-        ISO.player = factory.createEntity(
-            factory.typeEnum.PLAYER,
-            that, 
-            new Point(1, 5), 
-            ISO.players, 
-            0,
-            false);
         
-        entities.push(ISO.player);
+        // Create floor + walls
+        createFloorAndWalls();
+        
+        for (obj in ISO.data) {
+            var entity = undefined;
 
-        var entity = factory.createEntity(
-            factory.typeEnum.AUTOMATE,
-            that,
-            new Point(10, 5), 
-            ISO.testplayer, 
-            0,
-            false);
-        
-        entity.setPath([
-            new Point(2, 2), 
-            new Point(2, 10),
-            new Point(20, 10),
-            new Point(20, 2)
-        ]);
-        
-        entities.push(entity);
-
-        entity = factory.createEntity(
-            factory.typeEnum.AUTOMATE,
-            that,
-            new Point(15, 15), 
-            ISO.players, 
-            1,
-            false);
-        
-        entity.setPath([
-            new Point(5, 25), 
-            new Point(15, 15), 
-        ]);
-        
-        entities.push(entity);
+            switch (data[obj].type) {
+                case "player" :
+                    entity = factory.createEntity(
+                        factory.typeEnum.PLAYER,
+                        that, 
+                        new Point(data[obj].position.x,
+                                 data[obj].position.y), 
+                        ISO.players, 
+                        data[obj].spritesheet.index,
+                        false);
+                    ISO.player = entity;
+                    break;
+                case "automate" :
+                    entity = factory.createEntity(
+                        factory.typeEnum.AUTOMATE,
+                        that, 
+                        new Point(data[obj].position.x,
+                                 data[obj].position.y), 
+                        ISO.players, 
+                        data[obj].spritesheet.index,
+                        false);
+                    
+                    // Set eentity path if defined
+                    if (data[obj].path) {
+                        var path = [];
+                        
+                        for (j = 0; j < data[obj].path.length; j++) {
+                            var point = data[obj].path[j];
+                            path.push(new Point(point.x, point.y));
+                        }
+                        entity.setPath(path);
+                    }
+                    break;
+                case "solid" :
+                    // TODO..........
+                    break;
+            }
+            entities.push(entity);
+        }
     }
     
-    function createSpriteArray () {
+    function createFloorAndWalls () {
         var factory = new EntityFactory();
         
         for (var i = 0; i < (floordata.data.length / 4); i++) {

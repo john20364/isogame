@@ -1,11 +1,235 @@
 {
-    "player":{
+    "001":{
+        "//":"Player",
+        "type":"player",
         "position":{
-            "x":1, "y":5
+            "x":5, "y":90
         },
         "spritesheet":{
             "file":"images\\players.png",
             "index":0
-        }
+        },
+        "path":[
+            {"x":3, "y":3},
+            {"x":3, "y":9}
+        ]
+    },
+    "002":{
+        "//":"Automate One",
+        "type":"automate",
+        "position":{
+            "x":3, "y":3
+        },
+        "spritesheet":{
+            "file":"images\\players.png",
+            "index":1
+        },
+        "path":[
+            {"x":3, "y":3},
+            {"x":3, "y":9}
+        ]
+    },
+    "003":{
+        "//":"Automate One",
+        "type":"automate",
+        "position":{
+            "x":7, "y":9
+        },
+        "spritesheet":{
+            "file":"images\\players.png",
+            "index":1
+        },
+        "path":[
+            {"x":7, "y":3},
+            {"x":7, "y":9}
+        ]
+    },
+    "004":{
+        "//":"Automate One",
+        "type":"automate",
+        "position":{
+            "x":13, "y":3
+        },
+        "spritesheet":{
+            "file":"images\\players.png",
+            "index":1
+        },
+        "path":[
+            {"x":13, "y":3},
+            {"x":13, "y":9}
+        ]
+    },
+    "005":{
+        "//":"Automate One",
+        "type":"automate",
+        "position":{
+            "x":17, "y":9
+        },
+        "spritesheet":{
+            "file":"images\\players.png",
+            "index":1
+        },
+        "path":[
+            {"x":17, "y":3},
+            {"x":17, "y":9}
+        ]
+    },
+    "006":{
+        "//":"Automate One",
+        "type":"automate",
+        "position":{
+            "x":21, "y":3
+        },
+        "spritesheet":{
+            "file":"images\\players.png",
+            "index":1
+        },
+        "path":[
+            {"x":21, "y":3},
+            {"x":21, "y":9}
+        ]
+    },
+    "007":{
+        "//":"Automate One",
+        "type":"automate",
+        "position":{
+            "x":25, "y":9
+        },
+        "spritesheet":{
+            "file":"images\\players.png",
+            "index":1
+        },
+        "path":[
+            {"x":25, "y":3},
+            {"x":25, "y":9}
+        ]
+    },
+    "008":{
+        "//":"Automate One",
+        "type":"automate",
+        "position":{
+            "x":29, "y":3
+        },
+        "spritesheet":{
+            "file":"images\\players.png",
+            "index":1
+        },
+        "path":[
+            {"x":29, "y":3},
+            {"x":29, "y":9}
+        ]
+    },
+    "009":{
+        "//":"Automate One",
+        "type":"automate",
+        "position":{
+            "x":33, "y":3
+        },
+        "spritesheet":{
+            "file":"images\\players.png",
+            "index":1
+        },
+        "path":[
+            {"x":33, "y":3},
+            {"x":33, "y":9}
+        ]
+    },
+    "010":{
+        "//":"Automate One",
+        "type":"automate",
+        "position":{
+            "x":37, "y":9
+        },
+        "spritesheet":{
+            "file":"images\\players.png",
+            "index":1
+        },
+        "path":[
+            {"x":37, "y":3},
+            {"x":37, "y":9}
+        ]
+    },
+    "011":{
+        "//":"Automate One",
+        "type":"automate",
+        "position":{
+            "x":41, "y":3
+        },
+        "spritesheet":{
+            "file":"images\\players.png",
+            "index":1
+        },
+        "path":[
+            {"x":41, "y":3},
+            {"x":41, "y":9}
+        ]
+    },
+    "012":{
+        "//":"Automate Two",
+        "type":"automate",
+        "position":{
+            "x":10, "y":5
+        },
+        "spritesheet":{
+            "file":"images\\players.png",
+            "index":2
+        },
+        "path":[
+            {"x":2, "y":2},
+            {"x":2, "y":10},
+            {"x":20, "y":10},
+            {"x":20, "y":2}
+        ]
+    },
+    "013":{
+        "//":"Automate Three",
+        "type":"automate",
+        "position":{
+            "x":15, "y":15
+        },
+        "spritesheet":{
+            "file":"images\\players.png",
+            "index":2
+        },
+        "path":[
+            {"x":5, "y":25},
+            {"x":15, "y":15}
+        ]
+    },
+    "014":{
+        "//":"Automate Four",
+        "type":"automate",
+        "position":{
+            "x":46, "y":15
+        },
+        "spritesheet":{
+            "file":"images\\players.png",
+            "index":1
+        },
+        "path":[
+            {"x":46, "y":15},
+            {"x":30, "y":15},
+            {"x":30, "y":25},
+            {"x":46, "y":15},
+            {"x":30, "y":25}
+        ]
+    },
+    "015":{
+        "//":"Automate Five",
+        "type":"automate",
+        "position":{
+            "x":2, "y":96
+        },
+        "spritesheet":{
+            "file":"images\\players.png",
+            "index":1
+        },
+        "path":[
+            {"x":2, "y":96},
+            {"x":2, "y":82},
+            {"x":13, "y":82},
+            {"x":13, "y":96}
+        ]
     }
+    
 }

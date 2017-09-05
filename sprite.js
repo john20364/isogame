@@ -1,5 +1,6 @@
 function Sprite(pos, spritesheet, spriteindex, floor) {
-        
+    
+    var dir = new Point();
     var position = pos;
     var twoD = isoTo2D(position);
     var sx = spriteindex * ISO.isowidth;
@@ -16,6 +17,35 @@ function Sprite(pos, spritesheet, spriteindex, floor) {
             spritesheet, sx, sy, sw, sh, dx, dy, dw, dh);
     }
 
+    this.setDirection = function (direction) {
+        dir = direction;    
+        var heading = dir.x * 10 + dir.y;
+        switch (heading) {
+            case 0:     // (0, 0)   - stop 
+                break;
+            case -10 :  // (-1, 0)  - left 
+                break;
+            case 10 :   // (1, 0)   - right 
+                break;
+            case -1 :   // (0, -1)  - down
+                break;
+            case 1 :    // (0, 1)   - up
+                break;
+            case -11 :  // (-1, -1) - left-down
+                break;
+            case 9 :    // (1, -1)  - right-down 
+                break;
+            case -9 :   // (-1, 1)  - left-up 
+                break;
+            case 11 :   // (1, 1)   - right-up 
+                break;
+        }
+    }
+
+    this.getDirection = function () {
+        return dir;    
+    }
+    
     this.setPosition = function (pos) {
         position = pos;
         twoD = isoTo2D(position);

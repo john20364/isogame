@@ -52,11 +52,9 @@ function ajaxGetJSON (jsonfile, cb) {
     hr.open("GET", jsonfile, true);
     hr.setRequestHeader("Content-type", "application/json", true);
     hr.onreadystatechange = function () {
-        console.log(hr.readyState + " - " + hr.status);
         if (hr.readyState === 4 && hr.status === 200) {
-        // hr.responsText    
-//            println(hr.responsText);
-            console.log(hr.responseText);
+            var result = JSON.parse(hr.responseText);
+            if (cb) cb(result);
         }
     }
     hr.send(null);
