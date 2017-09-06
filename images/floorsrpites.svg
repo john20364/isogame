@@ -4798,7 +4798,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -4808,7 +4808,10 @@
      id="layer1">
     <g
        id="g4923"
-       transform="translate(-295.97469,30.304579)">
+       transform="translate(-295.97469,30.304579)"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\players.png"
+       inkscape:export-xdpi="89.93"
+       inkscape:export-ydpi="89.93">
       <path
          inkscape:export-ydpi="89.93"
          inkscape:export-xdpi="89.93"
@@ -4838,7 +4841,10 @@
     </g>
     <g
        id="g4917"
-       transform="translate(-141.42135,16.16244)">
+       transform="translate(-141.42135,16.16244)"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\players.png"
+       inkscape:export-xdpi="89.93"
+       inkscape:export-ydpi="89.93">
       <path
          inkscape:connector-curvature="0"
          id="path4374"
@@ -5645,7 +5651,10 @@
        inkscape:connector-curvature="0" />
     <g
        id="g4909"
-       transform="translate(-190.91882,15.152289)">
+       transform="translate(-190.91882,15.152289)"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\players.png"
+       inkscape:export-xdpi="89.93"
+       inkscape:export-ydpi="89.93">
       <path
          inkscape:connector-curvature="0"
          id="path4374-7"

@@ -44,7 +44,7 @@ function World() {
             ISO.floorplan = objarr[1].image;
             ISO.players = objarr[2].image;
             ISO.testplayer = objarr[3].image;
-            ajaxGetJSON("level01.json", function (data) {
+            ajaxGetJSON("get_level.php", function (data) {
                 ISO.data = data;
                 
                 floorcontext.drawImage(ISO.floorplan, 0, 0);

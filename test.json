@@ -1,0 +1,13 @@
+{
+    "001":{
+        "//":"Player",
+        "type":"player",
+        "position":{
+            "x":1, "y":1
+        },
+        "spritesheet":{
+            "file":"images\\players.png",
+            "index":0
+        }
+    }
+}
