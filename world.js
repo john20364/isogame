@@ -219,6 +219,60 @@ function World() {
         }
     }
 
+    function walkEntities (entity, cb) {
+        for (var i = 0; i < objectentities.length; i++) {
+            var obj = objectentities[i];
+            if (obj !== entity) {
+                cb(obj);
+            }
+        }
+    }
+    
+    //===================================================
+    this._canMove = function (entity, newposition) {
+        var dir = entity.getDirection();
+        var ep = newposition;
+        walkEntities(entity, function (obj) {
+            var op = obj.getPosition();
+            if (Math.abs(ep.x - op.x) < 1 && 
+               Math.abs(ep.y - op.y) < 1) {
+                
+                var oldpos =  entity.getPosition();
+                var dx = Math.abs(oldpos.x - op.x);
+                var dy = Math.abs(oldpos.y - op.y);
+                dx = dx.toPrecision(1);
+                dy = dy.toPrecision(1);
+                
+                if (dir.y === -1 && dir.x === -1) {
+                    if (dx > dy) newposition.x = op.x + 1;
+                    if (dy > dx) newposition.y = op.y + 1;
+                } else if (dir.y === -1 && dir.x === 1) {
+                    if (dx > dy) newposition.x = op.x - 1;
+                    if (dy > dx) newposition.y = op.y + 1;
+                } else if (dir.y === 1 && dir.x === -1) {
+                    if (dx > dy) newposition.x = op.x + 1;
+                    if (dy > dx) newposition.y = op.y - 1;
+                } else if (dir.y === 1 && dir.x === 1) {
+                    if (dx > dy) newposition.x = op.x - 1;
+                    if (dy > dx) newposition.y = op.y - 1;
+                } else if (dir.y === -1 && dir.x === 0) {
+                    newposition.y = op.y + 1;
+                } else if (dir.y === 1 && dir.x === 0) {
+                    newposition.y = op.y - 1;
+                } else if (dir.x === -1 && dir.y === 0) {
+                    newposition.x = op.x + 1;
+                } else if (dir.x === 1 && dir.y === 0) {
+                    newposition.x = op.x - 1;
+                }
+                return false;
+            }
+        });
+        return true;    
+    }
+    //===================================================
+  
+    // Still needed for the automation objects
+    // TODO..........................................
     this.canMove = function (entity, newposition) {
         var p2 = newposition;
         for (var i = 0; i < objectentities.length; i++) {

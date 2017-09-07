@@ -45,10 +45,10 @@ Automate.prototype.update = function () {
     
     p.divide(f);
 
-    if (this.world.canMove(this, p)) {
-        this.setDirection(dir);
-        this.setPosition(p);
+    this.setDirection(dir);
 
+    if (this.world.canMove(this, p)) {
+        this.setPosition(p);
         if ((dx === 0) && (dy === 0)) {
             this.pathindex++;
             this.pathindex %= this.path.length;

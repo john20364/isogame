@@ -1,5 +1,4 @@
 function Sprite(pos, spritesheet, spriteindex, floor) {
-    
     var dir = new Point();
     var position = pos;
     var twoD = isoTo2D(position);
