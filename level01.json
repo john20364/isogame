@@ -3,7 +3,7 @@
         "//":"Player",
         "type":"player",
         "position":{
-            "x":5, "y":90
+            "x":1, "y":5
         },
         "spritesheet":{
             "file":"images\\players.png",
@@ -14,34 +14,49 @@
             {"x":3, "y":9}
         ]
     },
-    "002":{
+    "0021":{
         "//":"Automate One",
         "type":"automate",
         "position":{
-            "x":3, "y":3
+            "x":1, "y":1
         },
         "spritesheet":{
             "file":"images\\players.png",
             "index":1
         },
         "path":[
-            {"x":3, "y":3},
-            {"x":3, "y":9}
+            {"x":1, "y":1},
+            {"x":11, "y":11}
+        ]
+    },
+    "002":{
+        "//":"Automate One",
+        "type":"automate",
+        "position":{
+            "x":3, "y":23
+        },
+        "spritesheet":{
+            "file":"images\\players.png",
+            "index":1
+        },
+        "path":[
+            {"x":3, "y":17},
+            {"x":3, "y":23}
         ]
     },
     "003":{
         "//":"Automate One",
         "type":"automate",
         "position":{
-            "x":7, "y":9
+            "x":7, "y":23
         },
         "spritesheet":{
             "file":"images\\players.png",
             "index":1
         },
         "path":[
-            {"x":7, "y":3},
-            {"x":7, "y":9}
+            {"x":7, "y":17},
+            {"x":7, "y":23}
         ]
     },
     "004":{

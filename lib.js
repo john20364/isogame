@@ -45,6 +45,13 @@ function Point (x, y, z) {
         this.z /= factor;
         return this;
     }
+    
+    this.set = function (point) {
+        this.x = point.x;
+        this.y = point.y;
+        this.z = point.z;
+        return this;
+    }
 }
 
 function ajaxGetJSON (jsonfile, cb) {

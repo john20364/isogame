@@ -1,0 +1,31 @@
+{
+    "001":{
+        "//":"Player",
+        "type":"player",
+        "position":{
+            "x":5, "y":90
+        },
+        "spritesheet":{
+            "file":"images\\players.png",
+            "index":0
+        }
+    },
+    "002":{
+        "//":"Automate One",
+        "type":"automate",
+        "position":{
+            "x":13, "y":82
+        },
+        "spritesheet":{
+            "file":"images\\players.png",
+            "index":1
+        },
+        "path":[
+            {"x":13, "y":82},
+            {"x":2, "y":96},
+            {"x":13, "y":96},
+            {"x":2, "y":82}
+        ]
+    }
+    
+}

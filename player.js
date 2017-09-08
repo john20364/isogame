@@ -56,7 +56,7 @@ Player.prototype.update = function () {
     this.setDirection(dir);
     
     var that = this;
-    if (this.world._canMove(this, position)) {
+    if (this.world.canMove(this, position)) {
         //............
     } 
     this.setPosition(position);
