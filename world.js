@@ -9,8 +9,6 @@ function World() {
     var floorentities = [];
     var objectentities = [];
     
-    var floorsprites = [];
-    
     const XWALL = 0XFF8000;
     const YWALL  = 0xFF0000;
     const CORNERWALL = 0x00FF00;
@@ -26,58 +24,45 @@ function World() {
         ISO.width = canvas.width = window.innerWidth;
         ISO.height = canvas.height = window.innerHeight;
         
-        var objarr = [
-            {image:undefined,
-            filename:"images\\floorsprites.png"},
-    //        filename:"images\\marzfloor.png"},
-            {image:undefined,
-    //        filename:"images\\testfloor.png"}
-            filename:"images\\floorplan.png"},
-            {image:undefined,
-            filename:"images\\players.png"},
-            {image:undefined,
-            filename:"images\\testplayer.png"}
-        ];
-
-        loadImages(objarr, 0, function () {
-            ISO.floorsprites = objarr[0].image;
-            ISO.floorplan = objarr[1].image;
-            ISO.players = objarr[2].image;
-            ISO.testplayer = objarr[3].image;
-            ajaxGetJSON("get_level.php", function (data) {
-                ISO.data = data;
-                
-                floorcontext.drawImage(ISO.floorplan, 0, 0);
-                floordata = floorcontext.getImageData(0, 0,
-                    ISO.floorplan.width, ISO.floorplan.height);
-
-                createEntities();
-                
-                if (cb) cb();
-            });
-        });
+        createWorld("images.json", "level01.json", function () {
+            if (cb) cb();
+        })
      }
     
-    function createEntities () {
-        entities = [];
-        var data = ISO.data;
+    function createWorld(images, level, cb) {
+        var imgobjects = new ImageObjectCollection();
+        createImages(imgobjects, images, function () {
+            
+            entities = [];
+            
+            // Create floor + walls
+            createFloorAndWalls(imgobjects);
+            
+            getJSONData(level, function (data) {
+                createEntities(imgobjects, data);
+                if (cb) cb();
+            });
+        
+        });
+    }
+    
+    function createEntities (imgobjects, data) {
         var factory = new EntityFactory();
         
-        // Create floor + walls
-        createFloorAndWalls();
-        
-        for (obj in ISO.data) {
+        for (obj in data) {
             var entity = undefined;
 
-            switch (data[obj].type) {
+            var o = data[obj];
+            switch (o.type) {
                 case "player" :
                     entity = factory.createEntity(
                         factory.typeEnum.PLAYER,
                         that, 
-                        new Point(data[obj].position.x,
-                                 data[obj].position.y), 
-                        ISO.players, 
-                        data[obj].spritesheet.index,
+                        new Point(o.position.x,
+                                 o.position.y),
+                        imgobjects.getById(
+                            o.spritesheet.id).image,
+                        o.spritesheet.index,
                         false);
                     ISO.player = entity;
                     break;
@@ -85,18 +70,19 @@ function World() {
                     entity = factory.createEntity(
                         factory.typeEnum.AUTOMATE,
                         that, 
-                        new Point(data[obj].position.x,
-                                 data[obj].position.y), 
-                        ISO.players, 
-                        data[obj].spritesheet.index,
+                        new Point(o.position.x,
+                                 o.position.y), 
+                        imgobjects.getById(
+                            o.spritesheet.id).image,
+                        o.spritesheet.index,
                         false);
-                    
+
                     // Set eentity path if defined
-                    if (data[obj].path) {
+                    if (o.path) {
                         var path = [];
-                        
-                        for (j = 0; j < data[obj].path.length; j++) {
-                            var point = data[obj].path[j];
+
+                        for (j = 0; j < o.path.length; j++) {
+                            var point = o.path[j];
                             path.push(new Point(point.x, point.y));
                         }
                         entity.setPath(path);
@@ -110,8 +96,13 @@ function World() {
         }
     }
     
-    function createFloorAndWalls () {
+    function createFloorAndWalls (imgobjects) {
         var factory = new EntityFactory();
+        var floorplan = imgobjects.getById("floorplan").image;
+
+        floorcontext.drawImage(floorplan, 0, 0);
+        floordata = floorcontext.getImageData(0, 0,
+        floorplan.width, floorplan.height);
         
         for (var i = 0; i < (floordata.data.length / 4); i++) {
             var x = i % floordata.width | 0;
@@ -145,7 +136,7 @@ function World() {
                     factory.typeEnum.SOLID,
                     that,
                     new Point(x, y), 
-                    ISO.floorsprites, 
+                    imgobjects.getById("floorsprites").image,
                     imgidx,
                     isFloor);
             

@@ -54,17 +54,71 @@ function Point (x, y, z) {
     }
 }
 
-function ajaxGetJSON (jsonfile, cb) {
+//function getObjectById(arr, id) {
+//    for (var i = 0; i < arr.length; i++) {
+//        if (arr[i].id === id) return arr[i];
+//    }
+//    return undefined;
+//}
+
+function ImageObjectCollection() {
+    var objects = [];
+    
+    this.addImageObject = function (obj) {
+        objects.push(obj);
+    }
+    
+    this.getById = function (id) {
+        for (var i = 0; i < objects.length; i++) {
+            if (objects[i].id === id) return objects[i];
+        }
+        return undefined;
+    }
+    
+    this.toArray = function () {
+        return objects;
+    }
+    
+    this.clear = function () {
+        objects = [];
+    }
+}
+
+function getJSONData (filename, cb) {
     var hr = new XMLHttpRequest();
-    hr.open("GET", jsonfile, true);
-    hr.setRequestHeader("Content-type", "application/json", true);
+    hr.open("POST", "get_data.php", true);
+    hr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
     hr.onreadystatechange = function () {
         if (hr.readyState === 4 && hr.status === 200) {
             var result = JSON.parse(hr.responseText);
             if (cb) cb(result);
         }
     }
-    hr.send(null);
+    // Add &-sign between multiple parameters
+    hr.send("filename="+filename);
+}
+
+function createImages(collection, filename, cb) {
+    function Imagedata () {
+        this.id;
+        this.filename;
+        this.image;
+        return this;
+    }
+    
+    getJSONData(filename, function (data) {
+        for (obj in data) {
+            var imgobj = new Imagedata();
+            imgobj.id = data[obj].id;
+            imgobj.filename = data[obj].filename;
+            imgobj.image = undefined;
+            collection.addImageObject(imgobj);       
+        }
+        
+        loadImages(collection.toArray(), 0, function () {
+            if (cb) cb();
+        })
+    });
 }
 
 function loadImages (arr, idx, cb) {

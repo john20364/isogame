@@ -1,0 +1,18 @@
+{
+    "001":{
+        "filename":"images\\players.png",
+        "id":"player"
+    },
+    "002":{
+        "filename":"images\\testplayer.png",
+        "id":"testplayer"
+    },
+    "003":{
+        "filename":"images\\floorsprites.png",
+        "id":"floorsprites"
+    },
+    "004":{
+        "filename":"images\\floorplan.png",
+        "id":"floorplan"
+    }
+}

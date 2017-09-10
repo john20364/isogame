@@ -1,12 +1,11 @@
 {
     "001":{
-        "//":"Player",
         "type":"player",
         "position":{
             "x":1, "y":1
         },
         "spritesheet":{
-            "file":"images\\players.png",
+            "id":"player",
             "index":0
         }
     }

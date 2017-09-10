@@ -26,17 +26,17 @@ function Sprite(pos, spritesheet, spriteindex, floor) {
                 break;
             case 10 :   // (1, 0)   - right 
                 break;
-            case -1 :   // (0, -1)  - down
+            case -1 :   // (0, -1)  - up
                 break;
-            case 1 :    // (0, 1)   - up
+            case 1 :    // (0, 1)   - down
                 break;
-            case -11 :  // (-1, -1) - left-down
+            case -11 :  // (-1, -1) - left-up
                 break;
-            case 9 :    // (1, -1)  - right-down 
+            case 9 :    // (1, -1)  - right-up 
                 break;
-            case -9 :   // (-1, 1)  - left-up 
+            case -9 :   // (-1, 1)  - left-down 
                 break;
-            case 11 :   // (1, 1)   - right-up 
+            case 11 :   // (1, 1)   - right-down 
                 break;
         }
     }
