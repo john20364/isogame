@@ -7,8 +7,10 @@
         },
         "spritesheet":{
             "id":"player",
+            "img":null,
             "index":0
-        }
+        },
+        "isFloor":false
     },
     "0021":{
         "//":"Automate One",
@@ -17,13 +19,15 @@
             "x":1, "y":1
         },
         "spritesheet":{
-            "id":"player",
-            "index":1
+            "id":"automate",
+            "img":null,
+            "index":0
         },
         "path":[
             {"x":1, "y":1},
             {"x":11, "y":11}
-        ]
+        ],
+        "isFloor":false
     },
     "002":{
         "//":"Automate One",
@@ -32,13 +36,15 @@
             "x":3, "y":23
         },
         "spritesheet":{
-            "id":"player",
-            "index":1
+            "id":"automate",
+            "img":null,
+            "index":0
         },
         "path":[
             {"x":3, "y":17},
             {"x":3, "y":23}
-        ]
+        ],
+        "isFloor":false
     },
     "003":{
         "//":"Automate One",
@@ -47,13 +53,15 @@
             "x":7, "y":23
         },
         "spritesheet":{
-            "id":"player",
-            "index":1
+            "id":"automate",
+            "img":null,
+            "index":0
         },
         "path":[
             {"x":7, "y":17},
             {"x":7, "y":23}
-        ]
+        ],
+        "isFloor":false
     },
     "004":{
         "//":"Automate One",
@@ -62,13 +70,15 @@
             "x":13, "y":3
         },
         "spritesheet":{
-            "id":"player",
-            "index":1
+            "id":"automate",
+            "img":null,
+            "index":0
         },
         "path":[
             {"x":13, "y":3},
             {"x":13, "y":9}
-        ]
+        ],
+        "isFloor":false
     },
     "005":{
         "//":"Automate One",
@@ -77,13 +87,15 @@
             "x":17, "y":9
         },
         "spritesheet":{
-            "id":"player",
-            "index":1
+            "id":"automate",
+            "img":null,
+            "index":0
         },
         "path":[
             {"x":17, "y":3},
             {"x":17, "y":9}
-        ]
+        ],
+        "isFloor":false
     },
     "006":{
         "//":"Automate One",
@@ -92,13 +104,15 @@
             "x":21, "y":3
         },
         "spritesheet":{
-            "id":"player",
-            "index":1
+            "id":"automate",
+            "img":null,
+            "index":0
         },
         "path":[
             {"x":21, "y":3},
             {"x":21, "y":9}
-        ]
+        ],
+        "isFloor":false
     },
     "007":{
         "//":"Automate One",
@@ -107,13 +121,15 @@
             "x":25, "y":9
         },
         "spritesheet":{
-            "id":"player",
-            "index":1
+            "id":"automate",
+            "img":null,
+            "index":0
         },
         "path":[
             {"x":25, "y":3},
             {"x":25, "y":9}
-        ]
+        ],
+        "isFloor":false
     },
     "008":{
         "//":"Automate One",
@@ -122,13 +138,15 @@
             "x":29, "y":3
         },
         "spritesheet":{
-            "id":"player",
-            "index":1
+            "id":"automate",
+            "img":null,
+            "index":0
         },
         "path":[
             {"x":29, "y":3},
             {"x":29, "y":9}
-        ]
+        ],
+        "isFloor":false
     },
     "009":{
         "//":"Automate One",
@@ -137,13 +155,15 @@
             "x":33, "y":3
         },
         "spritesheet":{
-            "id":"player",
-            "index":1
+            "id":"automate",
+            "img":null,
+            "index":0
         },
         "path":[
             {"x":33, "y":3},
             {"x":33, "y":9}
-        ]
+        ],
+        "isFloor":false
     },
     "010":{
         "//":"Automate One",
@@ -152,13 +172,15 @@
             "x":37, "y":9
         },
         "spritesheet":{
-            "id":"player",
-            "index":1
+            "id":"automate",
+            "img":null,
+            "index":0
         },
         "path":[
             {"x":37, "y":3},
             {"x":37, "y":9}
-        ]
+        ],
+        "isFloor":false
     },
     "011":{
         "//":"Automate One",
@@ -167,13 +189,15 @@
             "x":41, "y":3
         },
         "spritesheet":{
-            "id":"player",
-            "index":1
+            "id":"automate",
+            "img":null,
+            "index":0
         },
         "path":[
             {"x":41, "y":3},
             {"x":41, "y":9}
-        ]
+        ],
+        "isFloor":false
     },
     "012":{
         "//":"Automate Two",
@@ -182,15 +206,17 @@
             "x":10, "y":5
         },
         "spritesheet":{
-            "id":"player",
-            "index":2
+            "id":"automate2",
+            "img":null,
+            "index":0
         },
         "path":[
             {"x":2, "y":2},
             {"x":2, "y":10},
             {"x":20, "y":10},
             {"x":20, "y":2}
-        ]
+        ],
+        "isFloor":false
     },
     "013":{
         "//":"Automate Three",
@@ -199,13 +225,15 @@
             "x":15, "y":15
         },
         "spritesheet":{
-            "id":"player",
-            "index":2
+            "id":"automate2",
+            "img":null,
+            "index":0
         },
         "path":[
             {"x":5, "y":25},
             {"x":15, "y":15}
-        ]
+        ],
+        "isFloor":false
     },
     "014":{
         "//":"Automate Four",
@@ -214,8 +242,9 @@
             "x":46, "y":15
         },
         "spritesheet":{
-            "id":"player",
-            "index":1
+            "id":"automate",
+            "img":null,
+            "index":0
         },
         "path":[
             {"x":46, "y":15},
@@ -223,7 +252,8 @@
             {"x":30, "y":25},
             {"x":46, "y":15},
             {"x":30, "y":25}
-        ]
+        ],
+        "isFloor":false
     },
     "015":{
         "//":"Automate Five",
@@ -232,15 +262,17 @@
             "x":2, "y":96
         },
         "spritesheet":{
-            "id":"player",
-            "index":1
+            "id":"automate",
+            "img":null,
+            "index":0
         },
         "path":[
             {"x":2, "y":96},
             {"x":2, "y":82},
             {"x":13, "y":82},
             {"x":13, "y":96}
-        ]
+        ],
+        "isFloor":false
     }
     
 }

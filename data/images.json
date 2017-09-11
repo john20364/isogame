@@ -1,17 +1,25 @@
 {
-    "001":{
-        "filename":"images\\players.png",
+    "000":{
+        "filename":"images\\player.png",
         "id":"player"
     },
+    "001":{
+        "filename":"images\\automate.png",
+        "id":"automate"
+    },
     "002":{
+        "filename":"images\\automate2.png",
+        "id":"automate2"
+    },
+    "003":{
         "filename":"images\\testplayer.png",
         "id":"testplayer"
     },
-    "003":{
+    "004":{
         "filename":"images\\floorsprites.png",
         "id":"floorsprites"
     },
-    "004":{
+    "005":{
         "filename":"images\\floorplan.png",
         "id":"floorplan"
     }

@@ -1,4 +1,5 @@
 function test() {
+    println("Test");
 }
 
 window.onload = function () {

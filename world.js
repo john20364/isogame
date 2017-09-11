@@ -13,7 +13,7 @@ function World() {
     const YWALL  = 0xFF0000;
     const CORNERWALL = 0x00FF00;
     const FLOOR = 0x000000;
-
+    
     // Initialization
     this.init = function (cb) {
         const ISOWIDTH = 128;
@@ -32,68 +32,53 @@ function World() {
     function createWorld(images, level, cb) {
         var imgobjects = new ImageObjectCollection();
         createImages(imgobjects, images, function () {
-            
-            entities = [];
-            
-            // Create floor + walls
-            createFloorAndWalls(imgobjects);
-            
-            getJSONData(level, function (data) {
-                createEntities(imgobjects, data);
+            createEntities(imgobjects, level, function () {
                 if (cb) cb();
             });
-        
         });
     }
-    
-    function createEntities (imgobjects, data) {
-        var factory = new EntityFactory();
-        
-        for (obj in data) {
-            var entity = undefined;
 
-            var o = data[obj];
-            switch (o.type) {
-                case "player" :
-                    entity = factory.createEntity(
-                        factory.typeEnum.PLAYER,
-                        that, 
-                        new Point(o.position.x,
-                                 o.position.y),
-                        imgobjects.getById(
-                            o.spritesheet.id).image,
-                        o.spritesheet.index,
-                        false);
-                    ISO.player = entity;
-                    break;
-                case "automate" :
-                    entity = factory.createEntity(
-                        factory.typeEnum.AUTOMATE,
-                        that, 
-                        new Point(o.position.x,
-                                 o.position.y), 
-                        imgobjects.getById(
-                            o.spritesheet.id).image,
-                        o.spritesheet.index,
-                        false);
+    function createEntity(factory, imgobjects, dataobj) {
+        var entity = undefined;
 
-                    // Set eentity path if defined
-                    if (o.path) {
-                        var path = [];
+        // Attach image to spritesheet object
+        dataobj.spritesheet.image = imgobjects.getById(
+            dataobj.spritesheet.id).image;
 
-                        for (j = 0; j < o.path.length; j++) {
-                            var point = o.path[j];
-                            path.push(new Point(point.x, point.y));
-                        }
-                        entity.setPath(path);
-                    }
-                    break;
-                case "solid" :
-                    // TODO..........
-                    break;
-            }
-            entities.push(entity);
+        switch (dataobj.type) {
+            case "player" :
+                entity = factory.createEntity(
+                    factory.typeEnum.PLAYER,
+                    that, 
+                    dataobj);
+                ISO.player = entity;
+                break;
+            case "automate" :
+                entity = factory.createEntity(
+                    factory.typeEnum.AUTOMATE,
+                    that, 
+                    dataobj);
+                break;
+            case "solid" :
+                // TODO..........
+                break;
         }
+        entities.push(entity);
+    }
+    
+    function createEntities (imgobjects, level, cb) {
+        entities = [];
+        
+        // Create floor + walls
+        createFloorAndWalls(imgobjects);
+        
+        getJSONData(level, function (data) {
+            var factory = new EntityFactory();
+            for (obj in data) {
+                createEntity(factory, imgobjects, data[obj]);
+            }
+            if (cb) cb();
+        });
     }
     
     function createFloorAndWalls (imgobjects) {
@@ -113,32 +98,52 @@ function World() {
                 pixel |= data[i*4+1] << 8;
                 pixel |= data[i*4+2];
 
+            var dataobj = {
+                type:"solid",
+                position:{
+                    x:null,
+                    y:null
+                },
+                spritesheet:{
+                    id:null,
+                    image:null,
+                    index:null
+                },
+                isFloor:null
+            };
+            
             var imgidx = 0;
             var isFloor = false;
+            
+            dataobj.spritesheet.id = "floorsprites";
+            dataobj.spritesheet.index = 0;
+            dataobj.isFloor = false;
+            dataobj.position.x = x;
+            dataobj.position.y = y;
+            dataobj.spritesheet.image = imgobjects.getById(
+                dataobj.spritesheet.id).image;
+            
             switch (pixel) {
                 case FLOOR:
-                    imgidx = 0;
-                    isFloor = true;
+                    dataobj.spritesheet.index = 0;
+                    dataobj.isFloor = true;
                     break;
                 case CORNERWALL:
-                    imgidx = 3;
+                    dataobj.spritesheet.index = 3;
                     break;
                 case YWALL:
-                    imgidx = 2;
+                    dataobj.spritesheet.index = 2;
                     break;
                 case XWALL:
-                    imgidx = 1;
+                    dataobj.spritesheet.index = 1;
                     break;
                 default:
             }
-            
+
             var entity = factory.createEntity(
                     factory.typeEnum.SOLID,
                     that,
-                    new Point(x, y), 
-                    imgobjects.getById("floorsprites").image,
-                    imgidx,
-                    isFloor);
+                    dataobj);
             
             entities.push(entity);
             
@@ -293,7 +298,6 @@ function World() {
     }
     
     this.run = function () {
-        var that = this;
         (function loop () {
             ISO.context.fillStyle = "#000000";
             ISO.context.fillRect(

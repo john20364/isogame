@@ -1,24 +1,13 @@
 function BaseEntity () {
     this.world = undefined;
     this.sprite = undefined;
+    this.data = undefined;
 }
 
-BaseEntity.prototype.init = function (  world,
-                                        position, 
-                                        spritesheet, 
-                                        spritewidth,
-                                        spriteheight,
-                                        index,
-                                        floor) {
+BaseEntity.prototype.init = function (world, data) {
     this.world = world;
-    
-    this.sprite = new Sprite(
-                        position,
-                        spritesheet, 
-                        spritewidth,
-                        spriteheight,
-                        index, 
-                        floor);
+    this.sprite = new Sprite(data);
+    this.data = data;
 }
 
 BaseEntity.prototype.getSprite = function () {
@@ -32,7 +21,6 @@ BaseEntity.prototype.setDirection = function (direction) {
 BaseEntity.prototype.getDirection = function () {
     return this.sprite.getDirection();
 }
-
 
 BaseEntity.prototype.setPosition = function (position) {
     this.sprite.setPosition(position);

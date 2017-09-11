@@ -1,23 +1,18 @@
 function Automate () {
-    this.path = undefined;
     this.pathindex = 0;
 }
 
 Automate.prototype = Object.create(BaseEntity.prototype);
-
-Automate.prototype.setPath = function (path) {
-    this.path = path;
-}
 
 Automate.prototype.getHeading = function () {
     return this.heading;
 }
 
 Automate.prototype.update = function () {
-    if (this.path === undefined) return;
+    if (!this.data.path) return;
     var p = this.getPosition().copy();
-    var dx = p.x - this.path[this.pathindex].x;
-    var dy = p.y - this.path[this.pathindex].y;
+    var dx = p.x - this.data.path[this.pathindex].x;
+    var dy = p.y - this.data.path[this.pathindex].y;
     
     var dir = this.getDirection();
     dir.x = 0;
@@ -70,16 +65,16 @@ Automate.prototype.update = function () {
 
     this.setPosition(p);
     if (Math.abs(dx) < step) {
-        p.x = this.path[this.pathindex].x; 
+        p.x = this.data.path[this.pathindex].x; 
     }
     if (Math.abs(dy) < step) {
-        p.y = this.path[this.pathindex].y;   
+        p.y = this.data.path[this.pathindex].y;   
     } 
 
-    if ((p.x === this.path[this.pathindex].x) &&
-       (p.y === this.path[this.pathindex].y)) {
+    if ((p.x === this.data.path[this.pathindex].x) &&
+       (p.y === this.data.path[this.pathindex].y)) {
         this.pathindex++;
-        this.pathindex %= this.path.length;
+        this.pathindex %= this.data.path.length;
     }
 }
 

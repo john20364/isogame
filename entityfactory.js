@@ -4,7 +4,7 @@ function EntityFactory () {
                     "PLAYER":2,
                     "SOLID":3};
     
-    this.createEntity = function (type, world, position, spritesheet, spriteindex, floor) {
+    this.createEntity = function (type, world, data) {
         var entity = undefined;
         switch (type) {
             case this.typeEnum.AUTOMATE:
@@ -18,7 +18,7 @@ function EntityFactory () {
                 break;
         }
         if (entity) {
-            entity.init(world, position, spritesheet, spriteindex, floor);
+            entity.init(world, data);
         }
         // Add new functionality to entity object here !!
         return entity;

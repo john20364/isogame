@@ -6,7 +6,9 @@
         },
         "spritesheet":{
             "id":"player",
+            "image":null,
             "index":0
-        }
+        },
+        "isFloor":false
     }
 }

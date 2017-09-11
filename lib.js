@@ -23,43 +23,32 @@ function createNS(ns) {
     return root;
 }
 
-function Point (x, y, z) {
+function Point (x, y) {
     this.x = x || 0;
     this.y = y || 0;
-    this.z = z || 0;
     
     this.copy = function () {
-        return new Point(this.x, this.y, this.z);
+        return new Point(this.x, this.y);
     }
     
     this.multiply = function (factor) {
         this.x *= factor;
         this.y *= factor;
-        this.z *= factor;
         return this;
     }
 
     this.divide = function (factor) {
         this.x /= factor;
         this.y /= factor;
-        this.z /= factor;
         return this;
     }
     
     this.set = function (point) {
         this.x = point.x;
         this.y = point.y;
-        this.z = point.z;
         return this;
     }
 }
-
-//function getObjectById(arr, id) {
-//    for (var i = 0; i < arr.length; i++) {
-//        if (arr[i].id === id) return arr[i];
-//    }
-//    return undefined;
-//}
 
 function ImageObjectCollection() {
     var objects = [];
