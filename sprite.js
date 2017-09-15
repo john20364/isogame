@@ -6,15 +6,29 @@ function Sprite(data) {
     var sy = 0;
     var sw = ISO.isowidth;
     var sh = data.spritesheet.image.height;
+    var delay = 0;
+    if (data.animation) {
+        sh = Math.round(sh / data.animation.length); 
+    } 
+    
     var dx = twoD.x - (ISO.isowidth >> 1);
     var dy = twoD.y - 
-        (data.spritesheet.image.height - ISO.isoheight);
+        (sh - ISO.isoheight);
     var dw = ISO.isowidth;
-    var dh = data.spritesheet.image.height;
-    
+    var dh = sh;
+
     this.render = function () {
         ISO.context.drawImage(
             data.spritesheet.image, sx, sy, sw, sh, dx, dy, dw, dh);
+
+        if (data.animation) {
+            if (delay === 0) {
+                sy += sh;
+                sy %= data.spritesheet.image.height;
+            }
+            delay++;
+            delay %= data.animation.delay;
+        }
     }
 
     this.setDirection = function (direction) {
@@ -61,7 +75,7 @@ function Sprite(data) {
         twoD = isoTo2D(position);
         dx = twoD.x - (ISO.isowidth >> 1);
         dy = twoD.y - 
-            (data.spritesheet.image.height - ISO.isoheight);
+            (sh - ISO.isoheight);
     }
     
     this.getPosition = function () {

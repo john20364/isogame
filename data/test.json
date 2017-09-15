@@ -9,6 +9,10 @@
             "image":null,
             "index":0
         },
+        "animation":{
+            "length":6,
+            "delay":5
+        },
         "isFloor":false
     }
 }
