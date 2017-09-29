@@ -10,9 +10,117 @@
             "index":0
         },
         "animation":{
-            "length":6,
+            "heading":"E",
+            "auto":false,
+            "offset":1,
+            "length":7,
             "delay":5
         },
         "isFloor":false
+    },
+    "002":{
+        "type":"automate",
+        "position":{
+            "x":8, "y":8
+        },
+        "spritesheet":{
+            "id":"enemy",
+            "image":null,
+            "index":0
+        },
+        "animation":{
+            "heading":"2",
+            "auto":false,
+            "offset":1,
+            "length":2,
+            "delay":5
+        },
+        "path":[
+            {"x":1, "y":1},
+            {"x":8, "y":8}
+        ],
+        "isFloor":false
+    },
+    "003":{
+        "type":"automate",
+        "position":{
+            "x":10, "y":2
+        },
+        "spritesheet":{
+            "id":"enemy",
+            "image":null,
+            "index":0
+        },
+        "animation":{
+            "heading":"2",
+            "auto":false,
+            "offset":1,
+            "length":2,
+            "delay":5
+        },
+        "path":[
+            {"x":10, "y":2},
+            {"x":2, "y":2},
+            {"x":2, "y":10},
+            {"x":10, "y":10}
+        ],
+        "isFloor":false
+    },
+    "004":{
+        "type":"group",
+        "objects":[
+            {
+                "type":"solid",
+                "position":{
+                    "x":14, "y":4
+                },
+                "spritesheet":{
+                    "id":"automate",
+                    "image":null,
+                    "index":0
+                },
+                "door":{},
+                "isFloor":false
+            },
+            {
+                "type":"solid",
+                "position":{
+                    "x":15, "y":4
+                },
+                "spritesheet":{
+                    "id":"automate",
+                    "image":null,
+                    "index":0
+                },
+                "door":{},
+                "isFloor":false
+            },
+            {
+                "type":"solid",
+                "position":{
+                    "x":16, "y":4
+                },
+                "spritesheet":{
+                    "id":"automate",
+                    "image":null,
+                    "index":0
+                },
+                "door":{},
+                "isFloor":false
+            },
+            {
+                "type":"solid",
+                "position":{
+                    "x":17, "y":4
+                },
+                "spritesheet":{
+                    "id":"automate",
+                    "image":null,
+                    "index":0
+                },
+                "door":{},
+                "isFloor":false
+            }
+        ]
     }
 }

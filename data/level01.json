@@ -11,6 +11,7 @@
             "index":0
         },
         "animation":{
+            "auto":false,
             "length":6,
             "delay":5
         },

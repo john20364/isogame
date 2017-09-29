@@ -27,6 +27,11 @@ function Point (x, y) {
     this.x = x || 0;
     this.y = y || 0;
     
+    this.precision = function (n) {
+        this.x = parseFloat(this.x.toPrecision(n));    
+        this.y = parseFloat(this.y.toPrecision(n));    
+    }
+    
     this.copy = function () {
         return new Point(this.x, this.y);
     }

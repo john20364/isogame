@@ -1,10 +1,16 @@
 function test() {
     println("Test");
+    p = new Point();
+    p.x = 0.001434
+    println(p.x);
+    p.x = p.x.toPrecision(1);
+    println(p.x);
 }
 
 window.onload = function () {
 //    test();
-    init();
+//    init();
+    Hitdetectiontest.init();
 };
 
 function init() {
@@ -25,6 +31,9 @@ function doKeyDown (e) {
         ISO.player.moveUp(true);
     } else if (e.keyCode === DOWN_ARROW) {
         ISO.player.moveDown(true);
+    } else if (e.keyCode === KEY_SPACE) {
+        ISO.player.moveRight(true);
+        ISO.player.moveDown(true);
     }
 }
 
@@ -36,6 +45,9 @@ function doKeyUp (e) {
     } else if (e.keyCode === UP_ARROW) {
         ISO.player.moveUp(false);
     } else if (e.keyCode === DOWN_ARROW) {
+        ISO.player.moveDown(false);
+    } else if (e.keyCode === KEY_SPACE) {
+        ISO.player.moveRight(false);
         ISO.player.moveDown(false);
     }
 }

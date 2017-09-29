@@ -23,8 +23,9 @@ function World() {
         ISO.context = canvas.getContext("2d");
         ISO.width = canvas.width = window.innerWidth;
         ISO.height = canvas.height = window.innerHeight;
+        ISO.collision = new Collision();
         
-        createWorld("images.json", "level01.json", function () {
+        createWorld("images.json", "test.json", function () {
             if (cb) cb();
         })
      }
@@ -60,10 +61,28 @@ function World() {
                     dataobj);
                 break;
             case "solid" :
-                // TODO..........
+                entity = factory.createEntity(
+                    factory.typeEnum.SOLID,
+                    that, 
+                    dataobj);
                 break;
         }
         entities.push(entity);
+        return entity;
+    }
+    
+    function createGroup(factory, imgobjects, objects){
+        var prev = undefined;
+        var entity = undefined;
+        for (var i = 0; i < objects.length; i++) {
+            entity = createEntity(factory, imgobjects, objects[i]);
+            // Set left and right links
+            if (prev) {
+                prev.setRight(entity);
+                entity.setLeft(prev);
+            }
+            prev = entity;
+        }
     }
     
     function createEntities (imgobjects, level, cb) {
@@ -75,7 +94,12 @@ function World() {
         getJSONData(level, function (data) {
             var factory = new EntityFactory();
             for (obj in data) {
-                createEntity(factory, imgobjects, data[obj]);
+                if (data[obj].type === "group") {
+                    createGroup(factory, imgobjects, data[obj].objects);
+                    
+                } else {
+                    createEntity(factory, imgobjects, data[obj]);
+                }
             }
             if (cb) cb();
         });
@@ -210,91 +234,17 @@ function World() {
     }
     
     function update () {
+        ISO.player.update();
         for (var i = 0; i < entities.length; i++) {
-            entities[i].update();
-        }
-    }
-
-    function walkObjectEntities (entity, cb) {
-        for (var i = 0; i < objectentities.length; i++) {
-            var obj = objectentities[i];
-            if (obj !== entity) {
-                cb(obj);
+            if (!(entities[i] instanceof Player)) {
+                entities[i].update();
             }
         }
+        ISO.player.update();
     }
-    
-    this.canMove = function (entity, newposition) {
-        var dir = entity.getDirection();
-        var ep = newposition;
-        walkObjectEntities(entity, function (obj) {
-            var op = obj.getPosition();
-            if (Math.abs(ep.x - op.x) < 1 && 
-               Math.abs(ep.y - op.y) < 1) {
-                
-                var oldpos =  entity.getPosition();
 
-                // If player goes diagonal don't move
-                // to prevent update conflicts !!!!!
-                if (obj === ISO.player && 
-                    obj.getDirection().x !== 0 && obj.getDirection().y !== 0) {
-                        newposition.set(oldpos);
-                        return false;
-                }
-                
-                var dx = Math.abs(oldpos.x - op.x);
-                var dy = Math.abs(oldpos.y - op.y);
-                
-                // Golden Trick to prevent stutter on
-                // left-up direction along the walls
-                // Check if it is not an automate because 
-                // presicion is needed there !!!!!
-                if (entity === ISO.player && 
-                    !(obj instanceof Automate)) {
-                    dx = dx.toPrecision(1);
-                    dy = dy.toPrecision(1);
-                }
-                
-                // if diogonal is direct to the corner to
-                // other obj then stop !!!!!
-                // Except for the player. This is needed for
-                // smooth movements when going diagonal.
-                if (entity !== ISO.player && dx === dy) {
-                    newposition.set(oldpos);
-                    return false;
-                }
-                
-                if (dx < 0.001) dx = 0;
-                if (dy < 0.001) dy = 0;
-                
-                if (dir.y === -1 && dir.x === -1) {
-                    if (dx > dy) newposition.x = op.x + 1;
-                    if (dy > dx) newposition.y = op.y + 1;
-                } else if (dir.y === -1 && dir.x === 1) {
-                    if (dx > dy) newposition.x = op.x - 1;
-                    if (dy > dx) newposition.y = op.y + 1;
-                } else if (dir.y === 1 && dir.x === -1) {
-                    if (dx > dy) newposition.x = op.x + 1;
-                    if (dy > dx) newposition.y = op.y - 1;
-                } else if (dir.y === 1 && dir.x === 1) {
-                    if (dx > dy) newposition.x = op.x - 1;
-                    if (dy > dx) newposition.y = op.y - 1;
-                } else if (dir.y === -1 && dir.x === 0) {
-                    newposition.y = op.y + 1;
-                } else if (dir.y === 1 && dir.x === 0) {
-                    newposition.y = op.y - 1;
-                } else if (dir.x === -1 && dir.y === 0) {
-                    newposition.x = op.x + 1;
-                } else if (dir.x === 1 && dir.y === 0) {
-                    newposition.x = op.x - 1;
-                } else {
-                    newposition.x = oldpos.x;
-                    newposition.y = oldpos.y;
-                }
-                return false;
-            }
-        });
-        return true;    
+    this.checkCollision = function (dir, entity) {
+        ISO.collision.checkCollision(objectentities, dir, entity);
     }
     
     this.run = function () {
