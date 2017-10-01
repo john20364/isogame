@@ -40,6 +40,7 @@ function Collision () {
     }
 
     this.checkCollision = function(entities, dir, entity) {
+        var result = undefined;
         var hobjs = [];
         var vobjs = [];
         var p = entity.getPosition();
@@ -89,12 +90,14 @@ function Collision () {
         if (dir.x === 1 && dir.y === 1) {
             if (hobjs.length !== 0) {
                 entity.dirCorrection(hobjs[0]);
+                result = hobjs[0];
                 var o = hobjs[0].getPosition();
                 p.x = o.x - 1;
             } 
 
             if (vobjs.length !== 0) {
                 entity.dirCorrection(vobjs[0]);
+                result = vobjs[0];
                 var o = vobjs[0].getPosition();
                 p.y = o.y - 1;
             }
@@ -102,12 +105,14 @@ function Collision () {
         } else if (dir.x === 1 && dir.y === -1) {
             if (hobjs.length !== 0) {
                 entity.dirCorrection(hobjs[0]);
+                result = hobjs[0];
                 var o = hobjs[0].getPosition();
                 p.x = o.x - 1;
             }
 
             if (vobjs.length !== 0) {
                 entity.dirCorrection(vobjs[0]);
+                result = vobjs[0];
                 var o = vobjs[0].getPosition();
                 p.y = o.y + 1;
             }
@@ -115,12 +120,14 @@ function Collision () {
         } else if (dir.x === -1 && dir.y === 1) {
             if (hobjs.length !== 0) {
                 entity.dirCorrection(hobjs[0]);
+                result = hobjs[0];
                 var o = hobjs[0].getPosition();
                 p.x = o.x + 1;
             }
 
             if (vobjs.length !== 0) {
                 entity.dirCorrection(vobjs[0]);
+                result = vobjs[0];
                 var o = vobjs[0].getPosition();
                 p.y = o.y - 1;
             }
@@ -128,40 +135,47 @@ function Collision () {
         } else if (dir.x === -1 && dir.y === -1) {
             if (hobjs.length !== 0) {
                 entity.dirCorrection(hobjs[0]);
+                result = hobjs[0];
                 var o = hobjs[0].getPosition();
                 p.x = o.x + 1;
             }
 
             if (vobjs.length !== 0) {
                 entity.dirCorrection(vobjs[0]);
+                result = vobjs[0];
                 var o = vobjs[0].getPosition();
                 p.y = o.y + 1;
             }
         // right
         } else if (dir.x === 1 && dir.y === 0) {
             if (hobjs.length !== 0) {
+                result = hobjs[0];
                 var o = hobjs[0].getPosition();
                 p.x = o.x - 1;
             }
         // left
         } else if (dir.x === -1 && dir.y === 0) {
             if (hobjs.length !== 0) {
+                result = hobjs[0];
                 var o = hobjs[0].getPosition();
                 p.x = o.x + 1;
             }
         // down
         } else if (dir.x === 0 && dir.y === 1) {
             if (vobjs.length !== 0) {
+                result = vobjs[0];
                 var o = vobjs[0].getPosition();
                 p.y = o.y - 1;
             }
         // up
         } else if (dir.x === 0 && dir.y === -1) {
             if (vobjs.length !== 0) {
+                result = vobjs[0];
                 var o = vobjs[0].getPosition();
                 p.y = o.y + 1;
             }
         }
+        return result;
     }
     
 }

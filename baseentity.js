@@ -2,6 +2,7 @@ function BaseEntity () {
     this.world = undefined;
     this.sprite = undefined;
     this.data = undefined;
+    this.behaviour = undefined;
 }
 
 BaseEntity.prototype.init = function (world, data) {
@@ -10,8 +11,23 @@ BaseEntity.prototype.init = function (world, data) {
     this.data = data;
 }
 
+BaseEntity.prototype.getId = function () {
+    if (this.data.id) {
+        return this.data.id;
+    }
+    return undefined;
+}
+
+BaseEntity.prototype.setBehaviour = function (behaviour) {
+    this.behaviour = behaviour;
+}
+
 BaseEntity.prototype.getSprite = function () {
     return this.sprite;
+}
+
+BaseEntity.prototype.getHeading = function () {
+    return this.sprite.getHeading()
 }
 
 BaseEntity.prototype.setDirection = function (direction) {
@@ -44,5 +60,9 @@ BaseEntity.prototype.render = function () {
 
 BaseEntity.prototype.update = function () {
     alert("BaseEntity.prototype.update");
+}
+
+BaseEntity.prototype.action = function (initiator) {
+    alert("BaseEntity.prototype.action");
 }
 

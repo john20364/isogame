@@ -104,16 +104,6 @@ Automate.prototype.update = function () {
     this.setPosition(p);
     this.setDirection(dir);
 
-//    if (this.world.canMove(this, p)) {
-//    }
-
-//    if (Math.abs(dx) < step) {
-//        p.x = this.data.path[this.pathindex].x; 
-//    }
-//    if (Math.abs(dy) < step) {
-//        p.y = this.data.path[this.pathindex].y;   
-//    } 
-
     if ((p.x === this.data.path[this.pathindex].x) &&
        (p.y === this.data.path[this.pathindex].y)) {
         this.pathindex++;
@@ -121,3 +111,6 @@ Automate.prototype.update = function () {
     }
 }
 
+Automate.prototype.action = function (initiator) {
+    // Todo.....
+}

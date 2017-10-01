@@ -83,7 +83,33 @@ function Sprite(data) {
                 break;
         }
     }
+    
+    this.nextAnimationStep = function () {
+        if (data.animation && 
+            sy !== data.spritesheet.image.height - sh) {
+            if (delay === 0) {
+                sy += sh;
+            }
+            delay++;
+            delay %= data.animation.delay;
+            return true;
+        }
+        return false;
+    }
 
+    this.previousAnimationStep = function () {
+        if (data.animation && 
+            sy !== 0) {
+            if (delay === 0) {
+                sy -= sh;
+            }
+            delay++;
+            delay %= data.animation.delay;
+            return true;
+        }
+        return false;
+    }
+    
     this.render = function () {
         if (data.animation && enable) {
             if (heading === 0 && !data.animation.auto) {

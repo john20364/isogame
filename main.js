@@ -9,8 +9,8 @@ function test() {
 
 window.onload = function () {
 //    test();
-//    init();
-    Hitdetectiontest.init();
+    init();
+//    Hitdetectiontest.init();
 };
 
 function init() {
@@ -32,8 +32,7 @@ function doKeyDown (e) {
     } else if (e.keyCode === DOWN_ARROW) {
         ISO.player.moveDown(true);
     } else if (e.keyCode === KEY_SPACE) {
-        ISO.player.moveRight(true);
-        ISO.player.moveDown(true);
+        ISO.player.doAction();
     }
 }
 
@@ -47,8 +46,6 @@ function doKeyUp (e) {
     } else if (e.keyCode === DOWN_ARROW) {
         ISO.player.moveDown(false);
     } else if (e.keyCode === KEY_SPACE) {
-        ISO.player.moveRight(false);
-        ISO.player.moveDown(false);
     }
 }
 

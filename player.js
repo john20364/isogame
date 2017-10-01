@@ -6,6 +6,7 @@ function Player () {
     this.prevPosition = new Point();
     this.dircorrection = false;
     this.hitobj = undefined;
+    this.lastHitObject = undefined;
 }
 
 Player.prototype = Object.create(BaseEntity.prototype);
@@ -104,10 +105,41 @@ Player.prototype.update = function () {
     this.walkUp = saveUp;
     this.walkDown = saveDown;
 
-    this.world.checkCollision(dir, this);
+    // Save reference for interaction object
+    var obj = this.world.checkCollision(dir, this);
+    if (obj !== undefined) {
+        this.lastHitObject = obj;
+    }
 
     this.setPosition(position);
     this.setDirection(dir);
+}
+
+Player.prototype.doAction = function () {
+    var obj = this.lastHitObject;
+    if (obj === undefined) return;
+    
+    // Check if player is close enough for interaction
+    var heading = this.getHeading();
+    var pos = this.getPosition();
+    var o = obj.getPosition();
+    
+    var dx = 0;
+    var dy = 0;
+    
+    if (heading === "E" || heading === "W") {
+        dx = Math.abs(pos.x - o.x);
+    } else if (heading === "N" || heading === "S") {
+        dy = Math.abs(pos.y - o.y);
+    }
+    
+    if (dx === 1 || dy === 1) {
+        obj.action(this);
+    }
+}
+
+Player.prototype.action = function (initiator) {
+    // Todo.....
 }
 
 Player.prototype.moveRight = function (walking) {

@@ -37,7 +37,7 @@
         },
         "path":[
             {"x":1, "y":1},
-            {"x":8, "y":8}
+            {"x":11, "y":11}
         ],
         "isFloor":false
     },
@@ -71,6 +71,7 @@
         "objects":[
             {
                 "type":"solid",
+                "id":"door",
                 "position":{
                     "x":14, "y":4
                 },
@@ -84,6 +85,7 @@
             },
             {
                 "type":"solid",
+                "id":"door",
                 "position":{
                     "x":15, "y":4
                 },
@@ -97,6 +99,7 @@
             },
             {
                 "type":"solid",
+                "id":"door",
                 "position":{
                     "x":16, "y":4
                 },
@@ -110,6 +113,7 @@
             },
             {
                 "type":"solid",
+                "id":"door",
                 "position":{
                     "x":17, "y":4
                 },

@@ -65,6 +65,10 @@ function World() {
                     factory.typeEnum.SOLID,
                     that, 
                     dataobj);
+                
+                if (entity.getId() === "door") {
+                    entity.setBehaviour(new DoorBehaviour());
+                }
                 break;
         }
         entities.push(entity);
@@ -76,11 +80,14 @@ function World() {
         var entity = undefined;
         for (var i = 0; i < objects.length; i++) {
             entity = createEntity(factory, imgobjects, objects[i]);
-            // Set left and right links
-            if (prev) {
+            
+            if (prev !== undefined) {
+                // Set left and right links
                 prev.setRight(entity);
                 entity.setLeft(prev);
+                prev = entity;
             }
+            
             prev = entity;
         }
     }
@@ -244,7 +251,7 @@ function World() {
     }
 
     this.checkCollision = function (dir, entity) {
-        ISO.collision.checkCollision(objectentities, dir, entity);
+        return ISO.collision.checkCollision(objectentities, dir, entity);
     }
     
     this.run = function () {
