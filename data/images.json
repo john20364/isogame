@@ -26,5 +26,9 @@
     "006":{
         "filename":"images\\floorplan.png",
         "id":"floorplan"
+    },
+    "007":{
+        "filename":"images\\xdoor.png",
+        "id":"xdoor"
     }
 }

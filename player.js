@@ -109,6 +109,7 @@ Player.prototype.update = function () {
     var obj = this.world.checkCollision(dir, this);
     if (obj !== undefined) {
         this.lastHitObject = obj;
+//        this.doAction();
     }
 
     this.setPosition(position);
@@ -123,7 +124,7 @@ Player.prototype.doAction = function () {
     var heading = this.getHeading();
     var pos = this.getPosition();
     var o = obj.getPosition();
-    
+     
     var dx = 0;
     var dy = 0;
     

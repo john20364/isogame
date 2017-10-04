@@ -73,12 +73,18 @@
                 "type":"solid",
                 "id":"door",
                 "position":{
-                    "x":14, "y":4
+                    "x":4, "y":12
                 },
                 "spritesheet":{
-                    "id":"automate",
+                    "id":"xdoor",
                     "image":null,
                     "index":0
+                },
+                "animation":{
+                    "auto":false,
+                    "offset":0,
+                    "length":17,
+                    "delay":1
                 },
                 "door":{},
                 "isFloor":false
@@ -87,40 +93,18 @@
                 "type":"solid",
                 "id":"door",
                 "position":{
-                    "x":15, "y":4
+                    "x":5, "y":12
                 },
                 "spritesheet":{
-                    "id":"automate",
+                    "id":"xdoor",
                     "image":null,
-                    "index":0
+                    "index":1
                 },
-                "door":{},
-                "isFloor":false
-            },
-            {
-                "type":"solid",
-                "id":"door",
-                "position":{
-                    "x":16, "y":4
-                },
-                "spritesheet":{
-                    "id":"automate",
-                    "image":null,
-                    "index":0
-                },
-                "door":{},
-                "isFloor":false
-            },
-            {
-                "type":"solid",
-                "id":"door",
-                "position":{
-                    "x":17, "y":4
-                },
-                "spritesheet":{
-                    "id":"automate",
-                    "image":null,
-                    "index":0
+                "animation":{
+                    "auto":false,
+                    "offset":0,
+                    "length":17,
+                    "delay":1
                 },
                 "door":{},
                 "isFloor":false
