@@ -39,12 +39,35 @@ function World() {
         });
     }
 
+    function setBehaviour(entity) {
+        let behaviour = undefined;
+        switch (entity.getId()) {
+            case "door":
+                behaviour = new DoorBehaviour();
+                break;
+            case "door2":
+                behaviour = new DoorBehaviour2();
+                break;
+        }
+        
+        if (behaviour) {
+            behaviour.setOwner(entity);
+            entity.setBehaviour(behaviour);
+        }
+    }
+    
     function createEntity(factory, imgobjects, dataobj) {
         var entity = undefined;
 
         // Attach image to spritesheet object
         dataobj.spritesheet.image = imgobjects.getById(
             dataobj.spritesheet.id).image;
+        
+        // If mask available attach image to mask
+        if (dataobj.mask) {
+            dataobj.mask.image = imgobjects.getById(
+                dataobj.mask.id).image;    
+        }
 
         switch (dataobj.type) {
             case "player" :
@@ -65,10 +88,7 @@ function World() {
                     factory.typeEnum.SOLID,
                     that, 
                     dataobj);
-                
-                if (entity.getId() === "door") {
-                    entity.setBehaviour(new DoorBehaviour());
-                }
+                setBehaviour(entity);
                 break;
         }
         entities.push(entity);

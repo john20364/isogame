@@ -30,5 +30,25 @@
     "007":{
         "filename":"images\\xdoor.png",
         "id":"xdoor"
+    },
+    "008":{
+        "filename":"images\\ydoor.png",
+        "id":"ydoor"
+    },
+    "009":{
+        "filename":"images\\xdoor2.png",
+        "id":"xdoor2"
+    },
+    "010":{
+        "filename":"images\\xdoor2mask.png",
+        "id":"xdoor2mask"
+    },
+    "011":{
+        "filename":"images\\ydoor2.png",
+        "id":"ydoor2"
+    },
+    "012":{
+        "filename":"images\\ydoor2mask.png",
+        "id":"ydoor2mask"
     }
 }

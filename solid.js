@@ -25,13 +25,13 @@ Solid.prototype.getRight = function () {
 }
 
 Solid.prototype.update = function () {
-    if (this.behaviour && this.behaviour.isActive()) {
-        this.behaviour.perform();
+    if (this.behaviour) {
+        this.behaviour.update();
     }
 }
 
 Solid.prototype.action = function (initiator) {
     if (this.behaviour) {
-        this.behaviour.init(initiator, this);
+        this.behaviour.init(initiator);
     } 
 }

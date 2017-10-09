@@ -9,6 +9,7 @@ function Sprite(data) {
     var delay = 0;
     var enable = false;
     var heading = 0;
+    var that = this;
     
     if (data.animation) {
         enable = data.animation.auto;
@@ -21,6 +22,20 @@ function Sprite(data) {
         (sh - ISO.isoheight);
     var dw = ISO.isowidth;
     var dh = sh;
+    
+    var savedpos = new Point(-1);
+    var old2D = twoD.copy();
+
+    function savePosition () {
+        if (savedpos.x === -1) {
+            savedpos.set(position);
+            old2D.set(twoD);
+        }
+    }
+    
+    function clearSavedPosition () {
+        savedpos.x = -1;
+    }
     
     this.getHeading = function () {
         switch (data.spritesheet.index) {
@@ -83,34 +98,193 @@ function Sprite(data) {
                 break;
         }
     }
+
+    function _doorrender () {
+        if (data.mask) {
+            let mx = ISO.isowidth * data.mask.index;
+            let my = 0;
+            let mw = ISO.isowidth;
+            let mh = data.mask.image.height;
+            
+            let c = document.createElement("canvas");
+            c.width = mw;
+            c.height = mh;
+            
+            let ctx = c.getContext("2d");
+
+            ctx.drawImage(data.spritesheet.image, 
+                sx, sy, sw, sh, 0, 0, dw, dh);
+            
+            ctx.globalCompositeOperation="destination-in";
+            
+            let x = 0;
+            let y = 0;
+            
+            switch (data.door.type) {
+                case "left":
+                    x = old2D.x - twoD.x;
+                    y = old2D.y - twoD.y;
+
+                    if (x < 0) x += 64;
+                    if (y < 0) y += 32;
+                    
+                    if (x === 64) x = 128;
+                    if (y === 32) y = 64;
+                    
+//                    console.log("x: " + x + " y: " + y);
+                    break;
+                case "right":
+                    x = twoD.x - old2D.x;
+                    y = twoD.y - old2D.y;
+                    
+                    if (x < 0) x += 64;
+                    if (y < 0) y += 32;
+
+                    if (x === 64) x = 128;
+                    if (y === 32) y = 64;
+
+//                    console.log("x: " + x + " y: " + y);
+                    
+                    x *= -1;
+                    y *= -1;
+                    break;
+                case "up":
+                    x = twoD.x - old2D.x;
+                    y = old2D.y - twoD.y;
+
+                    if (x < 0) x += 64;
+                    if (y < 0) y += 32;
+                    
+                    if (x === 64) x = 128;
+                    if (y === 32) y = 64;
+                    
+//                    console.log("x: " + x + " y: " + y);
+                    x *= -1;
+                    break;
+                case "down":
+                    x = old2D.x - twoD.x;
+                    y = twoD.y - old2D.y;
+
+                    if (x < 0) x += 64;
+                    if (y < 0) y += 32;
+                    
+                    if (x === 64) x = 128;
+                    if (y === 32) y = 64;
+//                    console.log("x: " + x + " y: " + y);
+                    
+                    y *= -1;
+                    break;
+            }
+            
+            ctx.drawImage(
+                data.mask.image, 
+                mx, my, mw, mh, x, y, mw, mh);
+            
+            ISO.context.drawImage(
+                c, 0, 0, sw, sh, dx, dy, dw, dh);
+        }
+    }
+
+    this.noAnimation = function (id = 0) {
+        sy = (sh * id) % data.spritesheet.image.height;
+    }
     
     this.nextAnimationStep = function () {
-        if (data.animation && 
-            sy !== data.spritesheet.image.height - sh) {
+        if (data.animation) {
             if (delay === 0) {
                 sy += sh;
+                sy %= data.spritesheet.image.height;
             }
             delay++;
             delay %= data.animation.delay;
-            return true;
         }
-        return false;
     }
 
     this.previousAnimationStep = function () {
-        if (data.animation && 
-            sy !== 0) {
+        if (data.animation) {
             if (delay === 0) {
+                if (sy === 0) 
+                    sy = data.spritesheet.image.height;
                 sy -= sh;
             }
             delay++;
             delay %= data.animation.delay;
-            return true;
         }
-        return false;
     }
     
-    this.render = function () {
+    this.moveUp = function () {
+        if (data.door === undefined) return;
+        savePosition();
+        let p = position.copy();
+        let desty = Math.abs(savedpos.y - p.y);
+        if (desty < data.door.movedistance) {
+            p.y -= data.door.speed;
+            if (savedpos.y - p.y >= data.door.movedistance) {
+                p.y = savedpos.y - data.door.movedistance
+            }
+            that.setPosition(p);
+            return false;
+        } else {
+            clearSavedPosition();
+            return true;
+        }
+    }
+    
+    this.moveDown = function () {
+        if (data.door === undefined) return;
+        savePosition();
+        let p = position.copy();
+        let desty = Math.abs(savedpos.y - p.y);
+        if (desty < data.door.movedistance) {
+            p.y += data.door.speed;
+            if (p.y - savedpos.y >= data.door.movedistance) {
+                p.y = savedpos.y + data.door.movedistance
+            }
+            that.setPosition(p);
+            return false;
+        } else {
+            clearSavedPosition();
+            return true;
+        }
+    }
+    
+    this.moveLeft = function () {
+        if (data.door === undefined) return;
+        savePosition();
+        let p = position.copy();
+        let destx = Math.abs(savedpos.x - p.x);
+        if (destx < data.door.movedistance) {
+            p.x -= data.door.speed;
+            if (savedpos.x - p.x >= data.door.movedistance) {
+                p.x = savedpos.x - data.door.movedistance;
+            }
+            that.setPosition(p);
+            return false;
+        } else {
+            clearSavedPosition();
+            return true;
+        }
+    }
+    
+    this.moveRight = function () {
+        if (data.door === undefined) return;
+        savePosition();
+        let p = position.copy();
+        let destx = Math.abs(savedpos.x - p.x);
+        if (destx < data.door.movedistance) {
+            p.x += data.door.speed;
+            if (p.x - savedpos.x >= data.door.movedistance) {
+                p.x = savedpos.x + data.door.movedistance;
+            }
+            that.setPosition(p);
+            return false;
+        } else {
+            clearSavedPosition();
+            return true;
+        }
+    }
+    
+    function _render() {
         if (data.animation && enable) {
             if (heading === 0 && !data.animation.auto) {
                 sy = 0;
@@ -131,7 +305,13 @@ function Sprite(data) {
             delay %= data.animation.delay;
         }
     }
-
+    
+    if (data.id === "door2") {
+        this.render = _doorrender;
+    } else {
+        this.render = _render;
+    }
+    
     this.setDirection = function (direction) {
         dir = direction;    
         heading = dir.x * 10 + dir.y;

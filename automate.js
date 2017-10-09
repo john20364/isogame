@@ -33,7 +33,7 @@ Automate.prototype.update = function () {
     dir.x = 0;
     dir.y = 0;
     
-    var step = 0.05;
+    var step = this.data.speed;
 
     if (dx > 0 && dy > 0) {
         dir.x = -1;

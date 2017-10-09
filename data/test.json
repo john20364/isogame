@@ -1,8 +1,9 @@
 {
     "001":{
         "type":"player",
+        "speed":0.1,
         "position":{
-            "x":1, "y":1
+            "x":25, "y":17
         },
         "spritesheet":{
             "id":"player",
@@ -20,6 +21,7 @@
     },
     "002":{
         "type":"automate",
+        "speed":0.05,
         "position":{
             "x":8, "y":8
         },
@@ -29,7 +31,7 @@
             "index":0
         },
         "animation":{
-            "heading":"2",
+            "heading":"E",
             "auto":false,
             "offset":1,
             "length":2,
@@ -43,6 +45,7 @@
     },
     "003":{
         "type":"automate",
+        "speed":0.05,
         "position":{
             "x":10, "y":2
         },
@@ -52,7 +55,7 @@
             "index":0
         },
         "animation":{
-            "heading":"2",
+            "heading":"E",
             "auto":false,
             "offset":1,
             "length":2,
@@ -66,49 +69,709 @@
         ],
         "isFloor":false
     },
+    "0041":{
+        "type":"group",
+        "objects":[
+            {
+                "type":"solid",
+                "id":"door2",
+                "position":{
+                    "x":2, "y":12
+                },
+                "animator":true,
+                "animation":{
+                    "auto":false,
+                    "offset":0,
+                    "length":8,
+                    "delay":5
+                },                
+                "spritesheet":{
+                    "id":"xdoor2",
+                    "image":null,
+                    "index":0
+                },
+                "mask":{
+                    "id":"xdoor2mask",
+                    "image":null,
+                    "index":0
+                },
+                "door":{
+                    "type":"left",
+                    "speed":0.025,
+                    "movedistance":1
+                },
+                "isFloor":false
+            },
+            {
+                "type":"solid",
+                "id":"door2",
+                "position":{
+                    "x":3, "y":12
+                },
+                "animation":{
+                    "auto":false,
+                    "offset":0,
+                    "length":8,
+                    "delay":5
+                },                
+                "spritesheet":{
+                    "id":"xdoor2",
+                    "image":null,
+                    "index":0
+                },
+                "mask":{
+                    "id":"xdoor2mask",
+                    "image":null,
+                    "index":1
+                },
+                "door":{
+                    "type":"right",
+                    "speed":0.025,
+                    "movedistance":1
+                },
+                "isFloor":false
+            }
+        ]
+    },
+    "0042":{
+        "type":"group",
+        "objects":[
+            {
+                "type":"solid",
+                "id":"door2",
+                "position":{
+                    "x":4, "y":12
+                },
+                "animator":true,
+                "animation":{
+                    "auto":false,
+                    "offset":0,
+                    "length":8,
+                    "delay":5
+                },                
+                "spritesheet":{
+                    "id":"xdoor2",
+                    "image":null,
+                    "index":0
+                },
+                "mask":{
+                    "id":"xdoor2mask",
+                    "image":null,
+                    "index":0
+                },
+                "door":{
+                    "type":"left",
+                    "speed":0.025,
+                    "movedistance":1
+                },
+                "isFloor":false
+            },
+            {
+                "type":"solid",
+                "id":"door2",
+                "position":{
+                    "x":5, "y":12
+                },
+                "animation":{
+                    "auto":false,
+                    "offset":0,
+                    "length":8,
+                    "delay":5
+                },                
+                "spritesheet":{
+                    "id":"xdoor2",
+                    "image":null,
+                    "index":0
+                },
+                "mask":{
+                    "id":"xdoor2mask",
+                    "image":null,
+                    "index":1
+                },
+                "door":{
+                    "type":"right",
+                    "speed":0.025,
+                    "movedistance":1
+                },
+                "isFloor":false
+            }
+        ]
+    },
     "004":{
         "type":"group",
         "objects":[
             {
                 "type":"solid",
-                "id":"door",
+                "id":"door2",
                 "position":{
-                    "x":4, "y":12
+                    "x":6, "y":12
                 },
-                "spritesheet":{
-                    "id":"xdoor",
-                    "image":null,
-                    "index":0
-                },
+                "animator":true,
                 "animation":{
                     "auto":false,
                     "offset":0,
-                    "length":17,
-                    "delay":1
+                    "length":8,
+                    "delay":5
+                },                
+                "spritesheet":{
+                    "id":"xdoor2",
+                    "image":null,
+                    "index":0
                 },
-                "door":{},
+                "mask":{
+                    "id":"xdoor2mask",
+                    "image":null,
+                    "index":0
+                },
+                "door":{
+                    "type":"left",
+                    "speed":0.025,
+                    "movedistance":1
+                },
                 "isFloor":false
             },
             {
                 "type":"solid",
-                "id":"door",
+                "id":"door2",
                 "position":{
-                    "x":5, "y":12
-                },
-                "spritesheet":{
-                    "id":"xdoor",
-                    "image":null,
-                    "index":1
+                    "x":7, "y":12
                 },
                 "animation":{
                     "auto":false,
                     "offset":0,
-                    "length":17,
-                    "delay":1
+                    "length":8,
+                    "delay":5
+                },                
+                "spritesheet":{
+                    "id":"xdoor2",
+                    "image":null,
+                    "index":0
                 },
-                "door":{},
+                "mask":{
+                    "id":"xdoor2mask",
+                    "image":null,
+                    "index":1
+                },
+                "door":{
+                    "type":"right",
+                    "speed":0.025,
+                    "movedistance":1
+                },
+                "isFloor":false
+            }
+        ]
+    },
+    "005":{
+        "type":"group",
+        "objects":[
+            {
+                "type":"solid",
+                "id":"door2",
+                "position":{
+                    "x":12, "y":35
+                },
+                "animator":true,
+                "animation":{
+                    "auto":false,
+                    "offset":0,
+                    "length":8,
+                    "delay":5
+                },                
+                "spritesheet":{
+                    "id":"ydoor2",
+                    "image":null,
+                    "index":0
+                },
+                "mask":{
+                    "id":"ydoor2mask",
+                    "image":null,
+                    "index":0
+                },
+                "door":{
+                    "type":"down",
+                    "speed":0.025,
+                    "movedistance":1
+                },
+                "isFloor":false
+            },
+            {
+                "type":"solid",
+                "id":"door2",
+                "position":{
+                    "x":12, "y":34
+                },
+                "animation":{
+                    "auto":false,
+                    "offset":0,
+                    "length":8,
+                    "delay":5
+                },                
+                "spritesheet":{
+                    "id":"ydoor2",
+                    "image":null,
+                    "index":1
+                },
+                "mask":{
+                    "id":"ydoor2mask",
+                    "image":null,
+                    "index":1
+                },
+                "door":{
+                    "type":"up",
+                    "speed":0.025,
+                    "movedistance":1
+                },
+                "isFloor":false
+            }
+        ]
+    },
+    "006":{
+        "type":"group",
+        "objects":[
+            {
+                "type":"solid",
+                "id":"door2",
+                "position":{
+                    "x":34, "y":28
+                },
+                "animator":true,
+                "animation":{
+                    "auto":false,
+                    "offset":0,
+                    "length":8,
+                    "delay":5
+                },                
+                "spritesheet":{
+                    "id":"xdoor2",
+                    "image":null,
+                    "index":0
+                },
+                "mask":{
+                    "id":"xdoor2mask",
+                    "image":null,
+                    "index":0
+                },
+                "door":{
+                    "type":"left",
+                    "speed":0.025,
+                    "movedistance":1
+                },
+                "isFloor":false
+            },
+            {
+                "type":"solid",
+                "id":"door2",
+                "position":{
+                    "x":35, "y":28
+                },
+                "animation":{
+                    "auto":false,
+                    "offset":0,
+                    "length":8,
+                    "delay":5
+                },                
+                "spritesheet":{
+                    "id":"xdoor2",
+                    "image":null,
+                    "index":0
+                },
+                "mask":{
+                    "id":"xdoor2mask",
+                    "image":null,
+                    "index":1
+                },
+                "door":{
+                    "type":"right",
+                    "speed":0.025,
+                    "movedistance":1
+                },
+                "isFloor":false
+            }
+        ]
+    },
+    "007":{
+        "type":"group",
+        "objects":[
+            {
+                "type":"solid",
+                "id":"door2",
+                "position":{
+                    "x":13, "y":12
+                },
+                "animator":true,
+                "animation":{
+                    "auto":false,
+                    "offset":0,
+                    "length":8,
+                    "delay":5
+                },                
+                "spritesheet":{
+                    "id":"xdoor2",
+                    "image":null,
+                    "index":0
+                },
+                "mask":{
+                    "id":"xdoor2mask",
+                    "image":null,
+                    "index":0
+                },
+                "door":{
+                    "type":"left",
+                    "speed":0.025,
+                    "movedistance":1
+                },
+                "isFloor":false
+            },
+            {
+                "type":"solid",
+                "id":"door2",
+                "position":{
+                    "x":14, "y":12
+                },
+                "animation":{
+                    "auto":false,
+                    "offset":0,
+                    "length":8,
+                    "delay":5
+                },                
+                "spritesheet":{
+                    "id":"xdoor2",
+                    "image":null,
+                    "index":1
+                },
+                "mask":{
+                    "id":"xdoor2mask",
+                    "image":null,
+                    "index":1
+                },
+                "door":{
+                    "type":"right",
+                    "speed":0.025,
+                    "movedistance":1
+                },
+                "isFloor":false
+            }
+        ]
+    },
+    "008":{
+        "type":"group",
+        "objects":[
+            {
+                "type":"solid",
+                "id":"door2",
+                "position":{
+                    "x":27, "y":18
+                },
+                "animator":true,
+                "animation":{
+                    "auto":false,
+                    "offset":0,
+                    "length":8,
+                    "delay":5
+                },                
+                "spritesheet":{
+                    "id":"ydoor2",
+                    "image":null,
+                    "index":0
+                },
+                "mask":{
+                    "id":"ydoor2mask",
+                    "image":null,
+                    "index":0
+                },
+                "door":{
+                    "type":"down",
+                    "speed":0.025,
+                    "movedistance":1
+                },
+                "isFloor":false
+            },
+            {
+                "type":"solid",
+                "id":"door2",
+                "position":{
+                    "x":27, "y":17
+                },
+                "animation":{
+                    "auto":false,
+                    "offset":0,
+                    "length":8,
+                    "delay":5
+                },                
+                "spritesheet":{
+                    "id":"ydoor2",
+                    "image":null,
+                    "index":1
+                },
+                "mask":{
+                    "id":"ydoor2mask",
+                    "image":null,
+                    "index":1
+                },
+                "door":{
+                    "type":"up",
+                    "speed":0.025,
+                    "movedistance":1
+                },
+                "isFloor":false
+            }
+        ]
+    },
+    "009":{
+        "type":"group",
+        "objects":[
+            {
+                "type":"solid",
+                "id":"door2",
+                "position":{
+                    "x":5, "y":43
+                },
+                "animator":true,
+                "animation":{
+                    "auto":false,
+                    "offset":0,
+                    "length":8,
+                    "delay":5
+                },                
+                "spritesheet":{
+                    "id":"xdoor2",
+                    "image":null,
+                    "index":0
+                },
+                "mask":{
+                    "id":"xdoor2mask",
+                    "image":null,
+                    "index":0
+                },
+                "door":{
+                    "type":"left",
+                    "speed":0.025,
+                    "movedistance":1
+                },
+                "isFloor":false
+            },
+            {
+                "type":"solid",
+                "id":"door2",
+                "position":{
+                    "x":6, "y":43
+                },
+                "animation":{
+                    "auto":false,
+                    "offset":0,
+                    "length":8,
+                    "delay":5
+                },                
+                "spritesheet":{
+                    "id":"xdoor2",
+                    "image":null,
+                    "index":1
+                },
+                "mask":{
+                    "id":"xdoor2mask",
+                    "image":null,
+                    "index":1
+                },
+                "door":{
+                    "type":"right",
+                    "speed":0.025,
+                    "movedistance":1
+                },
+                "isFloor":false
+            }
+        ]
+    },
+    "010":{
+        "type":"group",
+        "objects":[
+            {
+                "type":"solid",
+                "id":"door2",
+                "position":{
+                    "x":6, "y":80
+                },
+                "animator":true,
+                "animation":{
+                    "auto":false,
+                    "offset":0,
+                    "length":8,
+                    "delay":5
+                },                
+                "spritesheet":{
+                    "id":"xdoor2",
+                    "image":null,
+                    "index":0
+                },
+                "mask":{
+                    "id":"xdoor2mask",
+                    "image":null,
+                    "index":0
+                },
+                "door":{
+                    "type":"left",
+                    "speed":0.025,
+                    "movedistance":1
+                },
+                "isFloor":false
+            },
+            {
+                "type":"solid",
+                "id":"door2",
+                "position":{
+                    "x":7, "y":80
+                },
+                "animation":{
+                    "auto":false,
+                    "offset":0,
+                    "length":8,
+                    "delay":5
+                },                
+                "spritesheet":{
+                    "id":"xdoor2",
+                    "image":null,
+                    "index":1
+                },
+                "mask":{
+                    "id":"xdoor2mask",
+                    "image":null,
+                    "index":1
+                },
+                "door":{
+                    "type":"right",
+                    "speed":0.025,
+                    "movedistance":1
+                },
+                "isFloor":false
+            }
+        ]
+    },
+    "011":{
+        "type":"group",
+        "objects":[
+            {
+                "type":"solid",
+                "id":"door2",
+                "position":{
+                    "x":38, "y":67
+                },
+                "animator":true,
+                "animation":{
+                    "auto":false,
+                    "offset":0,
+                    "length":8,
+                    "delay":5
+                },                
+                "spritesheet":{
+                    "id":"xdoor2",
+                    "image":null,
+                    "index":0
+                },
+                "mask":{
+                    "id":"xdoor2mask",
+                    "image":null,
+                    "index":0
+                },
+                "door":{
+                    "type":"left",
+                    "speed":0.025,
+                    "movedistance":1
+                },
+                "isFloor":false
+            },
+            {
+                "type":"solid",
+                "id":"door2",
+                "position":{
+                    "x":39, "y":67
+                },
+                "animation":{
+                    "auto":false,
+                    "offset":0,
+                    "length":8,
+                    "delay":5
+                },                
+                "spritesheet":{
+                    "id":"xdoor2",
+                    "image":null,
+                    "index":1
+                },
+                "mask":{
+                    "id":"xdoor2mask",
+                    "image":null,
+                    "index":1
+                },
+                "door":{
+                    "type":"right",
+                    "speed":0.025,
+                    "movedistance":1
+                },
+                "isFloor":false
+            }
+        ]
+    },
+    "012":{
+        "type":"group",
+        "objects":[
+            {
+                "type":"solid",
+                "id":"door2",
+                "position":{
+                    "x":29, "y":75
+                },
+                "animator":true,
+                "animation":{
+                    "auto":false,
+                    "offset":0,
+                    "length":8,
+                    "delay":5
+                },                
+                "spritesheet":{
+                    "id":"ydoor2",
+                    "image":null,
+                    "index":0
+                },
+                "mask":{
+                    "id":"ydoor2mask",
+                    "image":null,
+                    "index":0
+                },
+                "door":{
+                    "type":"down",
+                    "speed":0.025,
+                    "movedistance":1
+                },
+                "isFloor":false
+            },
+            {
+                "type":"solid",
+                "id":"door2",
+                "position":{
+                    "x":29, "y":74
+                },
+                "animation":{
+                    "auto":false,
+                    "offset":0,
+                    "length":8,
+                    "delay":5
+                },                
+                "spritesheet":{
+                    "id":"ydoor2",
+                    "image":null,
+                    "index":1
+                },
+                "mask":{
+                    "id":"ydoor2mask",
+                    "image":null,
+                    "index":1
+                },
+                "door":{
+                    "type":"up",
+                    "speed":0.025,
+                    "movedistance":1
+                },
                 "isFloor":false
             }
         ]
     }
+    
 }

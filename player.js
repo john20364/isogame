@@ -24,7 +24,7 @@ Player.prototype.update = function () {
     var position = this.getPosition();
     this.prevPosition.set(position);
    
-    var step = 0.1;
+    var step = this.data.speed;
 
     var dir = this.getDirection();
     dir.x = 0;
@@ -109,7 +109,7 @@ Player.prototype.update = function () {
     var obj = this.world.checkCollision(dir, this);
     if (obj !== undefined) {
         this.lastHitObject = obj;
-//        this.doAction();
+        this.doAction();
     }
 
     this.setPosition(position);
@@ -131,6 +131,9 @@ Player.prototype.doAction = function () {
     if (heading === "E" || heading === "W") {
         dx = Math.abs(pos.x - o.x);
     } else if (heading === "N" || heading === "S") {
+        dy = Math.abs(pos.y - o.y);
+    } else if (heading === "NW" || heading === "NE" ||                heading === "SE" || heading === "SW") {
+        dx = Math.abs(pos.x - o.x);
         dy = Math.abs(pos.y - o.y);
     }
     

@@ -1,0 +1,2309 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg48024"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="ydoor.svg">
+  <defs
+     id="defs48026">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4583">
+      <path
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         d="m -1904,48.362183 64,-32 72,0 -4,187.999997 -132,-28"
+         id="path4585"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4595">
+      <path
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         d="m -1880,164.36218 0,-127.999997 0,-20 124,4 -8,175.999997 -68,28"
+         id="path4597"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4609">
+      <path
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         d="m -1904,48.362183 64,-32 96,4 -20,147.999997 -48,72 -92,-64"
+         id="path4611"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4615">
+      <path
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         d="m -1068,762.36221 64,-32 4,-160 -144,4 -4,164"
+         id="path4617"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4621">
+      <path
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         d="m -1004,602.36221 -40,20 0,132 -96,-20 -4,-80 16,-100 92,24"
+         id="path4623"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4779">
+      <path
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         d="m -1876,230.36218 16,-8 88,0 -4,176 -104,8 4,-48"
+         id="path4781"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4785">
+      <path
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         d="m -1540,386.36218 0,-128 40,-20 -80,-24 -40,0 -16,88 20,80"
+         id="path4787"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4876">
+      <path
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         d="m -1876,422.36218 40,-20 68,16 4,132 -40,36 -72,-36"
+         id="path4878"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4884">
+      <path
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:none"
+         d="m -1540,578.36218 0,-128 40,-20 -84,-24 -32,24 -4,48 8,68 28,36"
+         id="path4886"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4985">
+      <path
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:none"
+         d="m -1876,742.36218 0,-128 40,-20 64,32 0,192 -104,-52"
+         id="path4987"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4991">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4993"
+         d="m -1540,794.36218 0,-152 40,-20 -64,-32 -64,32 0,128 z"
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:none" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5096">
+      <path
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:none"
+         d="m -1876,934.36218 0,-128 40,-20 64,32 0,192.00002 -104,-52.00002"
+         id="path5098"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5100">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5102"
+         d="m -1539.7576,986.24037 0,-152.00002 40,-20 -64,-32 -64,32 0,128 z"
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:none" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5184">
+      <path
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:none"
+         d="m -1871.9999,936.36213 0,-127.99998 40,-20.00004 64,32.00002 0,191.99997 -104,-51.99997"
+         id="path5186"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5190">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5192"
+         d="m -1544.1784,984.00499 0,-152 40,-20 -64,-32.00004 -64,32.00004 0,128 z"
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:none" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5274">
+      <path
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:none"
+         d="m -1867.9998,938.3621 0,-128 40,-20 64,32 0,192 -104,-52"
+         id="path5276"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5280">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5282"
+         d="m -1548.3053,982.05446 0,-152 40,-20 -64,-32 -64,32 0,128 z"
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:none" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5364">
+      <path
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:none"
+         d="m -1864.0001,940.36221 0,-128 40,-20 64,32 0,191.99999 -104,-51.99999"
+         id="path5366"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5370">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5372"
+         d="m -1552.1787,980.00507 0,-152 40,-20 -64,-32 -64,32 0,128 z"
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:none" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5454">
+      <path
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:none"
+         d="m -1859.9998,942.36211 0,-128 40,-20 64,32 0,191.99999 -104,-51.99999"
+         id="path5456"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5460">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5462"
+         d="m -1556.1784,978.00497 0,-152 40,-20 -64,-32 -64,32 0,128 z"
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:none" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5544">
+      <path
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:none"
+         d="m -1856,944.36219 0,-128 40,-20 64,32 0,192.00001 -104,-52.00001"
+         id="path5546"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5550">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5552"
+         d="m -1559.5035,976.20295 0,-152 40,-20 -64,-32 -64,32 0,128 z"
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:none" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5634">
+      <path
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:none"
+         d="m -1851.9999,946.3622 0,-128 40,-20 64,32 0,192 -104,-52"
+         id="path5636"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5640">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5642"
+         d="m -1564,972.3622 0,-152 40,-20 -64,-32 -64,32 0,128 z"
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:none" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5724">
+      <path
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:none"
+         d="m -1847.9999,948.3622 0,-128 40,-20 64,32 0,192 -104,-52"
+         id="path5726"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5730">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5732"
+         d="m -1567.7754,970.2899 0,-152 40,-20 -64,-32 -64,32 0,128 z"
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:none" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5814">
+      <path
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:none"
+         d="m -1844.0001,950.3623 0,-128 40,-20 64,32 0,192 -104,-52"
+         id="path5816"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5820">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5822"
+         d="m -1571.4875,968.3483 0,-152 40,-20 -64,-32 -64,32 0,128 z"
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:none" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5904">
+      <path
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:none"
+         d="m -1840,952.3623 0,-128 40,-20 64,32 0,192 -104,-52"
+         id="path5906"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5910">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5912"
+         d="m -1576,966.3623 0,-152 40,-20 -64,-32 -64,32 0,128 z"
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:none" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5994">
+      <path
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:none"
+         d="m -1836,954.3622 0,-128 40,-20 64,32 0,192 -104,-52"
+         id="path5996"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath6004">
+      <path
+         inkscape:connector-curvature="0"
+         id="path6006"
+         d="m -1580,964.3622 0,-152 40,-20 -64,-32 -64,32 0,128 z"
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:none" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath6032">
+      <path
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:none"
+         d="m -1564,820.3623 40,-20 -64,-32.0001 -64,32.0001 0,192 88,-44"
+         id="path6034"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath6038">
+      <path
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:none"
+         d="m -1568,818.3623 40,-20 -64,-32.0001 -64,32.0001 0,192 88,-44"
+         id="path6040"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath6044">
+      <path
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:none"
+         d="m -1572.0001,816.3624 40,-20 -64,-32.0001 -64,32.0001 0,192 88,-44"
+         id="path6046"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath6050">
+      <path
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:none"
+         d="m -1576,814.3624 40,-20 -64,-32.0001 -64,32.0001 0,192 88,-44"
+         id="path6052"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath6056">
+      <path
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:none"
+         d="m -1580,812.3623 40,-20 -64,-32.0001 -64,32.0001 0,192 88,-44"
+         id="path6058"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath6062">
+      <path
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:none"
+         d="m -1560.1786,824.00515 40,-20 -64,-32.0001 -64,32.0001 0,192 88,-44"
+         id="path6064"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath6302">
+      <path
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:none"
+         d="m -1831.9999,956.3622 0,-128 40,-20 64,32 0,192 -104,-52"
+         id="path6304"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath6308">
+      <path
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:none"
+         d="m -1583.9999,810.3623 40,-20 -64,-32.0001 -64,32.0001 0,192 88,-44"
+         id="path6310"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath9054">
+      <path
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:none"
+         d="m -1880,164.36218 0,-127.999998 40,-19.999999 64,31.999999 0,191.999998 -104,-52"
+         id="path9056"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath9060">
+      <path
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:none"
+         d="m -1880,356.36218 0,-128 40,-20 64,32 0,192 -104,-52"
+         id="path9062"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath9066">
+      <path
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:none"
+         d="m -1880,548.36218 0,-128 40,-20 64,32 0,192 -104,-52"
+         id="path9068"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath9072">
+      <path
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:none"
+         d="m -1880,740.36218 0,-128 40,-20 64,32 0,192 -104,-52"
+         id="path9074"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath9078">
+      <path
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:none"
+         d="m -1880,932.36218 0,-128 40,-20 64,32 0,192.00002 -104,-52.00002"
+         id="path9080"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath9084">
+      <path
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:none"
+         d="m -1880,1124.3622 0,-128.00002 40,-20 64,32.00002 0,192 -104,-52"
+         id="path9086"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath9090">
+      <path
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:none"
+         d="m -1880,1316.3622 0,-128 40,-20 64,32 0,192 -104,-52"
+         id="path9092"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath9096">
+      <path
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:none"
+         d="m -1880,1508.3622 0,-128 40,-20 64,32 0,192 -104,-52"
+         id="path9098"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath9102">
+      <path
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:none"
+         d="m -1880,1700.3622 0,-128 40,-20 64,32 0,192 -104,-52"
+         id="path9104"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath9108">
+      <path
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:none"
+         d="m -1880,1892.3622 0,-128 40,-20 64,32 0,192 -104,-52"
+         id="path9110"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath9114">
+      <path
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:none"
+         d="m -1880,2084.3622 0,-128 40,-20 64,32 0,192 -104,-52"
+         id="path9116"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath9120">
+      <path
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:none"
+         d="m -1880,2276.3622 0,-128 40,-20 64,32 0,192 -104,-52"
+         id="path9122"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath9126">
+      <path
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:none"
+         d="m -1880,2468.3622 0,-128 40,-20 64,32 0,192 -104,-52"
+         id="path9128"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath9132">
+      <path
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:none"
+         d="m -1880,2660.3622 0,-128 40,-20 64,32 0,192 -104,-52"
+         id="path9134"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath9138">
+      <path
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:none"
+         d="m -1880,2852.3622 0,-128 40,-20 64,32 0,192 -104,-52"
+         id="path9140"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath9144">
+      <path
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:none"
+         d="m -1880,3044.3622 0,-128 40,-20 64,32 0,192 -104,-52"
+         id="path9146"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath9150">
+      <path
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:none"
+         d="m -1688,68.362283 40,-20 -64,-32.0001 -64,32.0001 0,191.999997 88,-44"
+         id="path9152"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath9156">
+      <path
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:none"
+         d="m -1688,260.36228 40,-20 -64,-32.0001 -64,32.0001 0,192 88,-44"
+         id="path9158"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath9162">
+      <path
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:none"
+         d="m -1688,452.36228 40,-20 -64,-32.0001 -64,32.0001 0,192 88,-44"
+         id="path9164"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath9168">
+      <path
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:none"
+         d="m -1688,644.36228 40,-20 -64,-32.0001 -64,32.0001 0,192 88,-44"
+         id="path9170"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath9174">
+      <path
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:none"
+         d="m -1688,836.36228 40,-20 -64,-32.0001 -64,32.0001 0,192.00002 88,-44.00002"
+         id="path9176"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath9180">
+      <path
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:none"
+         d="m -1688,1028.3623 40,-20 -64,-32.00012 -64,32.00012 0,192 88,-44"
+         id="path9182"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath9186">
+      <path
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:none"
+         d="m -1688,1220.3623 40,-20 -64,-32.0001 -64,32.0001 0,192 88,-44"
+         id="path9188"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath9192">
+      <path
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:none"
+         d="m -1688,1412.3623 40,-20 -64,-32.0001 -64,32.0001 0,192 88,-44"
+         id="path9194"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath9198">
+      <path
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:none"
+         d="m -1688,1604.3623 40,-20 -64,-32.0001 -64,32.0001 0,192 88,-44"
+         id="path9200"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath9204">
+      <path
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:none"
+         d="m -1688,1796.3623 40,-20 -64,-32.0001 -64,32.0001 0,192 88,-44"
+         id="path9206"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath9210">
+      <path
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:none"
+         d="m -1688,1988.3623 40,-20 -64,-32.0001 -64,32.0001 0,192 88,-44"
+         id="path9212"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath9216">
+      <path
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:none"
+         d="m -1688,2180.3623 40,-20 -64,-32.0001 -64,32.0001 0,192 88,-44"
+         id="path9218"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath9222">
+      <path
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:none"
+         d="m -1688,2372.3623 40,-20 -64,-32.0001 -64,32.0001 0,192 88,-44"
+         id="path9224"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath9228">
+      <path
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:none"
+         d="m -1688,2564.3623 40,-20 -64,-32.0001 -64,32.0001 0,192 88,-44"
+         id="path9230"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath9234">
+      <path
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:none"
+         d="m -1688,2756.3623 40,-20 -64,-32.0001 -64,32.0001 0,192 88,-44"
+         id="path9236"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath9240">
+      <path
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:none"
+         d="m -1688,2948.3623 40,-20 -64,-32.0001 -64,32.0001 0,192 88,-44"
+         id="path9242"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath9244">
+      <path
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:none"
+         d="m -1688,2948.3623 40,-20 -64,-32.0001 -64,32.0001 0,192 88,-44"
+         id="path9246"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath9248">
+      <path
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:none"
+         d="m -1688,2948.3623 40,-20 -64,-32.0001 -64,32.0001 0,192 88,-44"
+         id="path9250"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath17060">
+      <path
+         inkscape:connector-curvature="0"
+         id="path17062"
+         d="m -604,-143.63782 0,-32 256,0 0,3264.00002 -256,0"
+         style="opacity:0.65384617;fill:#ffff00;stroke:none" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath23140">
+      <path
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:none"
+         d="m -1875.9992,-25.63798 0,-128 40,-20 64,32 0,192 -104,-52"
+         id="path23142"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath23146">
+      <path
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:none"
+         d="m -1871.9992,-23.63798 0,-128 40,-20 64,32 0,192 -104,-52"
+         id="path23148"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath23152">
+      <path
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:none"
+         d="m -1867.9984,-21.63814 0,-128 40,-20 64,32 0,192 -104,-52"
+         id="path23154"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath23158">
+      <path
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:none"
+         d="m -1863.9992,-19.63798 0,-128 40,-20 64,32 0,192 -104,-52"
+         id="path23160"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath23164">
+      <path
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:none"
+         d="m -1859.9984,-17.63814 0,-128 40,-20 64,32 0,192.00002 -104,-52.00002"
+         id="path23166"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath23170">
+      <path
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:none"
+         d="m -1855.9984,-15.6381 0,-128.00002 40,-20 64,32.00002 0,192 -104,-52"
+         id="path23172"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath23176">
+      <path
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:none"
+         d="m -1851.9976,-13.6383 0,-128 40,-20 64,32 0,192 -104,-52"
+         id="path23178"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath23182">
+      <path
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:none"
+         d="m -1847.9992,-11.638 0,-128 40,-20 64,32 0,192 -104,-52"
+         id="path23184"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath23188">
+      <path
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:none"
+         d="m -1843.9984,-9.6382 0,-128 40,-20 64,32 0,192 -104,-52"
+         id="path23190"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath23194">
+      <path
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:none"
+         d="m -1839.9984,-7.6382 0,-128 40,-20 64,32 0,192 -104,-52"
+         id="path23196"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath23200">
+      <path
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:none"
+         d="m -1835.9976,-5.6383 0,-128 40,-20 64,32 0,192 -104,-52"
+         id="path23202"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath23206">
+      <path
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:none"
+         d="m -1831.9984,-3.6382 0,-128 40,-20 64,32 0,192 -104,-52"
+         id="path23208"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath23212">
+      <path
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:none"
+         d="m -1827.9976,-1.6383 0,-128 40,-20 64,32 0,192 -104,-52"
+         id="path23214"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath23218">
+      <path
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:none"
+         d="m -1823.9976,0.3617 0,-128 40,-20 64,32 0,192 -104,-52"
+         id="path23220"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath23224">
+      <path
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:none"
+         d="m -1819.9968,2.3615 0,-128 40,-20 64,32 0,192 -104,-52"
+         id="path23226"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath23230">
+      <path
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:none"
+         d="m -1815.9992,4.362 0,-128 40,-20 64,32 0,192 -104,-52"
+         id="path23232"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath23236">
+      <path
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:none"
+         d="m -1691.9992,-125.63788 40,-20 -64,-32.0001 -64,32.0001 0,192.00001 88,-44"
+         id="path23238"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath23242">
+      <path
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:none"
+         d="m -1695.9992,-127.63788 40,-20 -64,-32.0001 -64,32.0001 0,192.00001 88,-44"
+         id="path23244"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath23248">
+      <path
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:none"
+         d="m -1699.9984,-129.63804 40,-20 -64,-32.0001 -64,32.0001 0,192.00001 88,-44"
+         id="path23250"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath23254">
+      <path
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:none"
+         d="m -1703.9992,-131.63788 40,-20 -64,-32.0001 -64,32.0001 0,192.00001 88,-44"
+         id="path23256"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath23260">
+      <path
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:none"
+         d="m -1707.9984,-133.63804 40,-20 -64,-32.0001 -64,32.0001 0,192.00002 88,-44.00001"
+         id="path23262"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath23266">
+      <path
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:none"
+         d="m -1711.9984,-135.638 40,-20 -64,-32.00012 -64,32.00012 0,192 88,-44"
+         id="path23268"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath23272">
+      <path
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:none"
+         d="m -1715.9976,-137.6382 40,-20 -64,-32.0001 -64,32.0001 0,192 88,-44"
+         id="path23274"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath23278">
+      <path
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:none"
+         d="m -1719.9992,-139.6379 40,-20 -64,-32.0001 -64,32.0001 0,192 88,-44"
+         id="path23280"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath23284">
+      <path
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:none"
+         d="m -1723.9984,-141.6381 40,-20 -64,-32.0001 -64,32.0001 0,192 88,-44"
+         id="path23286"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath23290">
+      <path
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:none"
+         d="m -1727.9984,-143.6381 40,-20 -64,-32.0001 -64,32.0001 0,192 88,-44"
+         id="path23292"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath23296">
+      <path
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:none"
+         d="m -1731.9976,-145.6382 40,-20 -64,-32.0001 -64,32.0001 0,192 88,-44"
+         id="path23298"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath23302">
+      <path
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:none"
+         d="m -1735.9984,-147.6381 40,-20 -64,-32.0001 -64,32.0001 0,192 88,-44"
+         id="path23304"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath23308">
+      <path
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:none"
+         d="m -1739.9976,-149.6382 40,-20 -64,-32.0001 -64,32.0001 0,192 88,-44"
+         id="path23310"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath23314">
+      <path
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:none"
+         d="m -1743.9976,-151.6382 40,-20 -64,-32.0001 -64,32.0001 0,192 88,-44"
+         id="path23316"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath23320">
+      <path
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:none"
+         d="m -1747.9968,-153.6384 40,-20 -64,-32.0001 -64,32.0001 0,192 88,-44"
+         id="path23322"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath23326">
+      <path
+         style="opacity:0.71238942;fill:#ffff00;fill-opacity:1;stroke:none"
+         d="m -1751.9992,-155.6379 40,-20 -64,-32.0001 -64,32.0001 0,192 88,-44"
+         id="path23328"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5252">
+      <path
+         style="opacity:0.40384617;fill:none;stroke:#00ff00;stroke-width:3;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         d="m -1940,-95.637817 0,68 -40,-8"
+         id="path5254"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.175"
+     inkscape:cx="-3481.5362"
+     inkscape:cy="652.24245"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     showborder="false"
+     inkscape:showpageshadow="false"
+     inkscape:snap-bbox="true"
+     inkscape:snap-bbox-midpoints="false"
+     inkscape:window-width="1536"
+     inkscape:window-height="801"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:snap-grids="true"
+     inkscape:bbox-nodes="true">
+    <inkscape:grid
+       type="xygrid"
+       id="grid3033"
+       empspacing="4"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true"
+       empcolor="#ff0000"
+       empopacity="0.25098039"
+       color="#0000ff"
+       opacity="0.23921569" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata48029">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g48086"
+       transform="translate(-2386.8572,-502.14288)">
+      <rect
+         transform="matrix(0.89442719,0.4472136,-0.89442719,0.4472136,0,0)"
+         y="751.12506"
+         x="352.75879"
+         height="71.554176"
+         width="71.554176"
+         id="rect48034"
+         style="opacity:0.4517544;fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <rect
+         style="opacity:0.4517544;fill:#ff2a2a;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         id="rect48036"
+         width="71.554176"
+         height="71.554176"
+         x="352.75879"
+         y="679.57086"
+         transform="matrix(0.89442719,0.4472136,-0.89442719,0.4472136,0,0)" />
+      <rect
+         transform="matrix(0.89442719,0.4472136,-0.89442719,0.4472136,0,0)"
+         y="751.12506"
+         x="424.31296"
+         height="71.554176"
+         width="71.554176"
+         id="rect48038"
+         style="opacity:0.4517544;fill:#ff2a2a;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <rect
+         style="opacity:0.4517544;fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         id="rect48040"
+         width="71.554176"
+         height="71.554176"
+         x="424.31296"
+         y="679.57086"
+         transform="matrix(0.89442719,0.4472136,-0.89442719,0.4472136,0,0)" />
+      <rect
+         transform="matrix(0.89442719,0.4472136,-0.89442719,0.4472136,0,0)"
+         y="608.01666"
+         x="352.75879"
+         height="71.554176"
+         width="71.554176"
+         id="rect48042"
+         style="opacity:0.4517544;fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <rect
+         style="opacity:0.4517544;fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         id="rect48044"
+         width="71.554176"
+         height="71.554176"
+         x="495.86713"
+         y="751.12506"
+         transform="matrix(0.89442719,0.4472136,-0.89442719,0.4472136,0,0)" />
+      <rect
+         style="opacity:0.4517544;fill:#ff2a2a;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         id="rect48046"
+         width="71.554176"
+         height="71.554176"
+         x="495.86713"
+         y="679.57086"
+         transform="matrix(0.89442719,0.4472136,-0.89442719,0.4472136,0,0)" />
+      <rect
+         transform="matrix(0.89442719,0.4472136,-0.89442719,0.4472136,0,0)"
+         y="608.01666"
+         x="424.31296"
+         height="71.554176"
+         width="71.554176"
+         id="rect48048"
+         style="opacity:0.4517544;fill:#ff2a2a;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <rect
+         transform="matrix(0.89442719,0.4472136,-0.89442719,0.4472136,0,0)"
+         y="608.01666"
+         x="495.86713"
+         height="71.554176"
+         width="71.554176"
+         id="rect48050"
+         style="opacity:0.4517544;fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <rect
+         style="opacity:0.4517544;fill:#ff2a2a;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         id="rect48052"
+         width="71.554176"
+         height="71.554176"
+         x="352.75879"
+         y="536.46246"
+         transform="matrix(0.89442719,0.4472136,-0.89442719,0.4472136,0,0)" />
+      <rect
+         transform="matrix(0.89442719,0.4472136,-0.89442719,0.4472136,0,0)"
+         y="751.12506"
+         x="567.42133"
+         height="71.554176"
+         width="71.554176"
+         id="rect48054"
+         style="opacity:0.4517544;fill:#ff2a2a;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <rect
+         style="opacity:0.4517544;fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         id="rect48058"
+         width="71.554176"
+         height="71.554176"
+         x="567.42133"
+         y="679.57086"
+         transform="matrix(0.89442719,0.4472136,-0.89442719,0.4472136,0,0)" />
+      <rect
+         style="opacity:0.4517544;fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         id="rect48060"
+         width="71.554176"
+         height="71.554176"
+         x="424.31296"
+         y="536.46246"
+         transform="matrix(0.89442719,0.4472136,-0.89442719,0.4472136,0,0)" />
+      <rect
+         transform="matrix(0.89442719,0.4472136,-0.89442719,0.4472136,0,0)"
+         y="464.90829"
+         x="352.75879"
+         height="71.554176"
+         width="71.554176"
+         id="rect48062"
+         style="opacity:0.4517544;fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <rect
+         style="opacity:0.4517544;fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         id="rect48064"
+         width="71.554176"
+         height="71.554176"
+         x="638.97552"
+         y="751.12506"
+         transform="matrix(0.89442719,0.4472136,-0.89442719,0.4472136,0,0)" />
+      <rect
+         style="opacity:0.4517544;fill:#ff2a2a;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         id="rect48066"
+         width="71.554176"
+         height="71.554176"
+         x="638.97552"
+         y="679.57086"
+         transform="matrix(0.89442719,0.4472136,-0.89442719,0.4472136,0,0)" />
+      <rect
+         inkscape:transform-center-y="65"
+         inkscape:transform-center-x="7.8571429"
+         transform="matrix(0.89442719,0.4472136,-0.89442719,0.4472136,0,0)"
+         y="608.01666"
+         x="567.42133"
+         height="71.554176"
+         width="71.554176"
+         id="rect48068"
+         style="opacity:0.4517544;fill:#ff2a2a;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <rect
+         style="opacity:0.4517544;fill:#ff2a2a;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         id="rect48070"
+         width="71.554176"
+         height="71.554176"
+         x="495.86713"
+         y="536.46246"
+         transform="matrix(0.89442719,0.4472136,-0.89442719,0.4472136,0,0)"
+         inkscape:transform-center-x="7.8571429"
+         inkscape:transform-center-y="65" />
+      <rect
+         inkscape:transform-center-y="65"
+         inkscape:transform-center-x="7.8571429"
+         transform="matrix(0.89442719,0.4472136,-0.89442719,0.4472136,0,0)"
+         y="464.90829"
+         x="424.31296"
+         height="71.554176"
+         width="71.554176"
+         id="rect48072"
+         style="opacity:0.4517544;fill:#ff2a2a;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <rect
+         style="opacity:0.4517544;fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         id="rect48074"
+         width="71.554176"
+         height="71.554176"
+         x="495.86713"
+         y="464.90829"
+         transform="matrix(0.89442719,0.4472136,-0.89442719,0.4472136,0,0)" />
+      <rect
+         transform="matrix(0.89442719,0.4472136,-0.89442719,0.4472136,0,0)"
+         y="536.46246"
+         x="567.42133"
+         height="71.554176"
+         width="71.554176"
+         id="rect48076"
+         style="opacity:0.4517544;fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <rect
+         style="opacity:0.4517544;fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         id="rect48078"
+         width="71.554176"
+         height="71.554176"
+         x="638.97552"
+         y="608.01666"
+         transform="matrix(0.89442719,0.4472136,-0.89442719,0.4472136,0,0)" />
+      <rect
+         transform="matrix(0.89442719,0.4472136,-0.89442719,0.4472136,0,0)"
+         y="536.46246"
+         x="638.97552"
+         height="71.554176"
+         width="71.554176"
+         id="rect48080"
+         style="opacity:0.4517544;fill:#ff2a2a;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <rect
+         style="opacity:0.4517544;fill:#ff2a2a;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         id="rect48082"
+         width="71.554176"
+         height="71.554176"
+         x="567.42133"
+         y="464.90829"
+         transform="matrix(0.89442719,0.4472136,-0.89442719,0.4472136,0,0)" />
+      <rect
+         style="opacity:0.4517544;fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         id="rect48084"
+         width="71.554176"
+         height="71.554176"
+         x="638.97552"
+         y="464.90829"
+         transform="matrix(0.89442719,0.4472136,-0.89442719,0.4472136,0,0)" />
+    </g>
+    <path
+       sodipodi:type="arc"
+       id="path3035"
+       style="fill:#000000;stroke:none"
+       sodipodi:cx="-1376"
+       sodipodi:cy="523.36218"
+       sodipodi:rx="0"
+       sodipodi:ry="0"
+       d="m -1376,523.36218 a 0,0 0 1 1 0,0 0,0 0 1 1 0,0 z"
+       transform="translate(-4.0000377,3.0000149)" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path6270"
+       d="m -1623.9993,2982.3619 16,-8 0,128 -16,8 z"
+       style="opacity:1;fill:#323232;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       clip-path="url(#clipPath9244)" />
+    <rect
+       transform="matrix(-0.89442642,0.44721514,0.89442642,0.44721514,0,0)"
+       y="-1122.1021"
+       x="1069.2462"
+       height="71.553772"
+       width="71.553772"
+       id="rect23330"
+       style="opacity:0.01442309;fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\ydoor2.png"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-ydpi="89.989998" />
+    <rect
+       style="opacity:0;fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect23332"
+       width="71.553772"
+       height="71.553772"
+       x="926.1377"
+       y="-1265.2097"
+       transform="matrix(-0.89442642,0.44721514,0.89442642,0.44721514,0,0)"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\ydoor2.png"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-ydpi="89.989998" />
+    <rect
+       style="opacity:0;fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect23334"
+       width="71.553772"
+       height="71.553772"
+       x="997.69214"
+       y="-1050.5486"
+       transform="matrix(-0.89442642,0.44721514,0.89442642,0.44721514,0,0)"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\ydoor2.png"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-ydpi="89.989998" />
+    <rect
+       transform="matrix(-0.89442642,0.44721514,0.89442642,0.44721514,0,0)"
+       y="-1193.6559"
+       x="854.58386"
+       height="71.553772"
+       width="71.553772"
+       id="rect23336"
+       style="opacity:0;fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\ydoor2.png"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-ydpi="89.989998" />
+    <path
+       style="fill:#464646;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m -1792.0007,-3.6382031 0,-127.9996069 -63.9996,31.999904 0,127.999604 63.9996,-31.9999011"
+       id="path23340"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\ydoor2.png"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-ydpi="89.989998" />
+    <path
+       style="fill:#191919;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m -1792.0007,-131.63781 -16,-7.99997 -63.9996,31.9999 16,7.999974 z"
+       id="path23342"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\ydoor2.png"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-ydpi="89.989998" />
+    <path
+       style="fill:#323232;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m -1856.0003,-99.637906 -16,-7.999974 0,127.999603 16,7.999975 z"
+       id="path23344"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\ydoor2.png"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-ydpi="89.989998" />
+    <path
+       style="fill:none;stroke:#ff0000;stroke-width:2.99999881;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m -1796.0007,-123.63783 -55.9996,27.999911 0,115.999642 55.9996,-27.9999138 z"
+       id="path23346"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\ydoor2.png"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-ydpi="89.989998" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path23350"
+       d="m -1920.0007,-3.6383331 0,-127.9996069 -63.9996,31.999904 0,127.999604 63.9996,-31.9999011"
+       style="fill:#464646;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\ydoor2.png"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-ydpi="89.989998" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path23352"
+       d="m -1920.0007,-131.63794 -15.9999,-7.99997 -63.9995,31.9999 15.9998,7.999974 z"
+       style="fill:#191919;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\ydoor2.png"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-ydpi="89.989998" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path23354"
+       d="m -1984.0003,-99.638036 -15.9998,-7.999974 0,127.999603 15.9998,7.999975 z"
+       style="fill:#323232;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\ydoor2.png"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-ydpi="89.989998" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path23356"
+       d="m -1924.0007,-123.63796 -55.9996,27.999911 0,115.999642 55.9996,-27.9999138 z"
+       style="fill:none;stroke:#ff0000;stroke-width:2.99999881;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\ydoor2.png"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-ydpi="89.989998" />
+    <path
+       style="opacity:0;fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-width:2.99999881;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m -1808.0007,-99.637906 -7.9998,3.999987 -8,3.999988 -8,3.999988 -8,3.999987 0,23.999926 8,3.999988 8,3.999987 8,-3.999987 7.9998,-15.999951 0,-27.999913"
+       id="path5209"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\ydoor2.png"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-ydpi="89.989998" />
+    <rect
+       inkscape:export-ydpi="89.989998"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\xdoor2mask.png"
+       style="opacity:0.01442309;fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect3242"
+       width="71.554176"
+       height="71.554176"
+       x="879.18054"
+       y="-932.03583"
+       transform="matrix(-0.89442719,0.4472136,0.89442719,0.4472136,0,0)" />
+    <rect
+       inkscape:export-ydpi="89.989998"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\xdoor2mask.png"
+       transform="matrix(-0.89442719,0.4472136,0.89442719,0.4472136,0,0)"
+       y="-1075.1443"
+       x="736.07037"
+       height="71.554176"
+       width="71.554176"
+       id="rect3244"
+       style="opacity:0;fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <rect
+       inkscape:export-ydpi="89.989998"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\xdoor2mask.png"
+       transform="matrix(-0.89442719,0.4472136,0.89442719,0.4472136,0,0)"
+       y="-860.48163"
+       x="807.62549"
+       height="71.554176"
+       width="71.554176"
+       id="rect3246"
+       style="opacity:0;fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <rect
+       inkscape:export-ydpi="89.989998"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\xdoor2mask.png"
+       style="opacity:0;fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect3248"
+       width="71.554176"
+       height="71.554176"
+       x="664.51593"
+       y="-1003.5901"
+       transform="matrix(-0.89442719,0.4472136,0.89442719,0.4472136,0,0)" />
+    <path
+       inkscape:export-ydpi="89.989998"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\xdoor2mask.png"
+       inkscape:connector-curvature="0"
+       id="path3250"
+       d="m -1452.0005,-3.637817 0,-128.000003 -64,32.000003 0,128 64,-32"
+       style="fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       inkscape:export-ydpi="89.989998"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\xdoor2mask.png"
+       inkscape:connector-curvature="0"
+       id="path3252"
+       d="m -1452.0005,-131.63782 -16,-8 -64,32 16,8.000003 z"
+       style="fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       inkscape:export-ydpi="89.989998"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\xdoor2mask.png"
+       inkscape:connector-curvature="0"
+       id="path3254"
+       d="m -1516.0005,-99.637817 -16,-8.000003 0,128.000003 16,8 z"
+       style="fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       inkscape:export-ydpi="89.989998"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\xdoor2mask.png"
+       style="fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m -1580.0013,-3.637947 0,-128.000003 -64,32.000003 0,128 64,-32"
+       id="path3258"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:export-ydpi="89.989998"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\xdoor2mask.png"
+       style="fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m -1580.0013,-131.63795 -16,-8 -64,32 16,8.000003 z"
+       id="path3260"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:export-ydpi="89.989998"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\xdoor2mask.png"
+       style="fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m -1644.0013,-99.637947 -16,-8.000003 0,128.000003 16,8 z"
+       id="path3262"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:export-ydpi="89.989998"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\xdoor2mask.png"
+       inkscape:connector-curvature="0"
+       id="path3266"
+       d="m -1468.0005,-99.637817 -8,4 -8,4 -8,4 -8,4 0,24 8,4 8,4 8,-4 8,-16 0,-28"
+       style="opacity:0;fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-width:3;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <rect
+       inkscape:export-ydpi="89.989998"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\ydoor2.png"
+       style="opacity:0.01442309;fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect3279"
+       width="71.553772"
+       height="71.553772"
+       x="1283.9078"
+       y="-907.44043"
+       transform="matrix(-0.89442642,0.44721514,0.89442642,0.44721514,0,0)" />
+    <rect
+       inkscape:export-ydpi="89.989998"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\ydoor2.png"
+       transform="matrix(-0.89442642,0.44721514,0.89442642,0.44721514,0,0)"
+       y="-1050.5481"
+       x="1140.7993"
+       height="71.553772"
+       width="71.553772"
+       id="rect3281"
+       style="opacity:0;fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <rect
+       inkscape:export-ydpi="89.989998"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\ydoor2.png"
+       transform="matrix(-0.89442642,0.44721514,0.89442642,0.44721514,0,0)"
+       y="-835.88696"
+       x="1212.3536"
+       height="71.553772"
+       width="71.553772"
+       id="rect3283"
+       style="opacity:0;fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <rect
+       inkscape:export-ydpi="89.989998"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\ydoor2.png"
+       style="opacity:0;fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect3285"
+       width="71.553772"
+       height="71.553772"
+       x="1069.2454"
+       y="-978.99426"
+       transform="matrix(-0.89442642,0.44721514,0.89442642,0.44721514,0,0)" />
+    <path
+       inkscape:export-ydpi="89.989998"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\ydoor2.png"
+       inkscape:connector-curvature="0"
+       id="path3287"
+       d="m -1792.0007,188.3615 0,-127.99961 -63.9996,31.999902 0,127.999608 63.9996,-31.9999"
+       style="fill:#464646;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       inkscape:export-ydpi="89.989998"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\ydoor2.png"
+       inkscape:connector-curvature="0"
+       id="path3289"
+       d="m -1792.0007,60.36189 -16,-7.99997 -63.9996,31.999902 16,7.99997 z"
+       style="fill:#191919;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       inkscape:export-ydpi="89.989998"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\ydoor2.png"
+       inkscape:connector-curvature="0"
+       id="path3291"
+       d="m -1856.0003,92.361792 -16,-7.99997 0,127.999598 16,7.99998 z"
+       style="fill:#323232;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       inkscape:export-ydpi="89.989998"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\ydoor2.png"
+       inkscape:connector-curvature="0"
+       id="path3293"
+       d="m -1796.0007,68.36187 -55.9996,27.999912 0,115.999638 55.9996,-27.99991 z"
+       style="opacity:0.8;fill:none;stroke:#ff0000;stroke-width:2.99999881;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       inkscape:export-ydpi="89.989998"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\ydoor2.png"
+       style="fill:#464646;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m -1920.0007,188.36137 0,-127.99961 -63.9996,31.999902 0,127.999608 63.9996,-31.9999"
+       id="path3295"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:export-ydpi="89.989998"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\ydoor2.png"
+       style="fill:#191919;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m -1920.0007,60.36176 -15.9999,-7.99997 -63.9995,31.999902 15.9998,7.99997 z"
+       id="path3297"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:export-ydpi="89.989998"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\ydoor2.png"
+       style="fill:#323232;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m -1984.0003,92.361662 -15.9998,-7.99997 0,127.999598 15.9998,7.99998 z"
+       id="path3299"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:export-ydpi="89.989998"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\ydoor2.png"
+       style="opacity:0.8;fill:none;stroke:#ff0000;stroke-width:2.99999881;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m -1924.0007,68.36174 -55.9996,27.999912 0,115.999638 55.9996,-27.99991 z"
+       id="path3301"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:export-ydpi="89.989998"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\ydoor2.png"
+       inkscape:connector-curvature="0"
+       id="path3303"
+       d="m -1808.0007,92.361792 -7.9998,3.99999 -8,3.999988 -8,3.99999 -8,3.99998 0,23.99993 8,3.99999 8,3.99999 8,-3.99999 7.9998,-15.99995 0,-27.999918"
+       style="opacity:0;fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-width:2.99999881;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <rect
+       inkscape:export-ydpi="89.989998"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\ydoor2.png"
+       style="opacity:0.01442309;fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect3357"
+       width="71.553772"
+       height="71.553772"
+       x="1498.5698"
+       y="-692.77844"
+       transform="matrix(-0.89442642,0.44721514,0.89442642,0.44721514,0,0)" />
+    <rect
+       inkscape:export-ydpi="89.989998"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\ydoor2.png"
+       transform="matrix(-0.89442642,0.44721514,0.89442642,0.44721514,0,0)"
+       y="-835.88611"
+       x="1355.4612"
+       height="71.553772"
+       width="71.553772"
+       id="rect3359"
+       style="opacity:0;fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <rect
+       inkscape:export-ydpi="89.989998"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\ydoor2.png"
+       transform="matrix(-0.89442642,0.44721514,0.89442642,0.44721514,0,0)"
+       y="-621.22498"
+       x="1427.0156"
+       height="71.553772"
+       width="71.553772"
+       id="rect3361"
+       style="opacity:0;fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <rect
+       inkscape:export-ydpi="89.989998"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\ydoor2.png"
+       style="opacity:0;fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect3363"
+       width="71.553772"
+       height="71.553772"
+       x="1283.9075"
+       y="-764.3324"
+       transform="matrix(-0.89442642,0.44721514,0.89442642,0.44721514,0,0)" />
+    <path
+       inkscape:export-ydpi="89.989998"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\ydoor2.png"
+       inkscape:connector-curvature="0"
+       id="path3365"
+       d="m -1792.0007,380.3615 0,-127.99961 -63.9996,31.9999 0,127.99961 63.9996,-31.9999"
+       style="fill:#464646;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       inkscape:export-ydpi="89.989998"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\ydoor2.png"
+       inkscape:connector-curvature="0"
+       id="path3367"
+       d="m -1792.0007,252.36189 -16,-7.99997 -63.9996,31.9999 16,7.99997 z"
+       style="fill:#191919;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       inkscape:export-ydpi="89.989998"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\ydoor2.png"
+       inkscape:connector-curvature="0"
+       id="path3369"
+       d="m -1856.0003,284.36179 -16,-7.99997 0,127.9996 16,7.99998 z"
+       style="fill:#323232;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       inkscape:export-ydpi="89.989998"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\ydoor2.png"
+       inkscape:connector-curvature="0"
+       id="path3371"
+       d="m -1796.0007,260.36187 -55.9996,27.99991 0,115.99964 55.9996,-27.99991 z"
+       style="opacity:0.4;fill:none;stroke:#ff0000;stroke-width:2.99999881;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       inkscape:export-ydpi="89.989998"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\ydoor2.png"
+       style="fill:#464646;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m -1920.0007,380.36137 0,-127.99961 -63.9996,31.9999 0,127.99961 63.9996,-31.9999"
+       id="path3373"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:export-ydpi="89.989998"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\ydoor2.png"
+       style="fill:#191919;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m -1920.0007,252.36176 -15.9999,-7.99997 -63.9995,31.9999 15.9998,7.99997 z"
+       id="path3375"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:export-ydpi="89.989998"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\ydoor2.png"
+       style="fill:#323232;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m -1984.0003,284.36166 -15.9998,-7.99997 0,127.9996 15.9998,7.99998 z"
+       id="path3377"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:export-ydpi="89.989998"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\ydoor2.png"
+       style="opacity:0.4;fill:none;stroke:#ff0000;stroke-width:2.99999881;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m -1924.0007,260.36174 -55.9996,27.99991 0,115.99964 55.9996,-27.99991 z"
+       id="path3379"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:export-ydpi="89.989998"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\ydoor2.png"
+       inkscape:connector-curvature="0"
+       id="path3381"
+       d="m -1808.0007,284.36179 -7.9998,3.99999 -8,3.99999 -8,3.99999 -8,3.99998 0,23.99993 8,3.99999 8,3.99998 8,-3.99998 7.9998,-15.99995 0,-27.99992"
+       style="opacity:0;fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-width:2.99999881;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <rect
+       transform="matrix(-0.89442642,0.44721514,0.89442642,0.44721514,0,0)"
+       y="-478.11667"
+       x="1713.2314"
+       height="71.553772"
+       width="71.553772"
+       id="rect3383"
+       style="opacity:0.01442309;fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\ydoor2.png"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-ydpi="89.989998" />
+    <rect
+       style="opacity:0;fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect3385"
+       width="71.553772"
+       height="71.553772"
+       x="1570.1229"
+       y="-621.22449"
+       transform="matrix(-0.89442642,0.44721514,0.89442642,0.44721514,0,0)"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\ydoor2.png"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-ydpi="89.989998" />
+    <rect
+       style="opacity:0;fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect3387"
+       width="71.553772"
+       height="71.553772"
+       x="1641.6772"
+       y="-406.5632"
+       transform="matrix(-0.89442642,0.44721514,0.89442642,0.44721514,0,0)"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\ydoor2.png"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-ydpi="89.989998" />
+    <rect
+       transform="matrix(-0.89442642,0.44721514,0.89442642,0.44721514,0,0)"
+       y="-549.67065"
+       x="1498.569"
+       height="71.553772"
+       width="71.553772"
+       id="rect3389"
+       style="opacity:0;fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\ydoor2.png"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-ydpi="89.989998" />
+    <path
+       style="fill:#464646;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m -1792.0007,572.3612 0,-127.99961 -63.9996,31.9999 0,127.99961 63.9996,-31.9999"
+       id="path3391"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\ydoor2.png"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-ydpi="89.989998" />
+    <path
+       style="fill:#191919;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m -1792.0007,444.36159 -16,-7.99997 -63.9996,31.9999 16,7.99997 z"
+       id="path3393"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\ydoor2.png"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-ydpi="89.989998" />
+    <path
+       style="fill:#323232;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m -1856.0003,476.36149 -16,-7.99997 0,127.9996 16,7.99998 z"
+       id="path3395"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\ydoor2.png"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-ydpi="89.989998" />
+    <path
+       style="opacity:0.2;fill:none;stroke:#ff0000;stroke-width:2.99999881;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m -1796.0007,452.36157 -55.9996,27.99991 0,115.99964 55.9996,-27.99991 z"
+       id="path3397"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\ydoor2.png"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-ydpi="89.989998" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path3399"
+       d="m -1920.0007,572.36107 0,-127.99961 -63.9996,31.9999 0,127.99961 63.9996,-31.9999"
+       style="fill:#464646;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\ydoor2.png"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-ydpi="89.989998" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path3401"
+       d="m -1920.0007,444.36146 -15.9999,-7.99997 -63.9995,31.9999 15.9998,7.99997 z"
+       style="fill:#191919;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\ydoor2.png"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-ydpi="89.989998" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path3403"
+       d="m -1984.0003,476.36136 -15.9998,-7.99997 0,127.9996 15.9998,7.99998 z"
+       style="fill:#323232;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\ydoor2.png"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-ydpi="89.989998" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path3405"
+       d="m -1924.0007,452.36144 -55.9996,27.99991 0,115.99964 55.9996,-27.99991 z"
+       style="opacity:0.2;fill:none;stroke:#ff0000;stroke-width:2.99999881;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\ydoor2.png"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-ydpi="89.989998" />
+    <path
+       style="opacity:0;fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-width:2.99999881;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m -1808.0007,476.36149 -7.9998,3.99999 -8,3.99999 -8,3.99999 -8,3.99998 0,23.99993 8,3.99999 8,3.99999 8,-3.99999 7.9998,-15.99995 0,-27.99992"
+       id="path3407"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\ydoor2.png"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-ydpi="89.989998" />
+    <rect
+       inkscape:export-ydpi="89.989998"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\ydoor2.png"
+       style="opacity:0.01442309;fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect3344"
+       width="71.553772"
+       height="71.553772"
+       x="1927.8944"
+       y="-263.45541"
+       transform="matrix(-0.89442642,0.44721514,0.89442642,0.44721514,0,0)" />
+    <rect
+       inkscape:export-ydpi="89.989998"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\ydoor2.png"
+       transform="matrix(-0.89442642,0.44721514,0.89442642,0.44721514,0,0)"
+       y="-406.56296"
+       x="1784.7859"
+       height="71.553772"
+       width="71.553772"
+       id="rect3346"
+       style="opacity:0;fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <rect
+       inkscape:export-ydpi="89.989998"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\ydoor2.png"
+       transform="matrix(-0.89442642,0.44721514,0.89442642,0.44721514,0,0)"
+       y="-191.90195"
+       x="1856.3403"
+       height="71.553772"
+       width="71.553772"
+       id="rect3348"
+       style="opacity:0;fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <rect
+       inkscape:export-ydpi="89.989998"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\ydoor2.png"
+       style="opacity:0;fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect3350"
+       width="71.553772"
+       height="71.553772"
+       x="1713.2321"
+       y="-335.00937"
+       transform="matrix(-0.89442642,0.44721514,0.89442642,0.44721514,0,0)" />
+    <path
+       inkscape:export-ydpi="89.989998"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\ydoor2.png"
+       inkscape:connector-curvature="0"
+       id="path3352"
+       d="m -1792.0022,764.3622 0,-127.99961 -63.9996,31.9999 0,127.99961 63.9996,-31.9999"
+       style="fill:#464646;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       inkscape:export-ydpi="89.989998"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\ydoor2.png"
+       inkscape:connector-curvature="0"
+       id="path3354"
+       d="m -1792.0022,636.36259 -16,-7.99997 -63.9996,31.9999 16,7.99997 z"
+       style="fill:#191919;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       inkscape:export-ydpi="89.989998"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\ydoor2.png"
+       inkscape:connector-curvature="0"
+       id="path3356"
+       d="m -1856.0018,668.36249 -16,-7.99997 0,127.9996 16,7.99998 z"
+       style="fill:#323232;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       inkscape:export-ydpi="89.989998"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\ydoor2.png"
+       inkscape:connector-curvature="0"
+       id="path3358"
+       d="m -1796.0022,644.36257 -55.9996,27.99991 0,115.99964 55.9996,-27.99991 z"
+       style="opacity:0.4;fill:none;stroke:#ff0000;stroke-width:2.99999881;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       inkscape:export-ydpi="89.989998"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\ydoor2.png"
+       style="fill:#464646;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m -1920.0022,764.36207 0,-127.99961 -63.9996,31.9999 0,127.99961 63.9996,-31.9999"
+       id="path3360"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:export-ydpi="89.989998"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\ydoor2.png"
+       style="fill:#191919;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m -1920.0022,636.36246 -15.9999,-7.99997 -63.9995,31.9999 15.9998,7.99997 z"
+       id="path3362"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:export-ydpi="89.989998"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\ydoor2.png"
+       style="fill:#323232;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m -1984.0018,668.36236 -15.9998,-7.99997 0,127.9996 15.9998,7.99998 z"
+       id="path3364"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:export-ydpi="89.989998"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\ydoor2.png"
+       style="opacity:0.4;fill:none;stroke:#ff0000;stroke-width:2.99999881;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m -1924.0022,644.36244 -55.9996,27.99991 0,115.99964 55.9996,-27.99991 z"
+       id="path3366"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:export-ydpi="89.989998"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\ydoor2.png"
+       inkscape:connector-curvature="0"
+       id="path3368"
+       d="m -1808.0022,668.36249 -7.9998,3.99999 -8,3.99999 -8,3.99999 -8,3.99998 0,23.99993 8,3.99999 8,3.99999 8,-3.99999 7.9998,-15.99995 0,-27.99992"
+       style="opacity:0;fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-width:2.99999881;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <rect
+       transform="matrix(-0.89442642,0.44721514,0.89442642,0.44721514,0,0)"
+       y="-48.793793"
+       x="2142.5562"
+       height="71.553772"
+       width="71.553772"
+       id="rect3370"
+       style="opacity:0.01442309;fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\ydoor2.png"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-ydpi="89.989998" />
+    <rect
+       style="opacity:0;fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect3372"
+       width="71.553772"
+       height="71.553772"
+       x="1999.4475"
+       y="-191.90146"
+       transform="matrix(-0.89442642,0.44721514,0.89442642,0.44721514,0,0)"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\ydoor2.png"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-ydpi="89.989998" />
+    <rect
+       style="opacity:0;fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect3374"
+       width="71.553772"
+       height="71.553772"
+       x="2071.002"
+       y="22.759674"
+       transform="matrix(-0.89442642,0.44721514,0.89442642,0.44721514,0,0)"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\ydoor2.png"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-ydpi="89.989998" />
+    <rect
+       transform="matrix(-0.89442642,0.44721514,0.89442642,0.44721514,0,0)"
+       y="-120.34763"
+       x="1927.8936"
+       height="71.553772"
+       width="71.553772"
+       id="rect3376"
+       style="opacity:0;fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\ydoor2.png"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-ydpi="89.989998" />
+    <path
+       style="fill:#464646;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m -1792.0022,956.3619 0,-127.99961 -63.9996,31.9999 0,127.99961 63.9996,-31.9999"
+       id="path3378"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\ydoor2.png"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-ydpi="89.989998" />
+    <path
+       style="fill:#191919;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m -1792.0022,828.36229 -16,-7.99997 -63.9996,31.9999 16,7.99997 z"
+       id="path3380"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\ydoor2.png"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-ydpi="89.989998" />
+    <path
+       style="fill:#323232;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m -1856.0018,860.36219 -16,-7.99997 0,127.9996 16,7.99998 z"
+       id="path3382"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\ydoor2.png"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-ydpi="89.989998" />
+    <path
+       style="opacity:0.63999999;fill:none;stroke:#ff0000;stroke-width:2.99999881;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m -1796.0022,836.36227 -55.9996,27.99991 0,115.99964 55.9996,-27.99991 z"
+       id="path3384"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\ydoor2.png"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-ydpi="89.989998" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path3386"
+       d="m -1920.0022,956.36177 0,-127.99961 -63.9996,31.9999 0,127.99961 63.9996,-31.9999"
+       style="fill:#464646;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\ydoor2.png"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-ydpi="89.989998" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path3388"
+       d="m -1920.0022,828.36216 -15.9999,-7.99997 -63.9995,31.9999 15.9998,7.99997 z"
+       style="fill:#191919;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\ydoor2.png"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-ydpi="89.989998" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path3390"
+       d="m -1984.0018,860.36206 -15.9998,-7.99997 0,127.9996 15.9998,7.99998 z"
+       style="fill:#323232;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\ydoor2.png"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-ydpi="89.989998" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path3392"
+       d="m -1924.0022,836.36214 -55.9996,27.99991 0,115.99964 55.9996,-27.99991 z"
+       style="opacity:0.63999999;fill:none;stroke:#ff0000;stroke-width:2.99999881;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\ydoor2.png"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-ydpi="89.989998" />
+    <path
+       style="opacity:0;fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-width:2.99999881;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m -1808.0022,860.36219 -7.9998,3.99999 -8,3.99999 -8,3.99999 -8,3.99998 0,23.99993 8,3.99999 8,3.99999 8,-3.99999 7.9998,-15.99995 0,-27.99992"
+       id="path3394"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\ydoor2.png"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-ydpi="89.989998" />
+    <rect
+       transform="matrix(-0.89442642,0.44721514,0.89442642,0.44721514,0,0)"
+       y="165.86807"
+       x="2357.218"
+       height="71.553772"
+       width="71.553772"
+       id="rect3396"
+       style="opacity:0.01442309;fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\ydoor2.png"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-ydpi="89.989998" />
+    <rect
+       style="opacity:0;fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect3398"
+       width="71.553772"
+       height="71.553772"
+       x="2214.1094"
+       y="22.760406"
+       transform="matrix(-0.89442642,0.44721514,0.89442642,0.44721514,0,0)"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\ydoor2.png"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-ydpi="89.989998" />
+    <rect
+       style="opacity:0;fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect3400"
+       width="71.553772"
+       height="71.553772"
+       x="2285.6638"
+       y="237.42154"
+       transform="matrix(-0.89442642,0.44721514,0.89442642,0.44721514,0,0)"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\ydoor2.png"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-ydpi="89.989998" />
+    <rect
+       transform="matrix(-0.89442642,0.44721514,0.89442642,0.44721514,0,0)"
+       y="94.314117"
+       x="2142.5557"
+       height="71.553772"
+       width="71.553772"
+       id="rect3402"
+       style="opacity:0;fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\ydoor2.png"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-ydpi="89.989998" />
+    <path
+       style="fill:#464646;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m -1792.0022,1148.3619 0,-127.9996 -63.9996,31.9999 0,127.9996 63.9996,-31.9999"
+       id="path3404"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\ydoor2.png"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-ydpi="89.989998" />
+    <path
+       style="fill:#191919;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m -1792.0022,1020.3623 -16,-8 -63.9996,31.9999 16,8 z"
+       id="path3406"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\ydoor2.png"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-ydpi="89.989998" />
+    <path
+       style="fill:#323232;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m -1856.0018,1052.3622 -16,-8 0,127.9996 16,8 z"
+       id="path3408"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\ydoor2.png"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-ydpi="89.989998" />
+    <path
+       style="opacity:0.8;fill:none;stroke:#ff0000;stroke-width:2.99999881;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m -1796.0022,1028.3623 -55.9996,27.9999 0,115.9996 55.9996,-27.9999 z"
+       id="path3410"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\ydoor2.png"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-ydpi="89.989998" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path3412"
+       d="m -1920.0022,1148.3618 0,-127.9996 -63.9996,31.9999 0,127.9996 63.9996,-31.9999"
+       style="fill:#464646;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\ydoor2.png"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-ydpi="89.989998" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path3414"
+       d="m -1920.0022,1020.3622 -15.9999,-8 -63.9995,31.9999 15.9998,8 z"
+       style="fill:#191919;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\ydoor2.png"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-ydpi="89.989998" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path3416"
+       d="m -1984.0018,1052.3621 -15.9998,-8 0,127.9996 15.9998,8 z"
+       style="fill:#323232;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\ydoor2.png"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-ydpi="89.989998" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path3418"
+       d="m -1924.0022,1028.3621 -55.9996,28 0,115.9996 55.9996,-27.9999 z"
+       style="opacity:0.8;fill:none;stroke:#ff0000;stroke-width:2.99999881;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\ydoor2.png"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-ydpi="89.989998" />
+    <path
+       style="opacity:0;fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-width:2.99999881;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m -1808.0022,1052.3622 -7.9998,4 -8,4 -8,4 -8,3.9999 0,24 8,4 8,3.9999 8,-3.9999 7.9998,-16 0,-27.9999"
+       id="path3420"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\ydoor2.png"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-ydpi="89.989998" />
+    <rect
+       inkscape:export-ydpi="89.989998"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\ydoor2.png"
+       style="opacity:0.01442309;fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect3422"
+       width="71.553772"
+       height="71.553772"
+       x="2571.8796"
+       y="380.52994"
+       transform="matrix(-0.89442642,0.44721514,0.89442642,0.44721514,0,0)" />
+    <rect
+       inkscape:export-ydpi="89.989998"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\ydoor2.png"
+       transform="matrix(-0.89442642,0.44721514,0.89442642,0.44721514,0,0)"
+       y="237.42203"
+       x="2428.7712"
+       height="71.553772"
+       width="71.553772"
+       id="rect3424"
+       style="opacity:0;fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <rect
+       inkscape:export-ydpi="89.989998"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\ydoor2.png"
+       transform="matrix(-0.89442642,0.44721514,0.89442642,0.44721514,0,0)"
+       y="452.0834"
+       x="2500.3254"
+       height="71.553772"
+       width="71.553772"
+       id="rect3426"
+       style="opacity:0;fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <rect
+       inkscape:export-ydpi="89.989998"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\ydoor2.png"
+       style="opacity:0;fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect3428"
+       width="71.553772"
+       height="71.553772"
+       x="2357.2173"
+       y="308.97598"
+       transform="matrix(-0.89442642,0.44721514,0.89442642,0.44721514,0,0)" />
+    <path
+       inkscape:export-ydpi="89.989998"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\ydoor2.png"
+       inkscape:connector-curvature="0"
+       id="path3430"
+       d="m -1792.0022,1340.3616 0,-127.9996 -63.9996,31.9999 0,127.9996 63.9996,-31.9999"
+       style="fill:#464646;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       inkscape:export-ydpi="89.989998"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\ydoor2.png"
+       inkscape:connector-curvature="0"
+       id="path3432"
+       d="m -1792.0022,1212.362 -16,-8 -63.9996,31.9999 16,8 z"
+       style="fill:#191919;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       inkscape:export-ydpi="89.989998"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\ydoor2.png"
+       inkscape:connector-curvature="0"
+       id="path3434"
+       d="m -1856.0018,1244.3619 -16,-8 0,127.9996 16,8 z"
+       style="fill:#323232;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       inkscape:export-ydpi="89.989998"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\ydoor2.png"
+       inkscape:connector-curvature="0"
+       id="path3436"
+       d="m -1796.0022,1220.362 -55.9996,27.9999 0,115.9996 55.9996,-27.9999 z"
+       style="fill:none;stroke:#ff0000;stroke-width:2.99999881;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       inkscape:export-ydpi="89.989998"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\ydoor2.png"
+       style="fill:#464646;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m -1920.0022,1340.3615 0,-127.9996 -63.9996,31.9999 0,127.9996 63.9996,-31.9999"
+       id="path3438"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:export-ydpi="89.989998"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\ydoor2.png"
+       style="fill:#191919;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m -1920.0022,1212.3619 -15.9999,-8 -63.9995,31.9999 15.9998,8 z"
+       id="path3440"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:export-ydpi="89.989998"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\ydoor2.png"
+       style="fill:#323232;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m -1984.0018,1244.3618 -15.9998,-8 0,127.9996 15.9998,8 z"
+       id="path3442"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:export-ydpi="89.989998"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\ydoor2.png"
+       style="fill:none;stroke:#ff0000;stroke-width:2.99999881;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m -1924.0022,1220.3618 -55.9996,28 0,115.9996 55.9996,-27.9999 z"
+       id="path3444"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:export-ydpi="89.989998"
+       inkscape:export-xdpi="89.989998"
+       inkscape:export-filename="C:\xampp\htdocs\isogame\images\ydoor2.png"
+       inkscape:connector-curvature="0"
+       id="path3446"
+       d="m -1808.0022,1244.3619 -7.9998,4 -8,4 -8,4 -8,3.9999 0,24 8,4 8,4 8,-4 7.9998,-16 0,-27.9999"
+       style="opacity:0;fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-width:2.99999881;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+  </g>
+</svg>
