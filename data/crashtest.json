@@ -3,7 +3,7 @@
         "type":"player",
         "speed":0.1,
         "position":{
-            "x":5, "y":14
+            "x":5, "y":15
         },
         "spritesheet":{
             "id":"player",
@@ -26,29 +26,71 @@
                 "type":"solid",
                 "id":"door2",
                 "position":{
-                    "x":6, "y":12
+                    "x":4, "y":12
                 },
-                "animator":true,
-                "animation":{
-                    "auto":false,
-                    "offset":0,
-                    "length":8,
-                    "delay":5
-                },                
                 "spritesheet":{
-                    "id":"xdoor2",
+                    "id":"xdoor3",
                     "image":null,
                     "index":0
                 },
                 "mask":{
-                    "id":"xdoor2mask",
+                    "id":"xdoor3mask",
                     "image":null,
-                    "index":1
+                    "index":0
                 },
                 "door":{
-                    "type":"left",
+                    "type":"right",
                     "speed":0.025,
-                    "movedistance":1
+                    "movedistance":4,
+                    "maskdistance":1
+                },
+                "isFloor":false
+            },
+            {
+                "type":"solid",
+                "id":"door2",
+                "position":{
+                    "x":5, "y":12
+                },
+                "spritesheet":{
+                    "id":"xdoor3",
+                    "image":null,
+                    "index":0
+                },
+                "mask":{
+                    "id":"xdoor3mask",
+                    "image":null,
+                    "index":0
+                },
+                "door":{
+                    "type":"right",
+                    "speed":0.025,
+                    "movedistance":4,
+                    "maskdistance":2
+                },
+                "isFloor":false
+            },
+            {
+                "type":"solid",
+                "id":"door2",
+                "position":{
+                    "x":6, "y":12
+                },
+                "spritesheet":{
+                    "id":"xdoor3",
+                    "image":null,
+                    "index":0
+                },
+                "mask":{
+                    "id":"xdoor3mask",
+                    "image":null,
+                    "index":0
+                },
+                "door":{
+                    "type":"right",
+                    "speed":0.025,
+                    "movedistance":4,
+                    "maskdistance":3
                 },
                 "isFloor":false
             },
@@ -58,26 +100,21 @@
                 "position":{
                     "x":7, "y":12
                 },
-                "animation":{
-                    "auto":false,
-                    "offset":0,
-                    "length":8,
-                    "delay":5
-                },                
                 "spritesheet":{
-                    "id":"xdoor2",
+                    "id":"xdoor3",
                     "image":null,
                     "index":0
                 },
                 "mask":{
-                    "id":"xdoor2mask",
+                    "id":"xdoor3mask",
                     "image":null,
-                    "index":1
+                    "index":0
                 },
                 "door":{
                     "type":"right",
                     "speed":0.025,
-                    "movedistance":1
+                    "movedistance":4,
+                    "maskdistance":4
                 },
                 "isFloor":false
             }

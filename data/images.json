@@ -50,5 +50,21 @@
     "012":{
         "filename":"images\\ydoor2mask.png",
         "id":"ydoor2mask"
+    },
+    "013":{
+        "filename":"images\\xdoor3.png",
+        "id":"xdoor3"
+    },
+    "014":{
+        "filename":"images\\xdoor3mask.png",
+        "id":"xdoor3mask"
+    },
+    "015":{
+        "filename":"images\\ydoor3.png",
+        "id":"ydoor3"
+    },
+    "016":{
+        "filename":"images\\ydoor3mask.png",
+        "id":"ydoor3mask"
     }
 }

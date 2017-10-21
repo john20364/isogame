@@ -25,7 +25,7 @@ function World() {
         ISO.height = canvas.height = window.innerHeight;
         ISO.collision = new Collision();
         
-        createWorld("images.json", "test.json", function () {
+        createWorld("images.json", "crashtest2.json", function () {
             if (cb) cb();
         })
      }

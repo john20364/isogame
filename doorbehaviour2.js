@@ -21,9 +21,9 @@ DoorBehaviour2.prototype.execute = function (exec) {
         } else {
             // set floor property to true to prevent
             // acidental collision detection
-            if (this.self.data) {
-                this.self.data.isFloor = true;
-            }
+//            if (this.self.data) {
+//                this.self.data.isFloor = true;
+//            }
         }
     }
 }
@@ -96,11 +96,11 @@ DoorBehaviour2.prototype.perform = function () {
         } else {
             this.isClosing = true;
             // set isFloor property to true;
-            this.notifyGroup(function (entity) {
-                if (entity.data) {
-                    entity.data.isFloor = false;
-                } 
-            }, true);
+//            this.notifyGroup(function (entity) {
+//                if (entity.data) {
+//                    entity.data.isFloor = false;
+//                } 
+//            }, true);
         }
     } 
 

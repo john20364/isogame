@@ -23,8 +23,20 @@ function Sprite(data) {
     var dw = ISO.isowidth;
     var dh = sh;
     
+    if (data.mask) {
+        var mx = ISO.isowidth * data.mask.index;
+        var my = 0;
+        var mw = ISO.isowidth;
+        var mh = data.mask.image.height;
+        var maskcanvas = document.createElement("canvas");
+        var maskctx = maskcanvas.getContext("2d");
+        var half_width = ISO.isowidth >> 1;
+        var half_height = ISO.isoheight >> 1;
+    }
+    
     var savedpos = new Point(-1);
     var old2D = twoD.copy();
+    var diff2D = new Point;
 
     function savePosition () {
         if (savedpos.x === -1) {
@@ -98,91 +110,92 @@ function Sprite(data) {
                 break;
         }
     }
-
+    
     function _doorrender () {
-        if (data.mask) {
-            let mx = ISO.isowidth * data.mask.index;
-            let my = 0;
-            let mw = ISO.isowidth;
-            let mh = data.mask.image.height;
+        function adjustxy(p) {
             
-            let c = document.createElement("canvas");
-            c.width = mw;
-            c.height = mh;
-            
-            let ctx = c.getContext("2d");
+            if (p.x >= 0) {
+                if (p.x < half_width * d) {
+                    p.x = 0;  
+                } else {
+                    p.x -= half_width * d;
+                    if (p.x === half_width) 
+                        p.x = ISO.isowidth;
+                } 
 
-            ctx.drawImage(data.spritesheet.image, 
-                sx, sy, sw, sh, 0, 0, dw, dh);
-            
-            ctx.globalCompositeOperation="destination-in";
-            
-            let x = 0;
-            let y = 0;
-            
-            switch (data.door.type) {
-                case "left":
-                    x = old2D.x - twoD.x;
-                    y = old2D.y - twoD.y;
-
-                    if (x < 0) x += 64;
-                    if (y < 0) y += 32;
-                    
-                    if (x === 64) x = 128;
-                    if (y === 32) y = 64;
-                    
-//                    console.log("x: " + x + " y: " + y);
-                    break;
-                case "right":
-                    x = twoD.x - old2D.x;
-                    y = twoD.y - old2D.y;
-                    
-                    if (x < 0) x += 64;
-                    if (y < 0) y += 32;
-
-                    if (x === 64) x = 128;
-                    if (y === 32) y = 64;
-
-//                    console.log("x: " + x + " y: " + y);
-                    
-                    x *= -1;
-                    y *= -1;
-                    break;
-                case "up":
-                    x = twoD.x - old2D.x;
-                    y = old2D.y - twoD.y;
-
-                    if (x < 0) x += 64;
-                    if (y < 0) y += 32;
-                    
-                    if (x === 64) x = 128;
-                    if (y === 32) y = 64;
-                    
-//                    console.log("x: " + x + " y: " + y);
-                    x *= -1;
-                    break;
-                case "down":
-                    x = old2D.x - twoD.x;
-                    y = twoD.y - old2D.y;
-
-                    if (x < 0) x += 64;
-                    if (y < 0) y += 32;
-                    
-                    if (x === 64) x = 128;
-                    if (y === 32) y = 64;
-//                    console.log("x: " + x + " y: " + y);
-                    
-                    y *= -1;
-                    break;
+            } else {
+                if (half_width * mdist + p.x >= 0) {
+                    p.x += half_width * mdist;
+                } else {
+                    p.x = 0;
+                }
             }
-            
-            ctx.drawImage(
-                data.mask.image, 
-                mx, my, mw, mh, x, y, mw, mh);
-            
-            ISO.context.drawImage(
-                c, 0, 0, sw, sh, dx, dy, dw, dh);
+
+            if (p.y >= 0) {
+                if (p.y < half_height * d) {
+                    p.y = 0;
+                } else {
+                    p.y -= half_height * d;
+                    if (p.y === half_height) 
+                        p.y = ISO.isoheight;
+                }
+            } else {
+                if (half_height * mdist + p.y >= 0) {
+                    p.y += half_height * mdist;
+                } else {
+                    p.y = 0;
+                }
+            }
         }
+        
+        maskcanvas.width = mw;
+        maskcanvas.height = mh;
+
+        maskctx.drawImage(data.spritesheet.image, 
+            sx, sy, sw, sh, 0, 0, dw, dh);
+
+        maskctx.globalCompositeOperation="destination-in";
+//            maskctx.globalCompositeOperation="destination-out";
+
+        let x = 0;
+        let y = 0;
+        let dist = data.door.movedistance;
+        let mdist = data.door.maskdistance;
+        let d = dist - mdist;          
+
+        switch (data.door.type) {
+            case "left":
+                diff2D.x = old2D.x - twoD.x; 
+                diff2D.y = old2D.y - twoD.y; 
+                adjustxy(diff2D);
+                break;
+            case "right":
+                diff2D.x = twoD.x - old2D.x;
+                diff2D.y = twoD.y - old2D.y;
+                adjustxy(diff2D);
+                diff2D.x *= -1;
+                diff2D.y *= -1;
+                break;
+            case "up":
+                diff2D.x = twoD.x - old2D.x;
+                diff2D.y = old2D.y - twoD.y;
+                adjustxy(diff2D);
+                diff2D.x *= -1;
+                break;
+            case "down":
+                diff2D.x = old2D.x - twoD.x;
+                diff2D.y = twoD.y - old2D.y;
+                adjustxy(diff2D);
+                diff2D.y *= -1;
+                break;
+        }
+
+        maskctx.drawImage(
+            data.mask.image, 
+            mx, my, mw, mh, diff2D.x, diff2D.y, mw, mh);
+
+        ISO.context.drawImage(
+            maskcanvas, 0, 0, sw, sh, dx, dy, dw, dh);
     }
 
     this.noAnimation = function (id = 0) {

@@ -7,10 +7,6 @@ function Automate () {
 
 Automate.prototype = Object.create(BaseEntity.prototype);
 
-Automate.prototype.getHeading = function () {
-    return this.heading;
-}
-
 Automate.prototype.getPrevPosition = function () {
     return this.prevPosition;
 }
@@ -99,7 +95,11 @@ Automate.prototype.update = function () {
     if (dx < step) p.x = this.data.path[this.pathindex].x;
     if (dy < step) p.y = this.data.path[this.pathindex].y;
     
-    this.world.checkCollision(dir, this);
+    var obj = this.world.checkCollision(dir, this);
+    
+    if (obj !== undefined) {
+        obj.action(this);
+    }    
     
     this.setPosition(p);
     this.setDirection(dir);
